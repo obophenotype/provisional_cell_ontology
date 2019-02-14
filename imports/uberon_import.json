@@ -1,0 +1,67 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "meta" : {
+        "definition" : {
+          "val" : "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.",
+          "xrefs" : [ "http://orcid.org/0000-0001-9114-8737", "FMA:62955" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#upper_level" ],
+        "xrefs" : [ {
+          "val" : "AAO:0010841"
+        }, {
+          "val" : "NCIT:C12219"
+        }, {
+          "val" : "WBbt:0000100"
+        }, {
+          "val" : "UMLS:C1515976"
+        }, {
+          "val" : "XAO:0000000"
+        }, {
+          "val" : "AEO:0000000"
+        }, {
+          "val" : "FBbt_root:00000000"
+        }, {
+          "val" : "FBbt:10000000"
+        }, {
+          "val" : "MA:0000001"
+        }, {
+          "val" : "ZFA:0100000"
+        }, {
+          "val" : "EHDAA2:0002229"
+        }, {
+          "val" : "HAO:0000000"
+        }, {
+          "val" : "BILA:0000000"
+        }, {
+          "val" : "CARO:0000000"
+        }, {
+          "val" : "TAO:0100000"
+        }, {
+          "val" : "FMA:62955"
+        }, {
+          "val" : "TGMA:0001822"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "uberon"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anatomical entity"
+    } ],
+    "edges" : [ ],
+    "id" : "http://purl.obolibrary.org/obo/pcl/imports/uberon_import.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ],
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2019-02-14/imports/uberon_import.owl"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

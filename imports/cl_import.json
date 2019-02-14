@@ -1,0 +1,398 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/CARO_0000006",
+      "type" : "CLASS",
+      "lbl" : "material anatomical entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "type" : "CLASS",
+      "lbl" : "nucleus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000052",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "PROPERTY",
+      "lbl" : "inheres in"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0044424",
+      "type" : "CLASS",
+      "lbl" : "intracellular part"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005575",
+      "type" : "CLASS",
+      "lbl" : "cellular_component"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0044464",
+      "type" : "CLASS",
+      "lbl" : "cell part"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0043231",
+      "type" : "CLASS",
+      "lbl" : "intracellular membrane-bounded organelle"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "PROPERTY",
+      "lbl" : "bearer of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "meta" : {
+        "definition" : {
+          "val" : "x overlaps y if and only if there exists some z such that x has part z and z part of y",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "PROPERTY",
+      "lbl" : "overlaps"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0002505",
+      "type" : "CLASS",
+      "lbl" : "nucleated"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000000",
+      "meta" : {
+        "definition" : {
+          "val" : "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.",
+          "xrefs" : [ "CARO:mah" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ubprop#_upper_level" ],
+        "xrefs" : [ {
+          "val" : "VHOG:0001533"
+        }, {
+          "val" : "CALOHA:TS-2035"
+        }, {
+          "val" : "KUPO:0000002"
+        }, {
+          "val" : "FMA:68646"
+        }, {
+          "val" : "GO:0005623"
+        }, {
+          "val" : "XAO:0003012"
+        }, {
+          "val" : "WBbt:0004017"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "The definition of cell is intended to represent all cells, and thus a cell is defined as a material entity and not an anatomical structure, which implies that it is part of an organism (or the entirety of one)."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "meta" : {
+        "definition" : {
+          "val" : "a core relation that holds between a part and its whole",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "PROPERTY",
+      "lbl" : "part of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002323",
+      "meta" : {
+        "definition" : {
+          "val" : "A mereological relationship or a topological relationship",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "PROPERTY",
+      "lbl" : "mereotopologically related to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001396",
+      "type" : "CLASS",
+      "lbl" : "cellular quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000001",
+      "type" : "CLASS",
+      "lbl" : "quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002502",
+      "type" : "PROPERTY",
+      "lbl" : "depends on"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "meta" : {
+        "definition" : {
+          "val" : "a core relation that holds between a whole and its part",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has part"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CARO_0000014",
+      "type" : "CLASS",
+      "lbl" : "cell part"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000004",
+      "meta" : {
+        "definition" : {
+          "val" : "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "independent continuant"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005623",
+      "type" : "CLASS",
+      "lbl" : "cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001404",
+      "type" : "CLASS",
+      "lbl" : "nucleate quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001405",
+      "type" : "CLASS",
+      "lbl" : "anucleate"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002582",
+      "meta" : {
+        "definition" : {
+          "val" : "If R <- P o Q is a defining property chain axiom, then (1) R -> P o Q holds and (2) Q is either reflexive or locally reflexive. A corollary of this is that P SubPropertyOf R.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "PROPERTY",
+      "lbl" : "is a defining property chain axiom where second argument is reflexive"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001241",
+      "type" : "CLASS",
+      "lbl" : "physical object quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0043227",
+      "type" : "CLASS",
+      "lbl" : "membrane-bounded organelle"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0043226",
+      "type" : "CLASS",
+      "lbl" : "organelle"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002314",
+      "meta" : {
+        "definition" : {
+          "val" : "q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "PROPERTY",
+      "lbl" : "inheres in part of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0043229",
+      "type" : "CLASS",
+      "lbl" : "intracellular organelle"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000002",
+      "meta" : {
+        "definition" : {
+          "val" : "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "continuant"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000040",
+      "meta" : {
+        "definition" : {
+          "val" : "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "material entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000020",
+      "meta" : {
+        "definition" : {
+          "val" : "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "specifically dependent continuant"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CARO_0000003",
+      "type" : "CLASS",
+      "lbl" : "anatomical structure"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000052",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000053"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005575"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001404",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001396"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0043231",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0043227"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0002505",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001404"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0005623",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0043227",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0043226"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001241",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001405",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001404"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000040",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CARO_0000014",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CARO_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000020",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0043231",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0043229"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044464",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0005623",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005575"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0043226",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005575"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002131"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0044464"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002323"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CARO_0000003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000051"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0043231"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0043229",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0044424"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002131"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0043229",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0043226"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044424",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0044464"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0044464",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005575"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002314",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002502"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000052",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002314"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001396",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001241"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/pcl/imports/cl_import.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ],
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2019-02-14/imports/cl_import.owl"
+    },
+    "equivalentNodesSets" : [ {
+      "nodeIds" : [ "http://purl.obolibrary.org/obo/CL_0000000", "http://purl.obolibrary.org/obo/GO_0005623" ]
+    } ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000020" ]
+    } ],
+    "propertyChainAxioms" : [ {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000051", "http://purl.obolibrary.org/obo/RO_0002131" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000050", "http://purl.obolibrary.org/obo/BFO_0000050" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002314",
+      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0002314", "http://purl.obolibrary.org/obo/BFO_0000050" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000051", "http://purl.obolibrary.org/obo/BFO_0000050" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002314",
+      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0000052", "http://purl.obolibrary.org/obo/BFO_0000050" ]
+    } ]
+  } ]
+}

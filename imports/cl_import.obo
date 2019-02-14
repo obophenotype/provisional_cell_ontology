@@ -1,0 +1,193 @@
+format-version: 1.2
+data-version: pcl/releases/2019-02-14/imports/cl_import.owl
+ontology: pcl/imports/cl_import
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0005634>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PATO_0001405>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PATO_0002505>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000053>))\n\n\nEquivalentClasses(ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0005634>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001405>))\nEquivalentClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0005634>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0002505>))\n)
+
+[Term]
+id: BFO:0000002
+name: continuant
+def: "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts." []
+
+[Term]
+id: BFO:0000004
+name: independent continuant
+def: "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything." []
+is_a: BFO:0000002 ! continuant
+
+[Term]
+id: BFO:0000020
+name: specifically dependent continuant
+def: "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same." []
+is_a: BFO:0000002 ! continuant
+
+[Term]
+id: BFO:0000040
+name: material entity
+def: "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time." []
+is_a: BFO:0000004 ! independent continuant
+
+[Term]
+id: CARO:0000003
+name: anatomical structure
+is_a: CARO:0000006 ! material anatomical entity
+
+[Term]
+id: CARO:0000006
+name: material anatomical entity
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: CARO:0000014
+name: cell part
+is_a: CARO:0000003 ! anatomical structure
+
+[Term]
+id: CL:0000000
+name: cell
+namespace: cell
+def: "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane." [CARO:mah]
+comment: The definition of cell is intended to represent all cells, and thus a cell is defined as a material entity and not an anatomical structure, which implies that it is part of an organism (or the entirety of one).
+subset: ubprop:upper_level
+xref: CALOHA:TS-2035
+xref: FMA:68646
+xref: GO:0005623
+xref: KUPO:0000002
+xref: VHOG:0001533
+xref: WBbt:0004017
+xref: XAO:0003012
+is_a: CARO:0000003 ! anatomical structure
+is_a: GO:0005575 ! cellular_component
+equivalent_to: GO:0005623 ! cell
+
+[Term]
+id: GO:0005575
+name: cellular_component
+
+[Term]
+id: GO:0005623
+name: cell
+is_a: CARO:0000003 ! anatomical structure
+is_a: GO:0005575 ! cellular_component
+
+[Term]
+id: GO:0005634
+name: nucleus
+is_a: GO:0043231 ! intracellular membrane-bounded organelle
+is_a: GO:0044464 ! cell part
+
+[Term]
+id: GO:0043226
+name: organelle
+is_a: GO:0005575 ! cellular_component
+
+[Term]
+id: GO:0043227
+name: membrane-bounded organelle
+is_a: GO:0043226 ! organelle
+
+[Term]
+id: GO:0043229
+name: intracellular organelle
+is_a: GO:0043226 ! organelle
+is_a: GO:0044424 ! intracellular part
+
+[Term]
+id: GO:0043231
+name: intracellular membrane-bounded organelle
+is_a: GO:0043227 ! membrane-bounded organelle
+is_a: GO:0043229 ! intracellular organelle
+
+[Term]
+id: GO:0044424
+name: intracellular part
+is_a: GO:0044464 ! cell part
+
+[Term]
+id: GO:0044464
+name: cell part
+is_a: CARO:0000014 ! cell part
+is_a: GO:0005575 ! cellular_component
+
+[Term]
+id: PATO:0000001
+name: quality
+
+[Term]
+id: PATO:0001241
+name: physical object quality
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0001396
+name: cellular quality
+is_a: PATO:0001241 ! physical object quality
+
+[Term]
+id: PATO:0001404
+name: nucleate quality
+is_a: PATO:0001396 ! cellular quality
+
+[Term]
+id: PATO:0001405
+name: anucleate
+is_a: PATO:0001404 ! nucleate quality
+
+[Term]
+id: PATO:0002505
+name: nucleated
+is_a: PATO:0001404 ! nucleate quality
+
+[Typedef]
+id: BFO:0000050
+name: part of
+def: "a core relation that holds between a part and its whole" []
+is_transitive: true
+is_a: RO:0002131 ! overlaps
+inverse_of: BFO:0000051 ! has part
+
+[Typedef]
+id: BFO:0000051
+name: has part
+def: "a core relation that holds between a whole and its part" []
+is_transitive: true
+is_a: RO:0002131 ! overlaps
+
+[Typedef]
+id: RO:0000052
+name: inheres in
+def: "a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence" []
+is_a: RO:0002314 ! inheres in part of
+inverse_of: RO:0000053 ! bearer of
+
+[Typedef]
+id: RO:0000053
+name: bearer of
+def: "a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence" []
+range: BFO:0000020 ! specifically dependent continuant
+
+[Typedef]
+id: RO:0002131
+name: overlaps
+def: "x overlaps y if and only if there exists some z such that x has part z and z part of y" []
+holds_over_chain: BFO:0000050 BFO:0000050
+holds_over_chain: BFO:0000051 BFO:0000050 {http://purl.obolibrary.org/obo/RO_0002582="true"}
+holds_over_chain: BFO:0000051 RO:0002131
+is_a: RO:0002323 ! mereotopologically related to
+
+[Typedef]
+id: RO:0002314
+name: inheres in part of
+def: "q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w." []
+holds_over_chain: RO:0000052 BFO:0000050 {http://purl.obolibrary.org/obo/RO_0002582="true"}
+is_a: RO:0002502 ! depends on
+transitive_over: BFO:0000050 ! part of
+
+[Typedef]
+id: RO:0002323
+name: mereotopologically related to
+def: "A mereological relationship or a topological relationship" []
+
+[Typedef]
+id: RO:0002502
+name: depends on
+

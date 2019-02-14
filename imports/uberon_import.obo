@@ -1,0 +1,30 @@
+format-version: 1.2
+data-version: pcl/releases/2019-02-14/imports/uberon_import.owl
+ontology: pcl/imports/uberon_import
+
+[Term]
+id: UBERON:0001062
+name: anatomical entity
+namespace: uberon
+def: "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species." [FMA:62955, http://orcid.org/0000-0001-9114-8737]
+subset: upper_level
+xref: AAO:0010841
+xref: AEO:0000000
+xref: BILA:0000000
+xref: birnlex:6
+xref: CARO:0000000
+xref: EHDAA2:0002229
+xref: FBbt:10000000
+xref: FBbt_root:00000000
+xref: FMA:62955
+xref: HAO:0000000
+xref: http://linkedlifedata.com/resource/umls/id/C1515976
+xref: MA:0000001
+xref: NCIT:C12219
+xref: TAO:0100000
+xref: TGMA:0001822
+xref: UMLS:C1515976 {source="ncithesaurus:Anatomic_Structure_System_or_Substance"}
+xref: WBbt:0000100
+xref: XAO:0000000
+xref: ZFA:0100000
+

@@ -1,0 +1,24 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/PCL_00000000",
+      "type" : "CLASS",
+      "lbl" : "root node"
+    } ],
+    "edges" : [ ],
+    "id" : "http://purl.obolibrary.org/obo/pcl/pcl-base.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ {
+        "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+        "val" : "Provisional cell ontology"
+      } ],
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2019-02-14/pcl-base.owl"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}
