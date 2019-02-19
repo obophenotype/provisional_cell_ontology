@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/dosumis/pcl.svg?branch=master)](https://travis-ci.org/dosumis/pcl)
-[![DOI](https://zenodo.org/badge/13996/dosumis/pcl.svg)](https://zenodo.org/badge/latestdoi/13996/dosumis/pcl)
+[![Build Status](https://travis-ci.org/obophenotype/provisional_cell_ontology.svg?branch=master)](https://travis-ci.org/obophenotype/provisional_cell_ontology)
 
 # Provisional cell ontology
 
