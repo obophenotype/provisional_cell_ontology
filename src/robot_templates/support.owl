@@ -1,0 +1,49 @@
+Prefix(:=<http://www.semanticweb.org/davidos/ontologies/2019/1/untitled-ontology-242#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/davidos/ontologies/2019/1/untitled-ontology-242>
+
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001025>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002100>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002215>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002216>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002292>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (part of)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000050> "part of")
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0001025> (located in)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001025> "located in")
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002100> (has soma location)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002100> "has soma location")
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002215> (capable of)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002215> "capable of")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002215> owl:topObjectProperty)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002216> (capable of part of)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002216> "capable of part of")
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002292> (expresses)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002292> "expresses")
+
+
+
+)

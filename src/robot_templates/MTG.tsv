@@ -1,0 +1,196 @@
+CLASS_TYPE	Genus	ID	Marker1	Marker2	Marker3	Marker4	endothelial_region1	endothelial_region2	glia_region1	glia_region2	label	neuron_region1	neuron_region2
+CLASS_TYPE	C %	ID	C expresses some %	C expresses some %	C expresses some %	C expresses some %	C 'located in' some %		C 'part of' some %	C 'part of' some %	A rdfs:label	C 'has soma location' some %	C 'has soma location' some %
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL1	http://identifiers.org/hgnc/HGNC:11773	http://identifiers.org/genecards/LOC101927870								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL78	http://www.jcvi.org/cl_ext/mtg_cluster/pCL1									TGFBR2-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL2	http://identifiers.org/hgnc/HGNC:19196	http://identifiers.org/hgnc/HGNC:51163								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL78	http://www.jcvi.org/cl_ext/mtg_cluster/pCL2									SP8-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL3	http://identifiers.org/hgnc/HGNC:26256	http://identifiers.org/hgnc/HGNC:30670								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL78	http://www.jcvi.org/cl_ext/mtg_cluster/pCL3									NDNF-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL4	http://identifiers.org/hgnc/HGNC:6342	http://identifiers.org/hgnc/HGNC:27652								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL78	http://www.jcvi.org/cl_ext/mtg_cluster/pCL4									KIT-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL5	http://identifiers.org/hgnc/HGNC:27652	http://identifiers.org/hgnc/HGNC:16231								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL78	http://www.jcvi.org/cl_ext/mtg_cluster/pCL5									CPLX3-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL6	http://identifiers.org/hgnc/HGNC:3522	http://identifiers.org/hgnc/HGNC:26086								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL78	http://www.jcvi.org/cl_ext/mtg_cluster/pCL6									EYA4-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL7	http://identifiers.org/hgnc/HGNC:26766	http://identifiers.org/hgnc/HGNC:10725	http://identifiers.org/hgnc/HGNC:10640							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL78	http://www.jcvi.org/cl_ext/mtg_cluster/pCL7									ANKFN1-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL8	http://identifiers.org/hgnc/HGNC:26388	http://identifiers.org/hgnc/HGNC:15478								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL78	http://www.jcvi.org/cl_ext/mtg_cluster/pCL8									ARHGAP36-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL9	http://identifiers.org/hgnc/HGNC:15723	http://identifiers.org/genecards/LOC105377436								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL78	http://www.jcvi.org/cl_ext/mtg_cluster/pCL9									BAGE2-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL10	http://identifiers.org/hgnc/HGNC:2159	http://identifiers.org/hgnc/HGNC:31822								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL10									CNR1-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL11	http://identifiers.org/hgnc/HGNC:2705	http://identifiers.org/hgnc/HGNC:51307								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL11									DCN-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL12	http://identifiers.org/genecards/LOC101928923	http://identifiers.org/hgnc/HGNC:26821								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL12									CCDC141-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL13	http://identifiers.org/hgnc/HGNC:16814	http://identifiers.org/hgnc/HGNC:14268								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL13									DACH2-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL14	http://identifiers.org/hgnc/HGNC:25149	http://identifiers.org/genecards/LOC105371331								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL14									EGFEM1P-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL15	http://identifiers.org/hgnc/HGNC:8742	http://identifiers.org/hgnc/HGNC:5476								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL15									PCP4|IGFBP7-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL16	http://identifiers.org/hgnc/HGNC:6111	http://identifiers.org/hgnc/HGNC:17265								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL16									IQGAP2-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL17	http://identifiers.org/hgnc/HGNC:484	http://identifiers.org/hgnc/HGNC:12693								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL17									ANGPT1-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL18	http://identifiers.org/hgnc/HGNC:11521	http://identifiers.org/hgnc/HGNC:13010	http://identifiers.org/hgnc/HGNC:51425							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL18									TAC3|TSHZ2-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL19	http://identifiers.org/hgnc/HGNC:11521	http://identifiers.org/hgnc/HGNC:2192								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL19									TAC3|COL15A1-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL20	http://identifiers.org/genecards/LOC100421401	http://identifiers.org/genecards/LOC101060145								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL20									LOC100421401-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL21	http://identifiers.org/hgnc/HGNC:5295	http://identifiers.org/hgnc/HGNC:7154								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL21									HTR2C-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL22	http://identifiers.org/hgnc/HGNC:18864	http://identifiers.org/hgnc/HGNC:21397								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL22									KCNH8-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL23	http://identifiers.org/hgnc/HGNC:4248	http://identifiers.org/genecards/LOC105375473								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL23									GGH-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL24	http://identifiers.org/hgnc/HGNC:28285	http://identifiers.org/genecards/LOC105379146								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL24									C18orf42-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL25	http://identifiers.org/hgnc/HGNC:34296	http://identifiers.org/hgnc/HGNC:49076	http://identifiers.org/genecards/LOC105370456							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL25									LRRC63-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL26	http://identifiers.org/hgnc/HGNC:11059	http://identifiers.org/hgnc/HGNC:44915								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL26									SLC7A11-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL27	http://identifiers.org/hgnc/HGNC:8742	http://identifiers.org/hgnc/HGNC:51425	http://identifiers.org/hgnc/HGNC:10967							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://www.jcvi.org/cl_ext/mtg_cluster/pCL27									PCP4|LINC01583-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL28	http://identifiers.org/hgnc/HGNC:7955									UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL76	http://www.jcvi.org/cl_ext/mtg_cluster/pCL28									NPY-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL29	http://identifiers.org/hgnc/HGNC:5154	http://identifiers.org/hgnc/HGNC:25057	http://identifiers.org/hgnc/HGNC:21063							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL81	http://www.jcvi.org/cl_ext/mtg_cluster/pCL29									HPGD-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL30	http://identifiers.org/hgnc/HGNC:7859	http://identifiers.org/hgnc/HGNC:23399	http://identifiers.org/hgnc/HGNC:11521							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL81	http://www.jcvi.org/cl_ext/mtg_cluster/pCL30									NMU-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL31	http://identifiers.org/genecards/LOC100996671	http://identifiers.org/genecards/LOC105377701								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL81	http://www.jcvi.org/cl_ext/mtg_cluster/pCL31									LOC100996671-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL32	http://identifiers.org/hgnc/HGNC:11252	http://identifiers.org/hgnc/HGNC:3604								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL81	http://www.jcvi.org/cl_ext/mtg_cluster/pCL32									SPON1-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL33	http://identifiers.org/hgnc/HGNC:15565	http://identifiers.org/hgnc/HGNC:20151	http://identifiers.org/genecards/LOC101929667							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL81	http://www.jcvi.org/cl_ext/mtg_cluster/pCL33									QRFPR-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL34	http://identifiers.org/hgnc/HGNC:11072	http://identifiers.org/hgnc/HGNC:28317								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL81	http://www.jcvi.org/cl_ext/mtg_cluster/pCL34									SLC9A2-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL35	http://identifiers.org/genecards/LOC101929028									UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL81	http://www.jcvi.org/cl_ext/mtg_cluster/pCL35									LOC101929028-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL36	http://identifiers.org/hgnc/HGNC:13841	http://identifiers.org/hgnc/HGNC:9454								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL81	http://www.jcvi.org/cl_ext/mtg_cluster/pCL36									ADGRG6-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL37	http://identifiers.org/hgnc/HGNC:21555	http://identifiers.org/hgnc/HGNC:18374	http://identifiers.org/hgnc/HGNC:7872							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL81	http://www.jcvi.org/cl_ext/mtg_cluster/pCL37									EYS-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL38	http://identifiers.org/genecards/LOC102724957	http://identifiers.org/hgnc/HGNC:11782								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL81	http://www.jcvi.org/cl_ext/mtg_cluster/pCL38									TH-expressing human-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL39	http://identifiers.org/hgnc/HGNC:26159	http://identifiers.org/hgnc/HGNC:10725	http://identifiers.org/hgnc/HGNC:983							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL82	http://www.jcvi.org/cl_ext/mtg_cluster/pCL39									CPED1-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL40	http://identifiers.org/hgnc/HGNC:33736	http://identifiers.org/genecards/LOC401478	http://identifiers.org/hgnc/HGNC:26159							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL82	http://www.jcvi.org/cl_ext/mtg_cluster/pCL40									ANKRD34B-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL41	http://identifiers.org/hgnc/HGNC:11255	http://identifiers.org/hgnc/HGNC:4893	http://identifiers.org/hgnc/HGNC:13361							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL82	http://www.jcvi.org/cl_ext/mtg_cluster/pCL41									SPP1-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL42	http://identifiers.org/hgnc/HGNC:20653	http://identifiers.org/hgnc/HGNC:11517								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL82	http://www.jcvi.org/cl_ext/mtg_cluster/pCL42									SLC9A9-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL43	http://identifiers.org/hgnc/HGNC:20391	http://identifiers.org/hgnc/HGNC:26159								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL82	http://www.jcvi.org/cl_ext/mtg_cluster/pCL43									SULF1-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL44	http://identifiers.org/hgnc/HGNC:28751	http://identifiers.org/hgnc/HGNC:8614	http://identifiers.org/hgnc/HGNC:4453							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL82	http://www.jcvi.org/cl_ext/mtg_cluster/pCL44									LYPD6-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL45	http://identifiers.org/hgnc/HGNC:2192	http://identifiers.org/genecards/LOC401478								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL82	http://www.jcvi.org/cl_ext/mtg_cluster/pCL45									COL15A1-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL46	http://identifiers.org/hgnc/HGNC:51166	http://identifiers.org/hgnc/HGNC:1544								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL91	http://www.jcvi.org/cl_ext/mtg_cluster/pCL46									CBLN2-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL47	http://identifiers.org/hgnc/HGNC:8831	http://identifiers.org/hgnc/HGNC:16709	http://identifiers.org/hgnc/HGNC:21063							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL91	http://www.jcvi.org/cl_ext/mtg_cluster/pCL47									PENK-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL48	http://identifiers.org/hgnc/HGNC:15846	http://identifiers.org/hgnc/HGNC:19347								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL91	http://www.jcvi.org/cl_ext/mtg_cluster/pCL48									PALMD-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL49	http://identifiers.org/hgnc/HGNC:42500	http://identifiers.org/hgnc/HGNC:14966	http://identifiers.org/hgnc/HGNC:21569							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL77	http://www.jcvi.org/cl_ext/mtg_cluster/pCL49									PXDN-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL50	http://identifiers.org/hgnc/HGNC:24350	http://identifiers.org/hgnc/HGNC:23392	http://identifiers.org/hgnc/HGNC:9477							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL93	http://www.jcvi.org/cl_ext/mtg_cluster/pCL50									CCDC68-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL51	http://identifiers.org/hgnc/HGNC:533	http://identifiers.org/genecards/LOC105371677								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL93	http://www.jcvi.org/cl_ext/mtg_cluster/pCL51									ANXA1-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL52	http://identifiers.org/hgnc/HGNC:29893	http://identifiers.org/hgnc/HGNC:7154								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL93	http://www.jcvi.org/cl_ext/mtg_cluster/pCL52									RMST-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL53	http://identifiers.org/hgnc/HGNC:19347	http://identifiers.org/hgnc/HGNC:23319	http://identifiers.org/hgnc/HGNC:2210							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL93	http://www.jcvi.org/cl_ext/mtg_cluster/pCL53									CUX2|NTNG-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL54	http://identifiers.org/hgnc/HGNC:20670	http://identifiers.org/genecards/LOC101927281	http://identifiers.org/hgnc/HGNC:26851							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL93	http://www.jcvi.org/cl_ext/mtg_cluster/pCL54									TWIST2-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL55	http://identifiers.org/genecards/LOC101927835	http://identifiers.org/hgnc/HGNC:27424	http://identifiers.org/hgnc/HGNC:7957							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL94	http://www.jcvi.org/cl_ext/mtg_cluster/pCL55									RBM20-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL56	http://identifiers.org/hgnc/HGNC:24201	http://identifiers.org/genecards/LOC101928622								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL94	http://www.jcvi.org/cl_ext/mtg_cluster/pCL56									RPRM-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL57	http://identifiers.org/hgnc/HGNC:49556	http://identifiers.org/hgnc/HGNC:956	http://identifiers.org/genecards/LOC105374971							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL94	http://www.jcvi.org/cl_ext/mtg_cluster/pCL57									BARX2-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL58	http://identifiers.org/hgnc/HGNC:11949	http://identifiers.org/genecards/LOC105371833	http://identifiers.org/hgnc/HGNC:4525							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL94	http://www.jcvi.org/cl_ext/mtg_cluster/pCL58									TNNT2-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL59	http://identifiers.org/hgnc/HGNC:6136	http://identifiers.org/hgnc/HGNC:9011	http://identifiers.org/hgnc/HGNC:29634							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL94	http://www.jcvi.org/cl_ext/mtg_cluster/pCL59									ITGA11-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL60	http://identifiers.org/genecards/LOC105376457	http://identifiers.org/genecards/LOC105378657								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL77	http://www.jcvi.org/cl_ext/mtg_cluster/pCL60									LOC105376457-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL61	http://identifiers.org/genecards/LOC101928196	http://identifiers.org/genecards/LOC105378486								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL95	http://www.jcvi.org/cl_ext/mtg_cluster/pCL61									LOC101928196-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL62	http://identifiers.org/hgnc/HGNC:24558	http://identifiers.org/hgnc/HGNC:11168								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL95	http://www.jcvi.org/cl_ext/mtg_cluster/pCL62									OLFML2B-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL63	http://identifiers.org/genecards/LOC101928964	http://identifiers.org/hgnc/HGNC:27475								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL95	http://www.jcvi.org/cl_ext/mtg_cluster/pCL63									GAS2L3-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL64	http://identifiers.org/hgnc/HGNC:43910	http://identifiers.org/hgnc/HGNC:17119								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL77	http://www.jcvi.org/cl_ext/mtg_cluster/pCL64									IL26-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL65	http://identifiers.org/hgnc/HGNC:20391	http://identifiers.org/hgnc/HGNC:14632								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL96	http://www.jcvi.org/cl_ext/mtg_cluster/pCL65									SULF1-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL66	http://identifiers.org/genecards/LOC105379054	http://identifiers.org/hgnc/HGNC:8973								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL96	http://www.jcvi.org/cl_ext/mtg_cluster/pCL66									PIK3C2G-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL67	http://identifiers.org/hgnc/HGNC:7981	http://identifiers.org/hgnc/HGNC:27405	http://identifiers.org/hgnc/HGNC:3446							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL96	http://www.jcvi.org/cl_ext/mtg_cluster/pCL67									NR4A2-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL68	http://identifiers.org/hgnc/HGNC:33455	http://identifiers.org/hgnc/HGNC:5472	http://identifiers.org/hgnc/HGNC:23503							UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL96	http://www.jcvi.org/cl_ext/mtg_cluster/pCL68									SLC15A5-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL69	http://identifiers.org/hgnc/HGNC:4525	http://identifiers.org/genecards/LOC105377183								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL96	http://www.jcvi.org/cl_ext/mtg_cluster/pCL69									NPFFR2-expressing human cerebral cortex MTG Glutamatergic neuron		
+equivalent	http://www.jcvi.org/cl_ext/mtg_cluster/pCL83	http://www.jcvi.org/cl_ext/mtg_cluster/pCL70	http://identifiers.org/hgnc/HGNC:14674	http://identifiers.org/hgnc/HGNC:8803					UBERON:0002771	UBERON:0000956			
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL83	http://www.jcvi.org/cl_ext/mtg_cluster/pCL70									PCDH15-expressing human MTG Oligodendrocyte precursor cell		
+equivalent	http://www.jcvi.org/cl_ext/mtg_cluster/pCL88	http://www.jcvi.org/cl_ext/mtg_cluster/pCL71	http://identifiers.org/genecards/LOC105376917	http://identifiers.org/hgnc/HGNC:10941					UBERON:0002771	UBERON:0000956			
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL88	http://www.jcvi.org/cl_ext/mtg_cluster/pCL71									SLC1A3-expressing human MTG astrocyte		
+equivalent	http://www.jcvi.org/cl_ext/mtg_cluster/pCL88	http://www.jcvi.org/cl_ext/mtg_cluster/pCL72	http://identifiers.org/hgnc/HGNC:7398	http://identifiers.org/hgnc/HGNC:5362					UBERON:0002771	UBERON:0000956			
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL88	http://www.jcvi.org/cl_ext/mtg_cluster/pCL72									MT1F-expressing human MTG astrocyte		
+equivalent	http://www.jcvi.org/cl_ext/mtg_cluster/pCL85	http://www.jcvi.org/cl_ext/mtg_cluster/pCL73	http://identifiers.org/hgnc/HGNC:3357	http://identifiers.org/hgnc/HGNC:23723					UBERON:0002771	UBERON:0000956			
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL85	http://www.jcvi.org/cl_ext/mtg_cluster/pCL73									ENPP2-expressing human MTG Oligodendrocyte		
+equivalent	http://www.jcvi.org/cl_ext/mtg_cluster/pCL86	http://www.jcvi.org/cl_ext/mtg_cluster/pCL74	http://identifiers.org/hgnc/HGNC:16041						UBERON:0002771	UBERON:0000956			
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL86	http://www.jcvi.org/cl_ext/mtg_cluster/pCL74									EMCN-expressing human cerebral cortex MTG endothelial cell		
+equivalent	http://www.jcvi.org/cl_ext/mtg_cluster/pCL87	http://www.jcvi.org/cl_ext/mtg_cluster/pCL75	http://identifiers.org/hgnc/HGNC:2433	http://identifiers.org/hgnc/HGNC:17379					UBERON:0002771	UBERON:0000956			
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL87	http://www.jcvi.org/cl_ext/mtg_cluster/pCL75									CSF1R-expressing human MTG Microglial cell		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL76	http://identifiers.org/hgnc/HGNC:4092	http://identifiers.org/hgnc/HGNC:4093								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL89	http://www.jcvi.org/cl_ext/mtg_cluster/pCL76									GAD1-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL77	http://identifiers.org/hgnc/HGNC:16704	http://identifiers.org/hgnc/HGNC:21637								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL90	http://www.jcvi.org/cl_ext/mtg_cluster/pCL77									SLC17A7-expressing human MTG Glutamatergic neuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL78	http://identifiers.org/hgnc/HGNC:13604	http://identifiers.org/hgnc/HGNC:30670								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL97	http://www.jcvi.org/cl_ext/mtg_cluster/pCL78									FBXL7-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL79	http://identifiers.org/hgnc/HGNC:20693	http://identifiers.org/hgnc/HGNC:29185								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL76	http://www.jcvi.org/cl_ext/mtg_cluster/pCL79									NXPH1-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80	http://identifiers.org/hgnc/HGNC:12693									UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL97	http://www.jcvi.org/cl_ext/mtg_cluster/pCL80									VIP-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL81	http://identifiers.org/hgnc/HGNC:16421	http://identifiers.org/hgnc/HGNC:11329								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL79	http://www.jcvi.org/cl_ext/mtg_cluster/pCL81									SST-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL82	http://identifiers.org/hgnc/HGNC:9704	http://identifiers.org/hgnc/HGNC:11517								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL79	http://www.jcvi.org/cl_ext/mtg_cluster/pCL82									PVALB-expressing human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0002453	http://www.jcvi.org/cl_ext/mtg_cluster/pCL83							UBERON:0002771	UBERON:0000956			
+subclass	CL:0002453	http://www.jcvi.org/cl_ext/mtg_cluster/pCL83									human MTG Oligodendrocyte precursor cell		
+equivalent	CL:0002605	http://www.jcvi.org/cl_ext/mtg_cluster/pCL84							UBERON:0002771	UBERON:0000956			
+subclass	CL:0002605	http://www.jcvi.org/cl_ext/mtg_cluster/pCL84									human MTG Astrocyte of the cerebral cortex		
+equivalent	CL:0000128	http://www.jcvi.org/cl_ext/mtg_cluster/pCL85							UBERON:0002771	UBERON:0000956			
+subclass	CL:0000128	http://www.jcvi.org/cl_ext/mtg_cluster/pCL85									human MTG Oligodendrocyte		
+equivalent	CL:1001602	http://www.jcvi.org/cl_ext/mtg_cluster/pCL86					UBERON:0002771	UBERON:0000956					
+subclass	CL:1001602	http://www.jcvi.org/cl_ext/mtg_cluster/pCL86									human cerebral cortex MTG endothelial cell		
+equivalent	CL:0000129	http://www.jcvi.org/cl_ext/mtg_cluster/pCL87							UBERON:0002771	UBERON:0000956			
+subclass	CL:0000129	http://www.jcvi.org/cl_ext/mtg_cluster/pCL87									human MTG Microglial cell		
+equivalent	http://www.jcvi.org/cl_ext/mtg_cluster/pCL84	http://www.jcvi.org/cl_ext/mtg_cluster/pCL88	http://identifiers.org/hgnc/HGNC:3690						UBERON:0002771	UBERON:0000956			
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL84	http://www.jcvi.org/cl_ext/mtg_cluster/pCL88									human FGFR3-expressing human MTG astrocyte		
+equivalent	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL89										UBERON:0002771	UBERON:0000956
+subclass	CL:0010011	http://www.jcvi.org/cl_ext/mtg_cluster/pCL89									human cerebral cortex MTG GABAergic interneuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL90										UBERON:0002771	UBERON:0000956
+subclass	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL90									human MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL91	http://identifiers.org/hgnc/HGNC:43558	http://identifiers.org/hgnc/HGNC:19347								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL77	http://www.jcvi.org/cl_ext/mtg_cluster/pCL91									CUX2-expressing human MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL92	http://identifiers.org/genecards/LOC105374972									UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL77	http://www.jcvi.org/cl_ext/mtg_cluster/pCL92									RORB-expressing human MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL93	http://identifiers.org/genecards/LOC101927281	http://identifiers.org/hgnc/HGNC:23571								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL92	http://www.jcvi.org/cl_ext/mtg_cluster/pCL93									COBLL1-expressing human MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL94	http://identifiers.org/hgnc/HGNC:27013	http://identifiers.org/genecards/LOC105374971								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL92	http://www.jcvi.org/cl_ext/mtg_cluster/pCL94									TRABD2A-expressing human MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL95	http://identifiers.org/hgnc/HGNC:24558	http://identifiers.org/hgnc/HGNC:20986								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL77	http://www.jcvi.org/cl_ext/mtg_cluster/pCL95									OLFML2B-expressing human MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL96	http://identifiers.org/hgnc/HGNC:25149	http://identifiers.org/hgnc/HGNC:14632								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL77	http://www.jcvi.org/cl_ext/mtg_cluster/pCL96									EGFEM1P-expressing human MTG Glutamatergic neuron		
+equivalent	CL:0000679	http://www.jcvi.org/cl_ext/mtg_cluster/pCL97	http://identifiers.org/genecards/LOC105375415	http://identifiers.org/hgnc/HGNC:10640								UBERON:0002771	UBERON:0000956
+subclass	http://www.jcvi.org/cl_ext/mtg_cluster/pCL76	http://www.jcvi.org/cl_ext/mtg_cluster/pCL97									CXCL14-expressing human MTG GABAergic interneuron		
