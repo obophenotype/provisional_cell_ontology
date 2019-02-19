@@ -4,7 +4,7 @@
 
 WARNING: The contents of this repo are currently experimental.  IDs may not be stable and definitions may not be reliable!
 
-This ontology is intended as a place for provisional cell type definitions derived from data (and from RNAseq in particular).
+This ontology is intended as a place for provisional cell type definitions derived from data (and from scRNAseq in particular).
 
 ## A note on editing
 
