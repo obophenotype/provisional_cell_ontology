@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-
-
-  
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-  
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
-  
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/cl_import.owl" uri="imports/cl_import.owl"/>
-  
-
-  <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
+    <uri id="Imports Wizard Entry" name="http://www.jcvi.org/cl_ext/markers.owl" uri="imports/markers_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.jcvi.org/cl_ext/imports/markers.owl" uri="imports/markers_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/ro_import.owl" uri="imports/ro_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/cl_import.owl" uri="imports/cl_import.owl"/>
+    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
 </catalog>

@@ -30,7 +30,7 @@ TODAY   := $(shell date +%Y-%m-%d)
 # Top-level targets
 # ----------------------------------------
 
-all: all_imports patterns all_main all_subsets sparql_test all_reports all_assets
+all: $(SRC) all_imports patterns all_main all_subsets sparql_test all_reports all_assets
 
 ## -- main targets --
 ##
