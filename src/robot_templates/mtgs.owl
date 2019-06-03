@@ -1,0 +1,956 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.jcvi.org/cl_ext/mtgs.owl#"
+     xml:base="http://www.jcvi.org/cl_ext/mtgs.owl"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:go="http://purl.obolibrary.org/obo/go#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
+     xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:core1="http://purl.obolibrary.org/obo/core#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:pato="http://purl.obolibrary.org/obo/pato#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
+    <owl:Ontology rdf:about="http://www.jcvi.org/cl_ext/mtgs.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2019-05-31/imports/cl_import.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000128"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000129"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000679"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002453"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002605 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002605"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0010011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0010011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1001602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001602"/>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL1 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL1">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGFBR2-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL10 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL10">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CNR1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL11 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL11">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DCN-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL12 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL12">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCDC141-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL13 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL13">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DACH2-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL14 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL14">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EGFEM1P-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL15 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL15">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCP4|IGFBP7-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL16 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL16">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IQGAP2-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL17 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL17">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGPT1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL18 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL18">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAC3|TSHZ2-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL19 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL19">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAC3|COL15A1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL2 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL2">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP8-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL20 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL20">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC100421401-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL21 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL21">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HTR2C-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL22 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL22">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KCNH8-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL23 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL23">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GGH-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL24 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL24">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C18orf42-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL25 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL25">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LRRC63-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL26 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL26">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC7A11-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL27 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL27">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCP4|LINC01583-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL28 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL28">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL76"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPY-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL29 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL29">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPGD-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL3 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL3">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NDNF-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL30 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL30">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMU-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL31 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL31">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC100996671-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL32 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL32">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPON1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL33 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL33">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QRFPR-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL34 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL34">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC9A2-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL35 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL35">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC101929028-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL36 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL36">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADGRG6-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL37 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL37">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EYS-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL38 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL38">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TH-expressing human-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL39 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL39">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL82"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CPED1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL4 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL4">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KIT-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL40 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL40">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL82"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANKRD34B-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL41 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL41">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL82"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPP1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL42 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL42">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL82"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC9A9-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL43 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL43">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL82"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SULF1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL44 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL44">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL82"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LYPD6-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL45 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL45">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL82"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COL15A1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL46 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL46">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL91"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CBLN2-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL47 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL47">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL91"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PENK-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL48 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL48">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL91"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PALMD-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL49 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL49">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL77"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PXDN-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL5 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL5">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CPLX3-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL50 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL50">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL93"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCDC68-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL51 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL51">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL93"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANXA1-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL52 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL52">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL93"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RMST-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL53 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL53">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL93"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CUX2|NTNG-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL54 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL54">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL93"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TWIST2-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL55 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL55">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL94"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RBM20-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL56 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL56">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL94"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPRM-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL57 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL57">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL94"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BARX2-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL58 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL58">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL94"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TNNT2-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL59 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL59">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL94"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ITGA11-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL6 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL6">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EYA4-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL60 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL60">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL77"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC105376457-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL61 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL61">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL95"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC101928196-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL62 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL62">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL95"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLFML2B-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL63 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL63">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL95"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAS2L3-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL64 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL64">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL77"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL26-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL65 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL65">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL96"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SULF1-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL66 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL66">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL96"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIK3C2G-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL67 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL67">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL96"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NR4A2-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL68 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL68">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL96"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC15A5-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL69 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL69">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL96"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPFFR2-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL7 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL7">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANKFN1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL70 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL70">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL83"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCDH15-expressing human MTG Oligodendrocyte precursor cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL71 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL71">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL88"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC1A3-expressing human MTG astrocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL72 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL72">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL88"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MT1F-expressing human MTG astrocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL73 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL73">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL85"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENPP2-expressing human MTG Oligodendrocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL74 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL74">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL86"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMCN-expressing human cerebral cortex MTG endothelial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL75 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL75">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL87"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSF1R-expressing human MTG Microglial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL76 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL76">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL89"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAD1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL77 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL77">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL90"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC17A7-expressing human MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL78 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL97"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBXL7-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL79 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL79">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL76"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NXPH1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL8 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL8">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARHGAP36-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL80 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL97"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIP-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL81 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL79"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SST-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL82 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL82">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL79"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PVALB-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL83 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL83">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002453"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MTG Oligodendrocyte precursor cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL84 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL84">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002605"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MTG Astrocyte of the cerebral cortex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL85 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL85">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000128"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MTG Oligodendrocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL86 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL86">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1001602"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human cerebral cortex MTG endothelial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL87 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL87">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000129"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MTG Microglial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL88 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL88">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL84"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGFR3-expressing human MTG astrocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL89 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL89">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0010011"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL9 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL9">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAGE2-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL90 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL90">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000679"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL91 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL91">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL77"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CUX2-expressing human MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL92 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL92">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL77"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RORB-expressing human MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL93 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL93">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL92"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COBLL1-expressing human MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL94 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL94">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL92"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRABD2A-expressing human MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL95 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL95">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL77"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLFML2B-expressing human MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL96 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL96">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL77"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EGFEM1P-expressing human MTG Glutamatergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster/pCL97 -->
+
+    <owl:Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster/pCL97">
+        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL76"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CXCL14-expressing MTG GABAergic interneuron</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

@@ -22,7 +22,7 @@ imports/markers_import.owl: ../robot_templates/markers.tsv
 
 ## Turn these into a generator statements: Aim - a list of names 
 
-mtg.owl: ../robot_templates/MTG.tsv
+mtg.owl: ../robot_templates/mtge.tsv
 	$(ROBOT) template --input ../robot_templates/support.owl --template $< annotate --ontology-iri "http://www.jcvi.org/cl_ext/mtg.owl" -o $@
 
 $(SRC): mtg.owl

@@ -1,18 +1,31 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/pcl.owl#"
      xml:base="http://purl.obolibrary.org/obo/pcl.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:go="http://purl.obolibrary.org/obo/go#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
+     xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:core1="http://purl.obolibrary.org/obo/core#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:pato="http://purl.obolibrary.org/obo/pato#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pcl.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pcl/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pcl/imports/ro_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pcl/imports/cl_import.owl"/>
-        <owl:imports rdf:resource="http://www.jcvi.org/cl_ext/markers.owl"/>
+        <owl:imports rdf:resource="http://www.jcvi.org/cl_ext/imports/markers.owl"/>
         <rdfs:comment>Provisional cell ontology</rdfs:comment>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://www.jcvi.org/cl_ext/mtg.owl&gt;) VersionIRI(&lt;null&gt;))) [Axioms: 573 Logical Axioms: 194]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://www.jcvi.org/cl_ext/mtg.owl&gt;) VersionIRI(&lt;null&gt;))) [Axioms: 470 Logical Axioms: 97]</rdfs:comment>
     </owl:Ontology>
     
 
@@ -381,12 +394,6 @@
     
 
 
-    <!-- http://identifiers.org/hgnc/HGNC:14674 -->
-
-    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:14674"/>
-    
-
-
     <!-- http://identifiers.org/hgnc/HGNC:14966 -->
 
     <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:14966"/>
@@ -423,12 +430,6 @@
     
 
 
-    <!-- http://identifiers.org/hgnc/HGNC:16041 -->
-
-    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:16041"/>
-    
-
-
     <!-- http://identifiers.org/hgnc/HGNC:16231 -->
 
     <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:16231"/>
@@ -438,12 +439,6 @@
     <!-- http://identifiers.org/hgnc/HGNC:16421 -->
 
     <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:16421"/>
-    
-
-
-    <!-- http://identifiers.org/hgnc/HGNC:16704 -->
-
-    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:16704"/>
     
 
 
@@ -627,12 +622,6 @@
     
 
 
-    <!-- http://identifiers.org/hgnc/HGNC:2433 -->
-
-    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:2433"/>
-    
-
-
     <!-- http://identifiers.org/hgnc/HGNC:24350 -->
 
     <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:24350"/>
@@ -789,12 +778,6 @@
     
 
 
-    <!-- http://identifiers.org/hgnc/HGNC:3357 -->
-
-    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:3357"/>
-    
-
-
     <!-- http://identifiers.org/hgnc/HGNC:33736 -->
 
     <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:33736"/>
@@ -822,18 +805,6 @@
     <!-- http://identifiers.org/hgnc/HGNC:3604 -->
 
     <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:3604"/>
-    
-
-
-    <!-- http://identifiers.org/hgnc/HGNC:3690 -->
-
-    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:3690"/>
-    
-
-
-    <!-- http://identifiers.org/hgnc/HGNC:4092 -->
-
-    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:4092"/>
     
 
 
@@ -1035,6 +1006,12 @@
     
 
 
+    <!-- http://identifiers.org/hgnc/HGNC:8739 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:8739"/>
+    
+
+
     <!-- http://identifiers.org/hgnc/HGNC:8742 -->
 
     <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:8742"/>
@@ -1178,12 +1155,31 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11773"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:13604"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:30670"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGFBR2-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1206,16 +1202,31 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:2159"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:31822"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CNR1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1238,7 +1249,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:2705"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -1247,7 +1274,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DCN-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1274,12 +1300,27 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:26821"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCDC141-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1302,16 +1343,31 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:14268"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:16814"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DACH2-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1338,12 +1394,27 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:25149"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EGFEM1P-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1366,6 +1437,22 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:5476"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -1375,7 +1462,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCP4|IGFBP7-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1398,7 +1484,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:17265"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -1407,7 +1509,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IQGAP2-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1430,7 +1531,19 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -1439,7 +1552,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGPT1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1462,11 +1574,27 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11521"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:13010"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -1475,7 +1603,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAC3|TSHZ2-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1498,16 +1625,31 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11521"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:2192"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAC3|COL15A1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1530,7 +1672,27 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:13604"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:19196"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:30670"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -1539,7 +1701,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP8-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1568,10 +1729,25 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC101060145"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC100421401-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1594,6 +1770,22 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:5295"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -1603,7 +1795,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HTR2C-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1626,16 +1817,31 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:18864"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21397"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KCNH8-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1658,7 +1864,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375473"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -1667,7 +1889,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GGH-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1690,16 +1911,31 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105379146"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:28285"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C18orf42-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1726,7 +1962,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:34296"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -1735,7 +1987,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LRRC63-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1758,7 +2009,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11059"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -1767,7 +2034,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC7A11-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1790,7 +2056,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10967"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -1803,7 +2085,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL80"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCP4|LINC01583-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1826,12 +2107,15 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:7955"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL76"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPY-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1854,6 +2138,18 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11329"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:16421"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21063"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -1862,12 +2158,19 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:5154"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPGD-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1890,16 +2193,31 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:13604"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:26256"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:30670"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NDNF-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1922,11 +2240,31 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11329"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11521"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:16421"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:23399"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -1935,7 +2273,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMU-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1964,10 +2301,29 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105377701"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11329"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:16421"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC100996671-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -1994,12 +2350,31 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11329"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:16421"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:3604"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPON1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -2026,16 +2401,35 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11329"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:15565"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:16421"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20151"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QRFPR-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -2062,12 +2456,31 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11329"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:16421"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:28317"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC9A2-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -2092,10 +2505,29 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC101929028"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11329"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:16421"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC101929028-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -2118,7 +2550,27 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11329"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:13841"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:16421"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -2127,7 +2579,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADGRG6-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -2150,11 +2601,31 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11329"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:16421"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:18374"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21555"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -2163,7 +2634,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EYS-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -2190,12 +2660,31 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11329"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11782"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:16421"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL81"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TH-expressing human-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -2222,7 +2711,27 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11517"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:26159"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:9704"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -2231,7 +2740,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL82"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CPED1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -2254,7 +2762,27 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:13604"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:27652"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:30670"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -2263,7 +2791,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KIT-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -2290,16 +2817,35 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11517"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:26159"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:33736"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:9704"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL82"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANKRD34B-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -2326,16 +2872,35 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11517"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:13361"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4893"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:9704"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL82"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPP1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -2364,10 +2929,25 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20653"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:9704"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL82"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC9A9-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -2390,16 +2970,35 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11517"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20391"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:26159"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:9704"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL82"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SULF1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -2422,7 +3021,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11517"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:28751"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -2432,10 +3047,13 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:8614"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:9704"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL82"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LYPD6-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -2462,12 +3080,31 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11517"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:2192"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:9704"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL82"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COL15A1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -2494,12 +3131,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:19347"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:43558"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:51166"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL91"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CBLN2-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -2526,7 +3174,19 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:19347"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21063"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:43558"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -2535,7 +3195,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL91"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PENK-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -2564,10 +3223,17 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:19347"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:43558"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL91"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PALMD-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -2598,12 +3264,15 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:42500"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL77"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PXDN-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -2626,16 +3295,35 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:13604"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:16231"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:27652"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:30670"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CPLX3-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -2658,7 +3346,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC101927281"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374972"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:23392"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:23571"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -2671,7 +3375,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL93"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCDC68-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -2694,7 +3397,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC101927281"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105371677"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374972"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:23571"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -2703,7 +3422,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL93"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANXA1-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -2726,6 +3444,22 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC101927281"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374972"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:23571"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29893"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -2735,7 +3469,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL93"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RMST-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -2758,7 +3491,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC101927281"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC101928196"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374972"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:19347"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -2768,10 +3517,13 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:23319"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:23571"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL93"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CUX2|NTNG-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -2798,7 +3550,19 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374972"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20670"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:23571"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -2807,7 +3571,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL93"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TWIST2-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -2834,6 +3597,22 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374971"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374972"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:27013"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:27424"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -2843,7 +3622,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL94"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RBM20-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -2870,12 +3648,27 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374971"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374972"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:24201"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:27013"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL94"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPRM-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -2902,6 +3695,18 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374972"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:27013"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:49556"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -2911,7 +3716,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL94"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BARX2-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -2938,7 +3742,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374971"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374972"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:11949"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:27013"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -2947,7 +3767,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL94"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TNNT2-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -2970,6 +3789,22 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374971"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374972"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:27013"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29634"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -2983,7 +3818,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL94"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ITGA11-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -3006,16 +3840,35 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:13604"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:26086"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:30670"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:3522"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EYA4-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -3044,10 +3897,13 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105378657"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL77"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC105376457-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -3076,10 +3932,21 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105378486"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20986"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:24558"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL95"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC101928196-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -3106,12 +3973,19 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20986"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:24558"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL95"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLFML2B-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -3138,12 +4012,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20986"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:24558"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:27475"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL95"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAS2L3-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -3170,12 +4055,15 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:43910"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL77"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL26-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -3204,10 +4092,17 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20391"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:25149"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL96"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SULF1-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -3234,12 +4129,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:14632"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:25149"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:8973"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL96"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIK3C2G-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -3262,6 +4168,18 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:14632"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:25149"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:27405"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -3275,7 +4193,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL96"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NR4A2-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -3298,7 +4215,19 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:14632"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:23503"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:25149"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -3308,10 +4237,13 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:5472"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:8739"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL96"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC15A5-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -3338,12 +4270,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:14632"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:25149"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4525"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL96"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPFFR2-expressing human cerebral cortex MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -3366,6 +4309,10 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -3374,12 +4321,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:13604"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:26766"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:30670"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANKFN1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -3402,16 +4360,11 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:14674"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:8803"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL83"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCDH15-expressing human MTG Oligodendrocyte precursor cell</rdfs:label>
     </owl:Class>
     
@@ -3443,7 +4396,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL88"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC1A3-expressing human MTG astrocyte</rdfs:label>
     </owl:Class>
     
@@ -3475,7 +4427,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL88"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MT1F-expressing human MTG astrocyte</rdfs:label>
     </owl:Class>
     
@@ -3500,14 +4451,9 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:23723"/>
                     </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:3357"/>
-                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL85"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENPP2-expressing human MTG Oligodendrocyte</rdfs:label>
     </owl:Class>
     
@@ -3528,14 +4474,9 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002771"/>
                     </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:16041"/>
-                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL86"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMCN-expressing human cerebral cortex MTG endothelial cell</rdfs:label>
     </owl:Class>
     
@@ -3560,14 +4501,9 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:17379"/>
                     </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:2433"/>
-                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL87"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSF1R-expressing human MTG Microglial cell</rdfs:label>
     </owl:Class>
     
@@ -3590,16 +4526,11 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4092"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL89"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAD1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -3622,16 +4553,11 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:16704"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL90"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC17A7-expressing human MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -3654,16 +4580,27 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:13604"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:30670"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL97"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBXL7-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -3692,10 +4629,13 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL76"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NXPH1-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -3718,16 +4658,35 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:13604"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:15478"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:26388"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:30670"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARHGAP36-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -3750,12 +4709,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:12693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL97"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIP-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -3784,10 +4754,21 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:16421"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL79"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SST-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -3814,12 +4795,23 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:20693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:29185"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:9704"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL79"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PVALB-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -3843,7 +4835,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002453"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MTG Oligodendrocyte precursor cell</rdfs:label>
     </owl:Class>
     
@@ -3867,7 +4858,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002605"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MTG Astrocyte of the cerebral cortex</rdfs:label>
     </owl:Class>
     
@@ -3891,7 +4881,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000128"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MTG Oligodendrocyte</rdfs:label>
     </owl:Class>
     
@@ -3911,7 +4900,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1001602"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human cerebral cortex MTG endothelial cell</rdfs:label>
     </owl:Class>
     
@@ -3935,7 +4923,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000129"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MTG Microglial cell</rdfs:label>
     </owl:Class>
     
@@ -3956,15 +4943,10 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002771"/>
                     </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:3690"/>
-                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL84"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human FGFR3-expressing human MTG astrocyte</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGFR3-expressing human MTG astrocyte</rdfs:label>
     </owl:Class>
     
 
@@ -3987,7 +4969,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0010011"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -4010,16 +4991,35 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105375415"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105377436"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:13604"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:15723"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:30670"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL78"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAGE2-expressing human cerebral cortex MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
@@ -4043,7 +5043,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000679"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -4070,13 +5069,16 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:43558"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL77"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CUX2-expressing human MTG Glutamatergic neuron</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CUX2-expressing human MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
 
@@ -4100,11 +5102,14 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374972"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL77"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RORB-expressing human MTG Glutamatergic neuron</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RORB-expressing human MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
 
@@ -4130,13 +5135,20 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374972"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:23571"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL92"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COBLL1-expressing human MTG Glutamatergic neuron</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COBLL1-expressing human MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
     
 
@@ -4162,12 +5174,19 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/genecards/LOC105374972"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:27013"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL92"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRABD2A-expressing human MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -4194,12 +5213,15 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:24558"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL77"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OLFML2B-expressing human MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -4226,12 +5248,15 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:21637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:25149"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL77"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EGFEM1P-expressing human MTG Glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -4260,15 +5285,18 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
                         <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:10640"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/hgnc/HGNC:4093"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.jcvi.org/cl_ext/mtg_cluster/pCL76"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CXCL14-expressing human MTG GABAergic interneuron</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CXCL14-expressing MTG GABAergic interneuron</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
