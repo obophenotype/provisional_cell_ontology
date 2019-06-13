@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.jcvi.org/cl_ext/imports/markers.owl#"
-     xml:base="http://www.jcvi.org/cl_ext/imports/markers.owl"
+<rdf:RDF xmlns="http://www.purl.obolibrary.org/obo/pcl/imports/markers_import.owl#"
+     xml:base="http://www.purl.obolibrary.org/obo/pcl/imports/markers_import.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.jcvi.org/cl_ext/imports/markers.owl"/>
+    <owl:Ontology rdf:about="http://www.purl.obolibrary.org/obo/pcl/imports/markers_import.owl"/>
     
 
 
@@ -467,15 +467,6 @@
     
 
 
-    <!-- http://identifiers.org/hgnc/HGNC:14674 -->
-
-    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:14674">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCDH15</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://identifiers.org/hgnc/HGNC:14966 -->
 
     <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:14966">
@@ -530,15 +521,6 @@
     
 
 
-    <!-- http://identifiers.org/hgnc/HGNC:16041 -->
-
-    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:16041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMCN</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://identifiers.org/hgnc/HGNC:16231 -->
 
     <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:16231">
@@ -553,15 +535,6 @@
     <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:16421">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOX6</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://identifiers.org/hgnc/HGNC:16704 -->
-
-    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:16704">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC17A7</rdfs:label>
     </owl:Class>
     
 
@@ -836,15 +809,6 @@
     
 
 
-    <!-- http://identifiers.org/hgnc/HGNC:2433 -->
-
-    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:2433">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSF1R</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://identifiers.org/hgnc/HGNC:24350 -->
 
     <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:24350">
@@ -1079,15 +1043,6 @@
     
 
 
-    <!-- http://identifiers.org/hgnc/HGNC:3357 -->
-
-    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:3357">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENPP2</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://identifiers.org/hgnc/HGNC:33736 -->
 
     <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:33736">
@@ -1129,24 +1084,6 @@
     <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:3604">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBN2</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://identifiers.org/hgnc/HGNC:3690 -->
-
-    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:3690">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGFR3</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://identifiers.org/hgnc/HGNC:4092 -->
-
-    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:4092">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAD1</rdfs:label>
     </owl:Class>
     
 
@@ -1394,6 +1331,15 @@
     
 
 
+    <!-- http://identifiers.org/hgnc/HGNC:7603 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:7603">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MYO5B</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://identifiers.org/hgnc/HGNC:7859 -->
 
     <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:7859">
@@ -1444,6 +1390,15 @@
     <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:8614">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PAWR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:8739 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:8739">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCOLCE2</rdfs:label>
     </owl:Class>
     
 

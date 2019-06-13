@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pcl/releases/2019-05-31/imports/cl_import.owl
+data-version: pcl/releases/2019-06-13/imports/cl_import.owl
 ontology: pcl/imports/cl_import
 
 [Term]
@@ -12768,6 +12768,114 @@ synonym: "rodents" RELATED blast_name []
 xref: GC_ID:1
 is_a: NCBITaxon:314147 ! Glires
 property_value: has_rank NCBITaxon:order
+
+[Term]
+id: NCBITaxon:class
+name: class
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:family
+name: family
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:genus
+name: genus
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:infraclass
+name: infraclass
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:kingdom
+name: kingdom
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:order
+name: order
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:phylum
+name: phylum
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:species
+name: species
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:subclass
+name: subclass
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:subfamily
+name: subfamily
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:subgenus
+name: subgenus
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:suborder
+name: suborder
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:subphylum
+name: subphylum
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:superclass
+name: superclass
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:superfamily
+name: superfamily
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:superkingdom
+name: superkingdom
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:superorder
+name: superorder
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:taxonomic_rank ! taxonomic rank
+
+[Term]
+id: NCBITaxon:taxonomic_rank
+name: taxonomic rank
+namespace: ncbi_taxonomy
+comment: This is an abstract class for use with the NCBI taxonomy to name the depth of the node within the tree. The link between the node term and the rank is only visible if you are using an obo 1.3 aware browser/editor; otherwise this can be ignored.
 
 [Term]
 id: OBI:0100026
@@ -32847,7 +32955,7 @@ name: actively participates in
 def: "x actively participates in y if and only if x participates in y and x realizes some active role" []
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000118 "agent in" xsd:string
-is_a: participates_in ! participates in
+is_a: participates_in ! participates_in
 inverse_of: RO:0002218 ! obsolete has active participant
 
 [Typedef]
@@ -34700,7 +34808,7 @@ subset: RO:0002259
 xref: RO:0002352
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 is_a: functionally_related_to ! functionally related to
-is_a: participates_in ! participates in
+is_a: participates_in ! participates_in
 
 [Typedef]
 id: involved_in

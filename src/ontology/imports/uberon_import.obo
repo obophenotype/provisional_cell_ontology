@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pcl/releases/2019-05-31/imports/uberon_import.owl
+data-version: pcl/releases/2019-06-13/imports/uberon_import.owl
 ontology: pcl/imports/uberon_import
 
 [Term]
@@ -18154,6 +18154,13 @@ def: "x has potential to directly develop into y iff x directly develops into y 
 xref: RO:0002388
 
 [Typedef]
+id: has_quality
+name: has quality
+namespace: uberon
+xref: RO:0000086
+is_a: bearer_of ! bearer of
+
+[Typedef]
 id: has_relational_adjective
 name: has_relational_adjective
 namespace: uberon
@@ -18266,6 +18273,26 @@ is_a: part_of ! part of
 inverse_of: in_distal_side_of ! in_distal_side_of
 
 [Typedef]
+id: in_taxon
+name: in taxon
+namespace: uberon
+xref: RO:0002162
+holds_over_chain: attaches_to in_taxon
+holds_over_chain: connected_to in_taxon
+holds_over_chain: connects in_taxon
+holds_over_chain: continuous_with in_taxon
+holds_over_chain: developmentally_induced_by in_taxon
+holds_over_chain: develops_from in_taxon
+holds_over_chain: existence_ends_during in_taxon
+holds_over_chain: existence_starts_during in_taxon
+holds_over_chain: has_developmental_contribution_from in_taxon
+holds_over_chain: has_potential_to_develop_into in_taxon
+holds_over_chain: overlaps in_taxon
+holds_over_chain: part_of in_taxon
+holds_over_chain: produced_by in_taxon
+holds_over_chain: produces in_taxon
+
+[Typedef]
 id: input_of
 name: input of
 namespace: uberon
@@ -18312,6 +18339,14 @@ namespace: uberon
 xref: RO:0002350
 is_a: part_of ! part of
 inverse_of: has_member ! has member
+
+[Typedef]
+id: only_in_taxon
+name: only_in_taxon
+namespace: uberon
+def: "S only_in_taxon T iff: S SubClassOf in_taxon only T" [http://www.ncbi.nlm.nih.gov/pubmed/20973947]
+xref: RO:0002160
+is_a: in_taxon ! in taxon
 
 [Typedef]
 id: overlaps
