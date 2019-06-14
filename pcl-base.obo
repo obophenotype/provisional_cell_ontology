@@ -288,6 +288,10 @@ id: http://identifiers.org/genecards/LINC00943
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/genecards/LOC100421401
+is_a: SO:0000704
+
+[Term]
 id: http://identifiers.org/genecards/LOC100507562
 is_a: SO:0000704
 
@@ -296,11 +300,19 @@ id: http://identifiers.org/genecards/LOC100996671
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/genecards/LOC101060145
+is_a: SO:0000704
+
+[Term]
 id: http://identifiers.org/genecards/LOC101927199
 is_a: SO:0000704
 
 [Term]
 id: http://identifiers.org/genecards/LOC101927269
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/genecards/LOC101927281
 is_a: SO:0000704
 
 [Term]
@@ -324,6 +336,34 @@ id: http://identifiers.org/genecards/LOC101927987
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/genecards/LOC101928196
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/genecards/LOC101928622
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/genecards/LOC101928923
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/genecards/LOC101928964
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/genecards/LOC101929028
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/genecards/LOC101929667
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/genecards/LOC102724957
+is_a: SO:0000704
+
+[Term]
 id: http://identifiers.org/genecards/LOC105369818
 is_a: SO:0000704
 
@@ -332,11 +372,23 @@ id: http://identifiers.org/genecards/LOC105370019
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/genecards/LOC105370456
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/genecards/LOC105371331
+is_a: SO:0000704
+
+[Term]
 id: http://identifiers.org/genecards/LOC105371497
 is_a: SO:0000704
 
 [Term]
 id: http://identifiers.org/genecards/LOC105371624
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/genecards/LOC105371677
 is_a: SO:0000704
 
 [Term]
@@ -381,6 +433,14 @@ is_a: SO:0000704
 
 [Term]
 id: http://identifiers.org/genecards/LOC105374972
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/genecards/LOC105375415
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/genecards/LOC105375473
 is_a: SO:0000704
 
 [Term]
@@ -436,7 +496,15 @@ id: http://identifiers.org/genecards/LOC105377434
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/genecards/LOC105377436
+is_a: SO:0000704
+
+[Term]
 id: http://identifiers.org/genecards/LOC105377632
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/genecards/LOC105377701
 is_a: SO:0000704
 
 [Term]
@@ -444,11 +512,31 @@ id: http://identifiers.org/genecards/LOC105378030
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/genecards/LOC105378486
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/genecards/LOC105378657
+is_a: SO:0000704
+
+[Term]
 id: http://identifiers.org/genecards/LOC105378837
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/genecards/LOC105379054
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/genecards/LOC105379146
+is_a: SO:0000704
+
+[Term]
 id: http://identifiers.org/genecards/LOC105379168
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/genecards/LOC401478
 is_a: SO:0000704
 
 [Term]
@@ -688,52 +776,732 @@ id: http://identifiers.org/genecards/VIPR2
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/hgnc/HGNC:10640
+name: CXCL14
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:10725
+name: SEMA3C
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:10941
+name: SLC1A3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:10967
+name: SLC22A3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:11059
+name: SLC7A11
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:11072
+name: SLC9A2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:11168
+name: SNTB1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:11252
+name: SPON1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:11255
+name: SPP1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:11329
+name: SST
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:11517
+name: TAC1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:11521
+name: TAC3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:11773
+name: TGFBR2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:11782
+name: TH
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:11949
+name: TNNT2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:12693
+name: VIP
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:13010
+name: TSHZ2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:13361
+name: MEPE
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:13604
+name: FBXL7
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:13841
+name: ADGRG6
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:14268
+name: PCDH18
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:14632
+name: ADAMTSL1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:14966
+name: PXDN
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:1544
+name: CBLN2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:15478
+name: ADAM33
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:15565
+name: QRFPR
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:15723
+name: BAGE2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:15846
+name: PALMD
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:16231
+name: CBLN4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:16421
+name: SOX6
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:16709
+name: CALCRL
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:16814
+name: DACH2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:17119
+name: IL26
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:17265
+name: ABI3BP
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:17379
+name: APBB1IP
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:18374
+name: HPSE2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:18864
+name: KCNH8
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:19196
+name: SP8
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:19347
+name: CUX2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:20151
+name: SLC17A8
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:20391
+name: SULF1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:20653
+name: SLC9A9
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:20670
+name: TWIST2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:20693
+name: NXPH1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:20986
+name: SMYD1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:21063
+name: MOXD1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:21397
+name: SCML4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:21555
+name: EYS
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:21569
+name: THEMIS
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:2159
+name: CNR1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:21637
+name: SATB2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:2192
+name: COL15A1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:2210
+name: COL5A2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:23319
+name: NTNG1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:23392
+name: CARM1P1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:23399
+name: FREM1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:23503
+name: SLITRK6
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:23571
+name: COBLL1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:23723
+name: CERCAM
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:24201
+name: RPRM
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:24350
+name: CCDC68
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:24558
+name: OLFML2B
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:25057
+name: FAM89A
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:25149
+name: EGFEM1P
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:26086
+name: TMEM255A
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:26159
+name: CPED1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:26256
+name: NDNF
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:26388
+name: ARHGAP36
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:26766
+name: ANKFN1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:26821
+name: CCDC141
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:26851
+name: CCDC168
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:27013
+name: TRABD2A
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:2705
+name: DCN
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:27405
+name: NPNT
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:27424
+name: RBM20
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:27475
+name: GAS2L3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:27652
+name: CPLX3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:28285
+name: C18orf42
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:28317
+name: STK32A
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:28751
+name: LYPD6
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:29185
+name: PLCH1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:29634
+name: MEGF10
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:29893
+name: RMST
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:30670
+name: SV2C
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:31822
+name: PLCXD3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:33455
+name: SLC15A5
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:33736
+name: ANKRD34B
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:34296
+name: LRRC63
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:3446
+name: ERG
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:3522
+name: EYA4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:3604
+name: FBN2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:4093
+name: GAD2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:4248
+name: GGH
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:42500
+name: LINC00343
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:43558
+name: LINC00507
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:43910
+name: IFNG_AS1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:4453
+name: GPC5
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:44915
+name: LINC00836
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:4525
+name: NPFFR2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:484
+name: ANGPT1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:4893
+name: HGF
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:49076
+name: CASC6
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:49556
+name: LINC01179
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:51163
+name: LINC01497
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:51166
+name: LINC01500
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:51307
+name: LINC01539
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:51425
+name: LINC01583
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:5154
+name: HPGD
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:5295
+name: HTR2C
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:533
+name: ANXA1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:5362
+name: ID3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:5472
+name: IGFBP3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:5476
+name: IGFBP7
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:6111
+name: IQGAP2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:6136
+name: ITGA11
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:6342
+name: KIT
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:7154
+name: MME
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:7398
+name: MT1F
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:7603
+name: MYO5B
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:7859
+name: NMU
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:7872
+name: NOS1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:7955
+name: NPY
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:7957
+name: NPY2R
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:7981
+name: NR4A2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:8614
+name: PAWR
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:8739
+name: PCOLCE2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:8742
+name: PCP4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:8803
+name: PDGFRA
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:8831
+name: PENK
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:8973
+name: PIK3C2G
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:9011
+name: PKD2L1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:9454
+name: PROM1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:9477
+name: PRSS12
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:956
+name: BARX2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:9704
+name: PVALB
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/hgnc/HGNC:983
+name: BCHE
+is_a: SO:0000704
+
+[Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL1
 name: TGFBR2-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101927870
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11773
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11773 ! TGFBR2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604 ! FBXL7
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670 ! SV2C
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL10
 name: CNR1-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:2159
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:31822
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:2159 ! CNR1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:31822 ! PLCXD3
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL100
 name: ABL2-expressing Human primary motor cortex Astrocyte
 intersection_of: http://www.jcvi.org/cl_ext/mtg_cluster/pCL176 ! Human primary motor cortex Astrocyte
 intersection_of: BFO:0000050 UBERON:0000956
-intersection_of: BFO:0000050 UBERON:0002771
+intersection_of: BFO:0000050 UBERON:0001384
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL101
 name: TNC-expressing Human primary motor cortex Astrocyte
 intersection_of: http://www.jcvi.org/cl_ext/mtg_cluster/pCL176 ! Human primary motor cortex Astrocyte
 intersection_of: BFO:0000050 UBERON:0000956
-intersection_of: BFO:0000050 UBERON:0002771
+intersection_of: BFO:0000050 UBERON:0001384
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL102
 name: ITIH5-expressing Human primary motor cortex endothelial cell
 intersection_of: http://www.jcvi.org/cl_ext/mtg_cluster/pCL178 ! Human primary motor cortex endothelial cell
 intersection_of: BFO:0000050 UBERON:0000956
-intersection_of: BFO:0000050 UBERON:0002771
+intersection_of: BFO:0000050 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/COLEC12
 
 [Term]
@@ -741,7 +1509,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL103
 name: ABCG2-expressing Human primary motor cortex endothelial cell
 intersection_of: http://www.jcvi.org/cl_ext/mtg_cluster/pCL178 ! Human primary motor cortex endothelial cell
 intersection_of: BFO:0000050 UBERON:0000956
-intersection_of: BFO:0000050 UBERON:0002771
+intersection_of: BFO:0000050 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/IFI27
 
 [Term]
@@ -749,7 +1517,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL104
 name: BDNF-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/BDNF
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105377209
 intersection_of: RO:0002292 http://identifiers.org/genecards/SATB2
@@ -759,7 +1527,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL105
 name: HPCAL1-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CUX2
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/GULP1
@@ -771,7 +1539,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL106
 name: LOC105378837-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/BMPR1B
 intersection_of: RO:0002292 http://identifiers.org/genecards/CUX2
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
@@ -784,7 +1552,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL107
 name: RMST-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CUX2
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/GRB14
@@ -798,7 +1566,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL108
 name: RMST-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CUX2
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/LAMA2
@@ -811,7 +1579,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL109
 name: CCDC68-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CCDC68
 intersection_of: RO:0002292 http://identifiers.org/genecards/COBLL1
 intersection_of: RO:0002292 http://identifiers.org/genecards/CUX2
@@ -822,22 +1590,22 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/VIPR2
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL11
 name: DCN-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:2705
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:51307
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:2705 ! DCN
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:51307 ! LINC01539
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL110
 name: FAP-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CUX2
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAP
@@ -851,7 +1619,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL111
 name: LINC00836-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CUX2
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/LAMA2
@@ -864,7 +1632,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL112
 name: OR51E2-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/LINC00943
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374395
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105376457
@@ -876,7 +1644,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL113
 name: PKD2L1-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/HTR2C
 intersection_of: RO:0002292 http://identifiers.org/genecards/LINC00607
 intersection_of: RO:0002292 http://identifiers.org/genecards/PKD2L1
@@ -888,7 +1656,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL114
 name: LINCR_0002-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/COL22A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/HS3ST2
@@ -901,7 +1669,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL115
 name: LOC105374971-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/HS3ST2
 intersection_of: RO:0002292 http://identifiers.org/genecards/IL1RAPL2
@@ -914,7 +1682,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL116
 name: LOC105374972-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/HS3ST2
 intersection_of: RO:0002292 http://identifiers.org/genecards/IL1RAPL2
@@ -928,7 +1696,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL117
 name: LOC100507562-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAP
 intersection_of: RO:0002292 http://identifiers.org/genecards/HS3ST2
@@ -942,7 +1710,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL118
 name: TRABD2A-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/HS3ST2
 intersection_of: RO:0002292 http://identifiers.org/genecards/IL1RAPL2
@@ -956,7 +1724,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL119
 name: C14orf39-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/C14orf39
 intersection_of: RO:0002292 http://identifiers.org/genecards/CSN1S1
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374395
@@ -966,22 +1734,22 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SATB2
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL12
 name: CCDC141-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101928923
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26821
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26821 ! CCDC141
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL120
 name: LOC105369818-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/HTR2C
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105369818
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105370019
@@ -993,7 +1761,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL121
 name: LOC105376592-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/ADAMTSL1
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105371833
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105376591
@@ -1006,7 +1774,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL122
 name: TNC-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/HS3ST2
 intersection_of: RO:0002292 http://identifiers.org/genecards/IL1RAPL2
@@ -1020,7 +1788,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL123
 name: CD36-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CCDC80
 intersection_of: RO:0002292 http://identifiers.org/genecards/CD36
 intersection_of: RO:0002292 http://identifiers.org/genecards/HTR2C
@@ -1032,7 +1800,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL124
 name: LOC105375826-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/HTR2C
 intersection_of: RO:0002292 http://identifiers.org/genecards/LINC00703
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375826
@@ -1044,7 +1812,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL125
 name: IGFBP3-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/ADAMTSL1
 intersection_of: RO:0002292 http://identifiers.org/genecards/IGFBP3
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101927439
@@ -1057,7 +1825,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL126
 name: LOC105371833-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/ADAMTSL1
 intersection_of: RO:0002292 http://identifiers.org/genecards/HS3ST4
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105371833
@@ -1068,7 +1836,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL127
 name: NPFFR2-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CRH
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/HS3ST2
@@ -1081,7 +1849,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL128
 name: OLFML2B-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/OLFML2B
 intersection_of: RO:0002292 http://identifiers.org/genecards/SATB2
 intersection_of: RO:0002292 http://identifiers.org/genecards/SMYD1
@@ -1091,7 +1859,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL129
 name: SLC15A5-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/ADAMTSL1
 intersection_of: RO:0002292 http://identifiers.org/genecards/ADRA2A
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105377183
@@ -1102,22 +1870,22 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SLC15A5
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL13
 name: DACH2-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:14268
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16814
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:14268 ! PCDH18
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16814 ! DACH2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL130
 name: NPFFR2-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/ADAMTSL1
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105377183
 intersection_of: RO:0002292 http://identifiers.org/genecards/MDFIC
@@ -1128,7 +1896,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL131
 name: MKRN9P-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/ADAMTSL1
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105377183
 intersection_of: RO:0002292 http://identifiers.org/genecards/MDFIC
@@ -1140,7 +1908,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL132
 name: LOC105371497-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/HS3ST2
 intersection_of: RO:0002292 http://identifiers.org/genecards/IL1RAPL2
@@ -1153,7 +1921,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL133
 name: SLN-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM163A
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/HS3ST2
@@ -1165,9 +1933,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SLN
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL134
 name: ADAM33-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/ADAM33
 intersection_of: RO:0002292 http://identifiers.org/genecards/CHRNA7
 intersection_of: RO:0002292 http://identifiers.org/genecards/CXCL14
@@ -1177,9 +1945,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/PRELID2
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL135
 name: LOC101927870-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/EGFR
 intersection_of: RO:0002292 http://identifiers.org/genecards/KIT
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101927870
@@ -1189,9 +1957,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SV2C
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL136
 name: SP8-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CHRNA7
 intersection_of: RO:0002292 http://identifiers.org/genecards/CXCL14
 intersection_of: RO:0002292 http://identifiers.org/genecards/DDR2
@@ -1201,9 +1969,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SP8
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL137
 name: LOC105377434-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CHRNA7
 intersection_of: RO:0002292 http://identifiers.org/genecards/CXCL14
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105377434
@@ -1211,9 +1979,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105377434
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL138
 name: CHRNA6-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CHRNA6
 intersection_of: RO:0002292 http://identifiers.org/genecards/CHRNA7
 intersection_of: RO:0002292 http://identifiers.org/genecards/CNR1
@@ -1222,31 +1990,31 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/CXCL14
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL139
 name: CNR1-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CNR1
 intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL14
 name: EGFEM1P-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105371331
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:25149
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:25149 ! EGFEM1P
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL140
 name: CNR1-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CHRNA7
 intersection_of: RO:0002292 http://identifiers.org/genecards/CNR1
 intersection_of: RO:0002292 http://identifiers.org/genecards/CXCL14
@@ -1255,9 +2023,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/RGS10
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL141
 name: SYTL5-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/KAL1
 intersection_of: RO:0002292 http://identifiers.org/genecards/PVALB
 intersection_of: RO:0002292 http://identifiers.org/genecards/RGS5
@@ -1268,9 +2036,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/TAC1
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL142
 name: CUX2-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CUX2
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105379168
 intersection_of: RO:0002292 http://identifiers.org/genecards/SOX6
@@ -1279,9 +2047,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SST
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL143
 name: SCML4-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105373643
 intersection_of: RO:0002292 http://identifiers.org/genecards/SCML4
 intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
@@ -1289,9 +2057,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL144
 name: LOC105376133-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CHRNA7
 intersection_of: RO:0002292 http://identifiers.org/genecards/CXCL14
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105376133
@@ -1299,9 +2067,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105376133
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL145
 name: SLC22A3-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/FLT1
 intersection_of: RO:0002292 http://identifiers.org/genecards/SLC22A3
 intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
@@ -1309,9 +2077,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL146
 name: SP8-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105373642
 intersection_of: RO:0002292 http://identifiers.org/genecards/SP8
 intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
@@ -1319,9 +2087,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL147
 name: NOS1-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CA8
 intersection_of: RO:0002292 http://identifiers.org/genecards/EGFR
 intersection_of: RO:0002292 http://identifiers.org/genecards/KIT
@@ -1331,9 +2099,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SV2C
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL148
 name: CPLX3-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CPLX3
 intersection_of: RO:0002292 http://identifiers.org/genecards/EGFR
 intersection_of: RO:0002292 http://identifiers.org/genecards/KIT
@@ -1343,9 +2111,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SV2C
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL149
 name: COL15A1-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CA8
 intersection_of: RO:0002292 http://identifiers.org/genecards/COL15A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/PVALB
@@ -1355,22 +2123,22 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/TAC1
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL15
 name: PCP4|IGFBP7-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:5476
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:8742
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:5476 ! IGFBP7
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:8742 ! PCP4
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL150
 name: ABI3BP-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/ABI3BP
 intersection_of: RO:0002292 http://identifiers.org/genecards/PTHLH
 intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
@@ -1378,9 +2146,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL151
 name: MYO5B-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A4
 intersection_of: RO:0002292 http://identifiers.org/genecards/MYO5B
 intersection_of: RO:0002292 http://identifiers.org/genecards/PVALB
@@ -1390,9 +2158,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/TAC1
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL152
 name: KCNS3-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/FRZB
 intersection_of: RO:0002292 http://identifiers.org/genecards/KCNS3
 intersection_of: RO:0002292 http://identifiers.org/genecards/NMU
@@ -1402,9 +2170,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SST
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL153
 name: HTR2C-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/HTR2C
 intersection_of: RO:0002292 http://identifiers.org/genecards/PENK
 intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
@@ -1412,9 +2180,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL154
 name: SULF1-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/HOMER3
 intersection_of: RO:0002292 http://identifiers.org/genecards/PVALB
 intersection_of: RO:0002292 http://identifiers.org/genecards/SOX6
@@ -1424,9 +2192,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/TAC1
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL155
 name: SMOC2-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/ACAN
 intersection_of: RO:0002292 http://identifiers.org/genecards/LRRC38
 intersection_of: RO:0002292 http://identifiers.org/genecards/PVALB
@@ -1437,9 +2205,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/TAC1
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL156
 name: SST-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/ADGRG6
 intersection_of: RO:0002292 http://identifiers.org/genecards/SOX6
 intersection_of: RO:0002292 http://identifiers.org/genecards/SST
@@ -1447,9 +2215,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SST
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL157
 name: KMO-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/KIRREL3
 intersection_of: RO:0002292 http://identifiers.org/genecards/KMO
 intersection_of: RO:0002292 http://identifiers.org/genecards/SLC24A3
@@ -1458,9 +2226,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL158
 name: CBLN4-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CBLN4
 intersection_of: RO:0002292 http://identifiers.org/genecards/TAC3
 intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
@@ -1468,9 +2236,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL159
 name: LOC105373452-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105373451
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105373452
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105377632
@@ -1479,22 +2247,22 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL16
 name: IQGAP2-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:17265
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:6111
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:17265 ! ABI3BP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:6111 ! IQGAP2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL160
 name: FGD3-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/FGD3
 intersection_of: RO:0002292 http://identifiers.org/genecards/FREM1
 intersection_of: RO:0002292 http://identifiers.org/genecards/SOX6
@@ -1503,9 +2271,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SST
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL161
 name: LOC105373538-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/BCHE
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105373538
 intersection_of: RO:0002292 http://identifiers.org/genecards/PVALB
@@ -1515,9 +2283,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/TAC1
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL162
 name: LOC105379168-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/EGFR
 intersection_of: RO:0002292 http://identifiers.org/genecards/KIT
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105379168
@@ -1527,9 +2295,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SV2C
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL163
 name: HGF-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/HGF
 intersection_of: RO:0002292 http://identifiers.org/genecards/MEPE
 intersection_of: RO:0002292 http://identifiers.org/genecards/PVALB
@@ -1539,9 +2307,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/TAC1
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL164
 name: FAM150B-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/ANKRD34B
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM150B
 intersection_of: RO:0002292 http://identifiers.org/genecards/PVALB
@@ -1551,9 +2319,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/TAC1
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL165
 name: ZFPM2_AS1-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/PAWR
 intersection_of: RO:0002292 http://identifiers.org/genecards/PVALB
 intersection_of: RO:0002292 http://identifiers.org/genecards/SOX6
@@ -1564,9 +2332,9 @@ intersection_of: RO:0002292 ZFPM2:AS1
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL166
 name: RGS5-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/HPGD
 intersection_of: RO:0002292 http://identifiers.org/genecards/RGS5
 intersection_of: RO:0002292 http://identifiers.org/genecards/SOX6
@@ -1575,9 +2343,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SST
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL167
 name: FBN2-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/ADAMTS20
 intersection_of: RO:0002292 http://identifiers.org/genecards/FBN2
 intersection_of: RO:0002292 http://identifiers.org/genecards/SOX6
@@ -1586,9 +2354,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SST
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL168
 name: LOC105378030-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC100996671
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105378030
 intersection_of: RO:0002292 http://identifiers.org/genecards/SOX6
@@ -1597,9 +2365,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SST
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL169
 name: BMP3-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/BMP3
 intersection_of: RO:0002292 http://identifiers.org/genecards/SOX6
 intersection_of: RO:0002292 http://identifiers.org/genecards/SST
@@ -1608,21 +2376,21 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/TAC3
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL17
 name: ANGPT1-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:484
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:484 ! ANGPT1
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL170
 name: TH-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/SLA
 intersection_of: RO:0002292 http://identifiers.org/genecards/SOX6
 intersection_of: RO:0002292 http://identifiers.org/genecards/SST
@@ -1633,14 +2401,14 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL171
 name: CX3CR1-expressing Human primary motor cortex Microglial cell
 intersection_of: http://www.jcvi.org/cl_ext/mtg_cluster/pCL179 ! Human primary motor cortex Microglial cell
 intersection_of: BFO:0000050 UBERON:0000956
-intersection_of: BFO:0000050 UBERON:0002771
+intersection_of: BFO:0000050 UBERON:0001384
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL172
 name: ST18-expressing Human primary motor cortex Oligodendrocyte
 intersection_of: http://www.jcvi.org/cl_ext/mtg_cluster/pCL177 ! Human primary motor cortex Oligodendrocyte
 intersection_of: BFO:0000050 UBERON:0000956
-intersection_of: BFO:0000050 UBERON:0002771
+intersection_of: BFO:0000050 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/OPALIN
 
 [Term]
@@ -1648,7 +2416,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL173
 name: LINC01445-expressing Human primary motor cortex Oligodendrocyte
 intersection_of: http://www.jcvi.org/cl_ext/mtg_cluster/pCL177 ! Human primary motor cortex Oligodendrocyte
 intersection_of: BFO:0000050 UBERON:0000956
-intersection_of: BFO:0000050 UBERON:0002771
+intersection_of: BFO:0000050 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/LINC00609
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101927199
 
@@ -1657,7 +2425,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL174
 name: VCAN-expressing Human primary motor cortex Oligodendrocyte precursor cell
 intersection_of: http://www.jcvi.org/cl_ext/mtg_cluster/pCL175 ! Human primary motor cortex Oligodendrocyte precursor cell
 intersection_of: BFO:0000050 UBERON:0000956
-intersection_of: BFO:0000050 UBERON:0002771
+intersection_of: BFO:0000050 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105371624
 
 [Term]
@@ -1665,69 +2433,69 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL175
 name: Human primary motor cortex Oligodendrocyte precursor cell
 intersection_of: CL:0002453
 intersection_of: BFO:0000050 UBERON:0000956
-intersection_of: BFO:0000050 UBERON:0002771
+intersection_of: BFO:0000050 UBERON:0001384
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL176
 name: Human primary motor cortex Astrocyte
 intersection_of: CL:0002605
 intersection_of: BFO:0000050 UBERON:0000956
-intersection_of: BFO:0000050 UBERON:0002771
+intersection_of: BFO:0000050 UBERON:0001384
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL177
 name: Human primary motor cortex Oligodendrocyte
 intersection_of: CL:0000128
 intersection_of: BFO:0000050 UBERON:0000956
-intersection_of: BFO:0000050 UBERON:0002771
+intersection_of: BFO:0000050 UBERON:0001384
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL178
 name: Human primary motor cortex endothelial cell
 intersection_of: CL:1001602
-intersection_of: RO:0001025 UBERON:0002771
+intersection_of: RO:0001025 UBERON:0001384
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL179
 name: Human primary motor cortex Microglial cell
 intersection_of: CL:0000129
 intersection_of: BFO:0000050 UBERON:0000956
-intersection_of: BFO:0000050 UBERON:0002771
+intersection_of: BFO:0000050 UBERON:0001384
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL18
 name: TAC3|TSHZ2-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11521
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13010
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:51425
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11521 ! TAC3
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13010 ! TSHZ2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:51425 ! LINC01583
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL180
 name: Human primary motor cortex GABAergic interneuron
 intersection_of: CL:0010011
-intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: BFO:0000050 UBERON:0000956
+intersection_of: BFO:0000050 UBERON:0001384
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL181
 name: Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL183
 name: GAD2-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/GAD1
 
 [Term]
@@ -1735,15 +2503,15 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL184
 name: SLC17A7-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/SATB2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL185
 name: PROX1-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/EGFR
 intersection_of: RO:0002292 http://identifiers.org/genecards/GAD1
 intersection_of: RO:0002292 http://identifiers.org/genecards/PROX1
@@ -1751,9 +2519,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/PROX1
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL186
 name: SAMD5-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/GAD1
 intersection_of: RO:0002292 http://identifiers.org/genecards/SAMD5
 intersection_of: RO:0002292 http://identifiers.org/genecards/SOX6
@@ -1763,7 +2531,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL187
 name: IFNG_AS1-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/HTR2C
 intersection_of: RO:0002292 http://identifiers.org/genecards/SATB2
 intersection_of: RO:0002292 IFNG:AS1
@@ -1773,7 +2541,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL188
 name: LOC105374395-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374395
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105376457
 intersection_of: RO:0002292 http://identifiers.org/genecards/SATB2
@@ -1783,7 +2551,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL189
 name: SEMA3E-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/ADAMTSL1
 intersection_of: RO:0002292 http://identifiers.org/genecards/SATB2
 intersection_of: RO:0002292 http://identifiers.org/genecards/SEMA3E
@@ -1791,22 +2559,22 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SEMA3E
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL19
 name: TAC3|COL15A1-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11521
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:2192
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11521 ! TAC3
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:2192 ! COL15A1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL190
 name: KIT-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/EGFR
 intersection_of: RO:0002292 http://identifiers.org/genecards/KIT
 intersection_of: RO:0002292 http://identifiers.org/genecards/SV2C
@@ -1814,9 +2582,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SV2C
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL191
 name: PVALB-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/PVALB
 intersection_of: RO:0002292 http://identifiers.org/genecards/SOX6
 intersection_of: RO:0002292 http://identifiers.org/genecards/TAC1
@@ -1826,7 +2594,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL192
 name: LY86_AS1-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/SATB2
 intersection_of: RO:0002292 LY86:AS1
@@ -1834,27 +2602,27 @@ intersection_of: RO:0002292 LY86:AS1
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL193
 name: SST-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/SOX6
 intersection_of: RO:0002292 http://identifiers.org/genecards/SST
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL194
 name: VIP-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/EGFR
 intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL195
 name: CHRNA7-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CHRNA7
 intersection_of: RO:0002292 http://identifiers.org/genecards/CXCL14
 
@@ -1863,7 +2631,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL196
 name: CUX2-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/CUX2
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/LAMA2
@@ -1873,7 +2641,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL197
 name: IL1RAPL2-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/FAM19A1
 intersection_of: RO:0002292 http://identifiers.org/genecards/HS3ST2
 intersection_of: RO:0002292 http://identifiers.org/genecards/IL1RAPL2
@@ -1882,9 +2650,9 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/RXFP1
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL198
 name: VIP-expressing Human primary motor cortex GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/VIP
 
 [Term]
@@ -1892,7 +2660,7 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL199
 name: SEMA3E-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/ADAMTSL1
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105371833
 intersection_of: RO:0002292 http://identifiers.org/genecards/SEMA3E
@@ -1900,36 +2668,36 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/SEMA3E
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL2
 name: SP8-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:19196
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:51163
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604 ! FBXL7
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:19196 ! SP8
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670 ! SV2C
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:51163 ! LINC01497
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL20
 name: LOC100421401-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC100421401
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101060145
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL200
 name: MDFIC-expressing Human primary motor cortex Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: RO:0002100 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/ADAMTSL1
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105377183
 intersection_of: RO:0002292 http://identifiers.org/genecards/MDFIC
@@ -1937,375 +2705,375 @@ intersection_of: RO:0002292 http://identifiers.org/genecards/MDFIC
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL21
 name: HTR2C-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:5295
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:7154
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:5295 ! HTR2C
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:7154 ! MME
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL22
 name: KCNH8-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:18864
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21397
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:18864 ! KCNH8
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21397 ! SCML4
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL23
 name: GGH-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375473
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4248
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4248 ! GGH
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL24
 name: C18orf42-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105379146
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:28285
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:28285 ! C18orf42
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL25
 name: LRRC63-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105370456
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:34296
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:49076
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:34296 ! LRRC63
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:49076 ! CASC6
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL26
 name: SLC7A11-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11059
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:44915
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11059 ! SLC7A11
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:44915 ! LINC00836
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL27
 name: PCP4|LINC01583-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10967
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:51425
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:8742
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10967 ! SLC22A3
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:51425 ! LINC01583
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:8742 ! PCP4
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL28
 name: NPY-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:7955
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:7955 ! NPY
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL29
 name: HPGD-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21063
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:25057
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:5154
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329 ! SST
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421 ! SOX6
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21063 ! MOXD1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:25057 ! FAM89A
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:5154 ! HPGD
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL3
 name: NDNF-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26256
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604 ! FBXL7
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26256 ! NDNF
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670 ! SV2C
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL30
 name: NMU-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11521
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23399
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:7859
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329 ! SST
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11521 ! TAC3
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421 ! SOX6
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23399 ! FREM1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:7859 ! NMU
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL31
 name: LOC100996671-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC100996671
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105377701
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329 ! SST
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421 ! SOX6
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL32
 name: SPON1-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11252
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:3604
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11252 ! SPON1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329 ! SST
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421 ! SOX6
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:3604 ! FBN2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL33
 name: QRFPR-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101929667
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:15565
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20151
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329 ! SST
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:15565 ! QRFPR
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421 ! SOX6
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20151 ! SLC17A8
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL34
 name: SLC9A2-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11072
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:28317
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11072 ! SLC9A2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329 ! SST
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421 ! SOX6
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:28317 ! STK32A
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL35
 name: LOC101929028-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101929028
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329 ! SST
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421 ! SOX6
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL36
 name: ADGRG6-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13841
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9454
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329 ! SST
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13841 ! ADGRG6
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421 ! SOX6
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9454 ! PROM1
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL37
 name: EYS-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:18374
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21555
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:7872
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329 ! SST
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421 ! SOX6
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:18374 ! HPSE2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21555 ! EYS
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:7872 ! NOS1
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL38
 name: TH-expressing human-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC102724957
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11782
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329 ! SST
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11782 ! TH
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421 ! SOX6
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL39
 name: CPED1-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10725
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11517
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26159
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9704
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:983
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10725 ! SEMA3C
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11517 ! TAC1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26159 ! CPED1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9704 ! PVALB
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:983 ! BCHE
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL4
 name: KIT-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27652
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:6342
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604 ! FBXL7
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27652 ! CPLX3
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670 ! SV2C
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:6342 ! KIT
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL40
 name: ANKRD34B-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC401478
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11517
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26159
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:33736
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9704
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11517 ! TAC1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26159 ! CPED1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:33736 ! ANKRD34B
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9704 ! PVALB
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL41
 name: SPP1-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11255
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11517
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13361
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4893
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9704
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11255 ! SPP1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11517 ! TAC1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13361 ! MEPE
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4893 ! HGF
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9704 ! PVALB
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL42
 name: SLC9A9-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11517
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20653
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9704
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11517 ! TAC1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20653 ! SLC9A9
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9704 ! PVALB
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL43
 name: SULF1-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11517
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20391
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26159
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9704
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11517 ! TAC1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20391 ! SULF1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26159 ! CPED1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9704 ! PVALB
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL44
 name: LYPD6-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11517
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:28751
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4453
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:8614
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9704
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11517 ! TAC1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:28751 ! LYPD6
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4453 ! GPC5
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:8614 ! PAWR
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9704 ! PVALB
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL45
 name: COL15A1-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC401478
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11517
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:2192
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9704
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11517 ! TAC1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:2192 ! COL15A1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9704 ! PVALB
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL46
@@ -2313,11 +3081,11 @@ name: CBLN2-expressing human cerebral cortex MTG Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:1544
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:19347
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:43558
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:51166
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:1544 ! CBLN2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:19347 ! CUX2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:43558 ! LINC00507
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:51166 ! LINC01500
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL47
@@ -2325,12 +3093,12 @@ name: PENK-expressing human cerebral cortex MTG Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16709
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:19347
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21063
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:43558
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:8831
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16709 ! CALCRL
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:19347 ! CUX2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21063 ! MOXD1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:43558 ! LINC00507
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:8831 ! PENK
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL48
@@ -2338,10 +3106,10 @@ name: PALMD-expressing human cerebral cortex MTG Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:15846
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:19347
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:43558
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:15846 ! PALMD
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:19347 ! CUX2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:43558 ! LINC00507
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL49
@@ -2349,24 +3117,24 @@ name: PXDN-expressing human cerebral cortex MTG Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:14966
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21569
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:42500
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:14966 ! PXDN
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21569 ! THEMIS
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:42500 ! LINC00343
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL5
 name: CPLX3-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16231
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27652
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604 ! FBXL7
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16231 ! CBLN4
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27652 ! CPLX3
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670 ! SV2C
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL50
@@ -2376,11 +3144,11 @@ intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101927281
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374972
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23392
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23571
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:24350
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9477
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23392 ! CARM1P1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23571 ! COBLL1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:24350 ! CCDC68
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9477 ! PRSS12
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL51
@@ -2391,9 +3159,9 @@ intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101927281
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105371677
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374972
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23571
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:533
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23571 ! COBLL1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:533 ! ANXA1
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL52
@@ -2403,10 +3171,10 @@ intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101927281
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374972
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23571
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29893
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:7154
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23571 ! COBLL1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29893 ! RMST
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:7154 ! MME
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL53
@@ -2417,11 +3185,11 @@ intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101927281
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101928196
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374972
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:19347
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:2210
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23319
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23571
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:19347 ! CUX2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:2210 ! COL5A2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23319 ! NTNG1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23571 ! COBLL1
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL54
@@ -2431,10 +3199,10 @@ intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101927281
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374972
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20670
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23571
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26851
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20670 ! TWIST2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23571 ! COBLL1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26851 ! CCDC168
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL55
@@ -2445,10 +3213,10 @@ intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101927835
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374971
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374972
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27013
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27424
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:7957
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27013 ! TRABD2A
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27424 ! RBM20
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:7957 ! NPY2R
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL56
@@ -2459,9 +3227,9 @@ intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101928622
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374971
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374972
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:24201
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27013
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:24201 ! RPRM
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27013 ! TRABD2A
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL57
@@ -2471,10 +3239,10 @@ intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374971
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374972
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27013
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:49556
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:956
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27013 ! TRABD2A
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:49556 ! LINC01179
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:956 ! BARX2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL58
@@ -2485,10 +3253,10 @@ intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105371833
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374971
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374972
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11949
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27013
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4525
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11949 ! TNNT2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27013 ! TRABD2A
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4525 ! NPFFR2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL59
@@ -2498,25 +3266,25 @@ intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374971
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374972
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27013
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29634
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:6136
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9011
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27013 ! TRABD2A
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29634 ! MEGF10
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:6136 ! ITGA11
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9011 ! PKD2L1
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL6
 name: EYA4-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26086
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:3522
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604 ! FBXL7
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26086 ! TMEM255A
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670 ! SV2C
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:3522 ! EYA4
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL60
@@ -2526,7 +3294,7 @@ intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105376457
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105378657
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL61
@@ -2536,9 +3304,9 @@ intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101928196
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105378486
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20986
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:24558
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20986 ! SMYD1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:24558 ! OLFML2B
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL62
@@ -2546,10 +3314,10 @@ name: OLFML2B-expressing human cerebral cortex MTG Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11168
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20986
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:24558
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11168 ! SNTB1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20986 ! SMYD1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:24558 ! OLFML2B
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL63
@@ -2558,10 +3326,10 @@ intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101928964
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20986
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:24558
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27475
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20986 ! SMYD1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:24558 ! OLFML2B
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27475 ! GAS2L3
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL64
@@ -2569,9 +3337,9 @@ name: IL26-expressing human cerebral cortex MTG Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:17119
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:43910
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:17119 ! IL26
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:43910 ! IFNG_AS1
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL65
@@ -2579,10 +3347,10 @@ name: SULF1-expressing human cerebral cortex MTG Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:14632
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20391
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:25149
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:14632 ! ADAMTSL1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20391 ! SULF1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:25149 ! EGFEM1P
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL66
@@ -2591,10 +3359,10 @@ intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105379054
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:14632
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:25149
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:8973
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:14632 ! ADAMTSL1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:25149 ! EGFEM1P
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:8973 ! PIK3C2G
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL67
@@ -2602,12 +3370,12 @@ name: NR4A2-expressing human cerebral cortex MTG Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:14632
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:25149
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27405
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:3446
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:7981
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:14632 ! ADAMTSL1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:25149 ! EGFEM1P
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27405 ! NPNT
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:3446 ! ERG
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:7981 ! NR4A2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL68
@@ -2615,13 +3383,13 @@ name: SLC15A5-expressing human cerebral cortex MTG Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:14632
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23503
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:25149
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:33455
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:5472
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:8739
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:14632 ! ADAMTSL1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23503 ! SLITRK6
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:25149 ! EGFEM1P
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:33455 ! SLC15A5
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:5472 ! IGFBP3
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:8739 ! PCOLCE2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL69
@@ -2630,24 +3398,24 @@ intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105377183
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:14632
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:25149
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4525
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:14632 ! ADAMTSL1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:25149 ! EGFEM1P
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4525 ! NPFFR2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL7
 name: ANKFN1-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10725
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26766
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10725 ! SEMA3C
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604 ! FBXL7
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26766 ! ANKFN1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670 ! SV2C
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL70
@@ -2655,7 +3423,7 @@ name: PCDH15-expressing human MTG Oligodendrocyte precursor cell
 intersection_of: http://www.jcvi.org/cl_ext/mtg_cluster/pCL83 ! human MTG Oligodendrocyte precursor cell
 intersection_of: BFO:0000050 UBERON:0000956
 intersection_of: BFO:0000050 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:8803
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:8803 ! PDGFRA
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL71
@@ -2664,7 +3432,7 @@ intersection_of: http://www.jcvi.org/cl_ext/mtg_cluster/pCL88 ! FGFR3-expressing
 intersection_of: BFO:0000050 UBERON:0000956
 intersection_of: BFO:0000050 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105376917
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10941
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10941 ! SLC1A3
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL72
@@ -2672,8 +3440,8 @@ name: MT1F-expressing human MTG astrocyte
 intersection_of: http://www.jcvi.org/cl_ext/mtg_cluster/pCL88 ! FGFR3-expressing human MTG astrocyte
 intersection_of: BFO:0000050 UBERON:0000956
 intersection_of: BFO:0000050 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:5362
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:7398
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:5362 ! ID3
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:7398 ! MT1F
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL73
@@ -2681,7 +3449,7 @@ name: ENPP2-expressing human MTG Oligodendrocyte
 intersection_of: http://www.jcvi.org/cl_ext/mtg_cluster/pCL85 ! human MTG Oligodendrocyte
 intersection_of: BFO:0000050 UBERON:0000956
 intersection_of: BFO:0000050 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23723
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23723 ! CERCAM
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL74
@@ -2696,15 +3464,15 @@ name: CSF1R-expressing human MTG Microglial cell
 intersection_of: http://www.jcvi.org/cl_ext/mtg_cluster/pCL87 ! human MTG Microglial cell
 intersection_of: BFO:0000050 UBERON:0000956
 intersection_of: BFO:0000050 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:17379
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:17379 ! APBB1IP
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL76
 name: GAD1-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL77
@@ -2712,78 +3480,78 @@ name: SLC17A7-expressing human MTG Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL78
 name: FBXL7-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604 ! FBXL7
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670 ! SV2C
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL79
 name: NXPH1-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL8
 name: ARHGAP36-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:15478
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26388
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604 ! FBXL7
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:15478 ! ADAM33
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:26388 ! ARHGAP36
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670 ! SV2C
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL80
 name: VIP-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:12693 ! VIP
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL81
 name: SST-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11329 ! SST
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:16421 ! SOX6
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL82
 name: PVALB-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11517
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9704
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:11517 ! TAC1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20693 ! NXPH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:29185 ! PLCH1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:9704 ! PVALB
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL83
@@ -2830,22 +3598,22 @@ intersection_of: BFO:0000050 UBERON:0002771
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL89
 name: human cerebral cortex MTG GABAergic interneuron
 intersection_of: CL:0010011
-intersection_of: RO:0002100 UBERON:0000956
-intersection_of: RO:0002100 UBERON:0002771
+intersection_of: BFO:0000050 UBERON:0000956
+intersection_of: BFO:0000050 UBERON:0002771
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL9
 name: BAGE2-expressing human cerebral cortex MTG GABAergic interneuron
-intersection_of: CL:0010011
+intersection_of: CL:0011005
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105377436
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:15723
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:13604 ! FBXL7
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:15723 ! BAGE2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:30670 ! SV2C
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL90
@@ -2860,9 +3628,9 @@ name: CUX2-expressing human MTG GABAergic interneuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:19347
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:43558
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:19347 ! CUX2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:43558 ! LINC00507
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL92
@@ -2871,7 +3639,7 @@ intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374972
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL93
@@ -2881,8 +3649,8 @@ intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC101927281
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374972
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23571
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:23571 ! COBLL1
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL94
@@ -2892,8 +3660,8 @@ intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374971
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105374972
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27013
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:27013 ! TRABD2A
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL95
@@ -2901,9 +3669,9 @@ name: OLFML2B-expressing human MTG Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20986
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:24558
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:20986 ! SMYD1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:24558 ! OLFML2B
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL96
@@ -2911,9 +3679,9 @@ name: EGFEM1P-expressing human MTG Glutamatergic neuron
 intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:14632
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:25149
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:14632 ! ADAMTSL1
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:21637 ! SATB2
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:25149 ! EGFEM1P
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL97
@@ -2922,15 +3690,15 @@ intersection_of: CL:0000679
 intersection_of: RO:0002100 UBERON:0000956
 intersection_of: RO:0002100 UBERON:0002771
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105375415
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640
-intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:10640 ! CXCL14
+intersection_of: RO:0002292 http://identifiers.org/hgnc/HGNC:4093 ! GAD2
 
 [Term]
 id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL98
 name: SERPINI2-expressing Human primary motor cortex Astrocyte
 intersection_of: http://www.jcvi.org/cl_ext/mtg_cluster/pCL176 ! Human primary motor cortex Astrocyte
 intersection_of: BFO:0000050 UBERON:0000956
-intersection_of: BFO:0000050 UBERON:0002771
+intersection_of: BFO:0000050 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/LPAR4
 
 [Term]
@@ -2938,6 +3706,6 @@ id: http://www.jcvi.org/cl_ext/mtg_cluster/pCL99
 name: ATP1A2-expressing Human primary motor cortex Astrocyte
 intersection_of: http://www.jcvi.org/cl_ext/mtg_cluster/pCL176 ! Human primary motor cortex Astrocyte
 intersection_of: BFO:0000050 UBERON:0000956
-intersection_of: BFO:0000050 UBERON:0002771
+intersection_of: BFO:0000050 UBERON:0001384
 intersection_of: RO:0002292 http://identifiers.org/genecards/LOC105376917
 
