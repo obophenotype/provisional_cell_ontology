@@ -1,28 +1,31 @@
-### Source TSV
+### Robot templates
 
-MTG.tsv
+This folder contains the ROBOT templates used to construct the pcl ontology.  
 
-This is a TSV version of  mtg\_eq.owl nsf2\_full\_mtg\_ver3\_6\_Nature_table.xlsx
+These templates consist of tsv files with a header, a template row and a table of fillers.
 
-IMPORTANT:  There  are multiple columns with the header selectively_expresses - these need to be manually changed to selectively\_expresses.n (where n is 1-4)  in order for the build to work.
+Each new template added should be added to the build by including the name (minus the file extendion) in the list of JOBS in the [Makefile.pcl](../ontology/Makefile.pcl).
 
-
-### Building templates
-
-3 Robot templates are built by this Jupyter notebook: MTG\_tsv2Robot\_template.ipynb:
-
- *  mtg_subclass.tsv - A template for building an ontology with only SubClassOf axioms.
-
- * mtg_equivalent.tsv - A template for building an ontology with equivalent class axioms for all classes.  For neurons - only a generic classification is asserted based on the content of the neuron\_type column - ignoring the asserted classification in MTG.tsv
-
- * markers.tsv - a template for building a simple OWL file associating marker IRIs with names.
-
-### Robot build commands
-
-    robot template --input support.owl --template markers.tsv annotate --ontology-iri "http://www.jcvi.org/cl_ext/markers.owl" --output ../ontology/markers.owl
-
-    robot template --input support.owl --template mtg_subclass.tsv annotate --ontology-iri "http://www.jcvi.org/cl_ext/mtg_sc.owl" --output ../ontology/mtg_sc.owl
-
-    robot template --input support.owl --template mtg_equivalent.tsv annotate --ontology-iri "http://www.jcvi.org/cl_ext/mtg_eq.owl" --output ../ontology/mtg_eq.owl
+Where markers are referenced in a template, names for these markers may be added by appending to [markers.tsv](markers.tsv).
 
 support.owl = an OWL file with relations + labels.  This is needed because of quirks in the way Robot templates work. 
+
+### Building Brain Atlas Templates
+
+A Jupyter notebook is included for converting excel spreadsheets from the Scheurmann group. This can be run on a new file by editing the input_file and dataset name (JOB  name in pcl.Makefile) at the start of the notebook.
+
+
+### Building OWL
+
+Building OWL requires the ODK docker container to be installed (docker pull odk-full), and the repo root to be added to docker file-sharing.
+
+Builds are run from src/ontology.
+
+pcl-edit.obo can be rebuilt using: `./run.sh make pcl-edit.obo`
+
+A full release can be run (including building from templates, updating imports and running tests) with:
+
+`./run.sh make prepare_release`
+
+
+
