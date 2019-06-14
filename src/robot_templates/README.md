@@ -1,10 +1,10 @@
 ### Robot templates
 
-This folder contains the ROBOT templates used to construct the pcl ontology.  
+This folder contains the [ROBOT templates](http://robot.obolibrary.org/template) used to construct the pcl ontology.  
 
 These templates consist of tsv files with a header, a template row and a table of fillers.
 
-Each new template added should be added to the build by including the name (minus the file extendion) in the list of JOBS in the [Makefile.pcl](../ontology/Makefile.pcl).
+Each new template added should be added to the build by including the name (minus the file extendion) in the list of JOBS in the [Makefile.pcl](https://github.com/obophenotype/provisional_cell_ontology/blob/master/src/ontology/pcl.Makefile#L1).
 
 Where markers are referenced in a template, names for these markers may be added by appending to [markers.tsv](markers.tsv).
 
@@ -12,7 +12,7 @@ support.owl = an OWL file with relations + labels.  This is needed because of qu
 
 ### Building Brain Atlas Templates
 
-A Jupyter notebook is included for converting excel spreadsheets from the Scheurmann group. This can be run on a new file by editing the input_file and dataset name (JOB  name in pcl.Makefile) at the start of the notebook.
+A Jupyter notebook is [included](Process_Aevermann_Random_Forest_excel.ipynb) for converting excel spreadsheets from the Scheurmann group. This can be run on a new file by editing the input_file and dataset name (JOB  name in pcl.Makefile) at the start of the notebook.
 
 
 ### Building OWL
