@@ -1,0 +1,9 @@
+format-version: 1.2
+data-version: pcl/releases/2019-06-14/pcl-simple.owl
+remark: Provisional cell ontology
+ontology: pcl/pcl-simple
+
+[Term]
+id: PCL:00000000
+name: root node
+

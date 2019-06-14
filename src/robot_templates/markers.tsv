@@ -1,169 +1,172 @@
 CLASS_TYPE	Genus	ID	label
 CLASS_TYPE	C %	ID	A rdfs:label
-	SO:0000704	http://identifiers.org/hgnc/HGNC:4093	GAD2
-	SO:0000704	http://identifiers.org/genecards/LOC105375415	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:10640	CXCL14
-	SO:0000704	http://identifiers.org/hgnc/HGNC:13604	FBXL7
-	SO:0000704	http://identifiers.org/hgnc/HGNC:30670	SV2C
-	SO:0000704	http://identifiers.org/hgnc/HGNC:11773	TGFBR2
-	SO:0000704	http://identifiers.org/genecards/LOC101927870	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:19196	SP8
-	SO:0000704	http://identifiers.org/hgnc/HGNC:51163	LINC01497
-	SO:0000704	http://identifiers.org/hgnc/HGNC:26256	NDNF
-	SO:0000704	http://identifiers.org/hgnc/HGNC:6342	KIT
-	SO:0000704	http://identifiers.org/hgnc/HGNC:27652	CPLX3
-	SO:0000704	http://identifiers.org/hgnc/HGNC:16231	CBLN4
-	SO:0000704	http://identifiers.org/hgnc/HGNC:3522	EYA4
-	SO:0000704	http://identifiers.org/hgnc/HGNC:26086	TMEM255A
-	SO:0000704	http://identifiers.org/hgnc/HGNC:26766	ANKFN1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:10725	SEMA3C
-	SO:0000704	http://identifiers.org/hgnc/HGNC:26388	ARHGAP36
-	SO:0000704	http://identifiers.org/hgnc/HGNC:15478	ADAM33
-	SO:0000704	http://identifiers.org/hgnc/HGNC:15723	BAGE2
-	SO:0000704	http://identifiers.org/genecards/LOC105377436	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:12693	VIP
-	SO:0000704	http://identifiers.org/hgnc/HGNC:2159	CNR1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:31822	PLCXD3
-	SO:0000704	http://identifiers.org/hgnc/HGNC:2705	DCN
-	SO:0000704	http://identifiers.org/hgnc/HGNC:51307	LINC01539
-	SO:0000704	http://identifiers.org/genecards/LOC101928923	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:26821	CCDC141
-	SO:0000704	http://identifiers.org/hgnc/HGNC:16814	DACH2
-	SO:0000704	http://identifiers.org/hgnc/HGNC:14268	PCDH18
-	SO:0000704	http://identifiers.org/hgnc/HGNC:25149	EGFEM1P
-	SO:0000704	http://identifiers.org/genecards/LOC105371331	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:8742	PCP4
-	SO:0000704	http://identifiers.org/hgnc/HGNC:5476	IGFBP7
-	SO:0000704	http://identifiers.org/hgnc/HGNC:6111	IQGAP2
-	SO:0000704	http://identifiers.org/hgnc/HGNC:17265	ABI3BP
-	SO:0000704	http://identifiers.org/hgnc/HGNC:484	ANGPT1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:11521	TAC3
-	SO:0000704	http://identifiers.org/hgnc/HGNC:13010	TSHZ2
-	SO:0000704	http://identifiers.org/hgnc/HGNC:51425	LINC01583
-	SO:0000704	http://identifiers.org/hgnc/HGNC:2192	COL15A1
-	SO:0000704	http://identifiers.org/genecards/LOC100421401	
-	SO:0000704	http://identifiers.org/genecards/LOC101060145	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:5295	HTR2C
-	SO:0000704	http://identifiers.org/hgnc/HGNC:7154	MME
-	SO:0000704	http://identifiers.org/hgnc/HGNC:18864	KCNH8
-	SO:0000704	http://identifiers.org/hgnc/HGNC:21397	SCML4
-	SO:0000704	http://identifiers.org/hgnc/HGNC:4248	GGH
-	SO:0000704	http://identifiers.org/genecards/LOC105375473	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:28285	C18orf42
-	SO:0000704	http://identifiers.org/genecards/LOC105379146	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:34296	LRRC63
-	SO:0000704	http://identifiers.org/hgnc/HGNC:49076	CASC6
-	SO:0000704	http://identifiers.org/genecards/LOC105370456	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:11059	SLC7A11
-	SO:0000704	http://identifiers.org/hgnc/HGNC:44915	LINC00836
-	SO:0000704	http://identifiers.org/hgnc/HGNC:10967	SLC22A3
-	SO:0000704	http://identifiers.org/hgnc/HGNC:7955	NPY
-	SO:0000704	http://identifiers.org/hgnc/HGNC:20693	NXPH1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:29185	PLCH1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:16421	SOX6
-	SO:0000704	http://identifiers.org/hgnc/HGNC:11329	SST
-	SO:0000704	http://identifiers.org/hgnc/HGNC:5154	HPGD
-	SO:0000704	http://identifiers.org/hgnc/HGNC:25057	FAM89A
-	SO:0000704	http://identifiers.org/hgnc/HGNC:21063	MOXD1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:7859	NMU
-	SO:0000704	http://identifiers.org/hgnc/HGNC:23399	FREM1
-	SO:0000704	http://identifiers.org/genecards/LOC100996671	
-	SO:0000704	http://identifiers.org/genecards/LOC105377701	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:11252	SPON1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:3604	FBN2
-	SO:0000704	http://identifiers.org/hgnc/HGNC:15565	QRFPR
-	SO:0000704	http://identifiers.org/hgnc/HGNC:20151	SLC17A8
-	SO:0000704	http://identifiers.org/genecards/LOC101929667	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:11072	SLC9A2
-	SO:0000704	http://identifiers.org/hgnc/HGNC:28317	STK32A
-	SO:0000704	http://identifiers.org/genecards/LOC101929028	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:13841	ADGRG6
-	SO:0000704	http://identifiers.org/hgnc/HGNC:9454	PROM1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:21555	EYS
-	SO:0000704	http://identifiers.org/hgnc/HGNC:18374	HPSE2
-	SO:0000704	http://identifiers.org/hgnc/HGNC:7872	NOS1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:7603	MYO5B
-	SO:0000704	http://identifiers.org/genecards/LOC102724957	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:11782	TH
-	SO:0000704	http://identifiers.org/hgnc/HGNC:9704	PVALB
-	SO:0000704	http://identifiers.org/hgnc/HGNC:11517	TAC1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:26159	CPED1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:983	BCHE
-	SO:0000704	http://identifiers.org/hgnc/HGNC:33736	ANKRD34B
-	SO:0000704	http://identifiers.org/genecards/LOC401478	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:11255	SPP1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:4893	HGF
-	SO:0000704	http://identifiers.org/hgnc/HGNC:13361	MEPE
-	SO:0000704	http://identifiers.org/hgnc/HGNC:20653	SLC9A9
-	SO:0000704	http://identifiers.org/hgnc/HGNC:20391	SULF1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:28751	LYPD6
-	SO:0000704	http://identifiers.org/hgnc/HGNC:8614	PAWR
-	SO:0000704	http://identifiers.org/hgnc/HGNC:4453	GPC5
-	SO:0000704	http://identifiers.org/hgnc/HGNC:21637	SATB2
-	SO:0000704	http://identifiers.org/hgnc/HGNC:43558	LINC00507
-	SO:0000704	http://identifiers.org/hgnc/HGNC:19347	CUX2
-	SO:0000704	http://identifiers.org/hgnc/HGNC:51166	LINC01500
-	SO:0000704	http://identifiers.org/hgnc/HGNC:1544	CBLN2
-	SO:0000704	http://identifiers.org/hgnc/HGNC:8831	PENK
-	SO:0000704	http://identifiers.org/hgnc/HGNC:16709	CALCRL
-	SO:0000704	http://identifiers.org/hgnc/HGNC:15846	PALMD
-	SO:0000704	http://identifiers.org/hgnc/HGNC:42500	LINC00343
-	SO:0000704	http://identifiers.org/hgnc/HGNC:14966	PXDN
-	SO:0000704	http://identifiers.org/hgnc/HGNC:21569	THEMIS
-	SO:0000704	http://identifiers.org/genecards/LOC105374972	
-	SO:0000704	http://identifiers.org/genecards/LOC101927281	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:23571	COBLL1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:24350	CCDC68
-	SO:0000704	http://identifiers.org/hgnc/HGNC:23392	CARM1P1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:9477	PRSS12
-	SO:0000704	http://identifiers.org/hgnc/HGNC:533	ANXA1
-	SO:0000704	http://identifiers.org/genecards/LOC105371677	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:29893	RMST
-	SO:0000704	http://identifiers.org/hgnc/HGNC:23319	NTNG1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:2210	COL5A2
-	SO:0000704	http://identifiers.org/genecards/LOC101928196	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:20670	TWIST2
-	SO:0000704	http://identifiers.org/hgnc/HGNC:26851	CCDC168
-	SO:0000704	http://identifiers.org/hgnc/HGNC:27013	TRABD2A
-	SO:0000704	http://identifiers.org/genecards/LOC105374971	
-	SO:0000704	http://identifiers.org/genecards/LOC101927835	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:27424	RBM20
-	SO:0000704	http://identifiers.org/hgnc/HGNC:7957	NPY2R
-	SO:0000704	http://identifiers.org/hgnc/HGNC:24201	RPRM
-	SO:0000704	http://identifiers.org/genecards/LOC101928622	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:49556	LINC01179
-	SO:0000704	http://identifiers.org/hgnc/HGNC:956	BARX2
-	SO:0000704	http://identifiers.org/hgnc/HGNC:11949	TNNT2
-	SO:0000704	http://identifiers.org/genecards/LOC105371833	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:4525	NPFFR2
-	SO:0000704	http://identifiers.org/hgnc/HGNC:6136	ITGA11
-	SO:0000704	http://identifiers.org/hgnc/HGNC:9011	PKD2L1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:29634	MEGF10
-	SO:0000704	http://identifiers.org/genecards/LOC105376457	
-	SO:0000704	http://identifiers.org/genecards/LOC105378657	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:24558	OLFML2B
-	SO:0000704	http://identifiers.org/hgnc/HGNC:20986	SMYD1
-	SO:0000704	http://identifiers.org/genecards/LOC105378486	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:11168	SNTB1
-	SO:0000704	http://identifiers.org/genecards/LOC101928964	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:27475	GAS2L3
-	SO:0000704	http://identifiers.org/hgnc/HGNC:43910	IFNG_AS1
-	SO:0000704	http://identifiers.org/hgnc/HGNC:17119	IL26
-	SO:0000704	http://identifiers.org/hgnc/HGNC:14632	ADAMTSL1
-	SO:0000704	http://identifiers.org/genecards/LOC105379054	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:8973	PIK3C2G
-	SO:0000704	http://identifiers.org/hgnc/HGNC:7981	NR4A2
-	SO:0000704	http://identifiers.org/hgnc/HGNC:27405	NPNT
-	SO:0000704	http://identifiers.org/hgnc/HGNC:3446	ERG
-	SO:0000704	http://identifiers.org/hgnc/HGNC:33455	SLC15A5
-	SO:0000704	http://identifiers.org/hgnc/HGNC:5472	IGFBP3
-	SO:0000704	http://identifiers.org/hgnc/HGNC:23503	SLITRK6
-	SO:0000704	http://identifiers.org/hgnc/HGNC:8739	PCOLCE2
-	SO:0000704	http://identifiers.org/genecards/LOC105377183	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:8803	PDGFRA
+	SO:0000704	http://identifiers.org/genecards/LPAR4	
 	SO:0000704	http://identifiers.org/genecards/LOC105376917	
-	SO:0000704	http://identifiers.org/hgnc/HGNC:10941	SLC1A3
-	SO:0000704	http://identifiers.org/hgnc/HGNC:7398	MT1F
-	SO:0000704	http://identifiers.org/hgnc/HGNC:5362	ID3
-	SO:0000704	http://identifiers.org/hgnc/HGNC:23723	CERCAM
-	SO:0000704	http://identifiers.org/hgnc/HGNC:17379	APBB1IP
+	SO:0000704	http://identifiers.org/genecards/COLEC12	
+	SO:0000704	http://identifiers.org/genecards/IFI27	
+	SO:0000704	http://identifiers.org/genecards/SATB2	
+	SO:0000704	http://identifiers.org/genecards/BDNF	
+	SO:0000704	http://identifiers.org/genecards/LOC105377209	
+	SO:0000704	http://identifiers.org/genecards/FAM19A1	
+	SO:0000704	http://identifiers.org/genecards/CUX2	
+	SO:0000704	http://identifiers.org/genecards/LAMA2	
+	SO:0000704	http://identifiers.org/genecards/HPCAL1	
+	SO:0000704	http://identifiers.org/genecards/GULP1	
+	SO:0000704	http://identifiers.org/genecards/LOC105378837	
+	SO:0000704	http://identifiers.org/genecards/BMPR1B	
+	SO:0000704	http://identifiers.org/genecards/SV2C	
+	SO:0000704	http://identifiers.org/genecards/RMST	
+	SO:0000704	http://identifiers.org/genecards/LOC105374235	
+	SO:0000704	http://identifiers.org/genecards/GRB14	
+	SO:0000704	http://identifiers.org/genecards/LOC101927745	
+	SO:0000704	http://identifiers.org/genecards/LOC105376987	
+	SO:0000704	http://identifiers.org/genecards/TXK	
+	SO:0000704	http://identifiers.org/genecards/CCDC68	
+	SO:0000704	http://identifiers.org/genecards/VIPR2	
+	SO:0000704	http://identifiers.org/genecards/COBLL1	
+	SO:0000704	http://identifiers.org/genecards/FAP	
+	SO:0000704	http://identifiers.org/genecards/PHLDA2	
+	SO:0000704	http://identifiers.org/genecards/LOC105376081	
+	SO:0000704	http://identifiers.org/genecards/LINC00836	
+	SO:0000704	http://identifiers.org/genecards/SYT2	
+	SO:0000704	http://identifiers.org/genecards/LOC105374395	
+	SO:0000704	http://identifiers.org/genecards/LOC105376457	
+	SO:0000704	http://identifiers.org/genecards/OR51E2	
+	SO:0000704	http://identifiers.org/genecards/LINC00943	
+	SO:0000704	http://identifiers.org/genecards/IFNG_AS1	
+	SO:0000704	http://identifiers.org/genecards/HTR2C	
+	SO:0000704	http://identifiers.org/genecards/PKD2L1	
+	SO:0000704	http://identifiers.org/genecards/LINC00607	
+	SO:0000704	http://identifiers.org/genecards/IL1RAPL2	
+	SO:0000704	http://identifiers.org/genecards/RXFP1	
+	SO:0000704	http://identifiers.org/genecards/HS3ST2	
+	SO:0000704	http://identifiers.org/genecards/LINCR_0002	
+	SO:0000704	http://identifiers.org/genecards/COL22A1	
+	SO:0000704	http://identifiers.org/genecards/LOC105374971	
+	SO:0000704	http://identifiers.org/genecards/LOC105375929	
+	SO:0000704	http://identifiers.org/genecards/LOC105374972	
+	SO:0000704	http://identifiers.org/genecards/LOC105375974	
+	SO:0000704	http://identifiers.org/genecards/LOC105374392	
+	SO:0000704	http://identifiers.org/genecards/LOC100507562	
+	SO:0000704	http://identifiers.org/genecards/TRABD2A	
+	SO:0000704	http://identifiers.org/genecards/NOX4	
+	SO:0000704	http://identifiers.org/genecards/LOC101927835	
+	SO:0000704	http://identifiers.org/genecards/C14orf39	
+	SO:0000704	http://identifiers.org/genecards/CSN1S1	
+	SO:0000704	http://identifiers.org/genecards/LOC105369818	
+	SO:0000704	http://identifiers.org/genecards/LOC105370019	
+	SO:0000704	http://identifiers.org/genecards/ADAMTSL1	
+	SO:0000704	http://identifiers.org/genecards/SEMA3E	
+	SO:0000704	http://identifiers.org/genecards/LOC105371833	
+	SO:0000704	http://identifiers.org/genecards/LOC105376592	
+	SO:0000704	http://identifiers.org/genecards/LOC105376591	
+	SO:0000704	http://identifiers.org/genecards/RGS18	
+	SO:0000704	http://identifiers.org/genecards/TNC	
+	SO:0000704	http://identifiers.org/genecards/MGST1	
+	SO:0000704	http://identifiers.org/genecards/CD36	
+	SO:0000704	http://identifiers.org/genecards/CCDC80	
+	SO:0000704	http://identifiers.org/genecards/LOC105375826	
+	SO:0000704	http://identifiers.org/genecards/LINC00703	
+	SO:0000704	http://identifiers.org/genecards/IGFBP3	
+	SO:0000704	http://identifiers.org/genecards/LOC101927439	
+	SO:0000704	http://identifiers.org/genecards/HS3ST4	
+	SO:0000704	http://identifiers.org/genecards/NPFFR2	
+	SO:0000704	http://identifiers.org/genecards/CRH	
+	SO:0000704	http://identifiers.org/genecards/OLFML2B	
+	SO:0000704	http://identifiers.org/genecards/SMYD1	
+	SO:0000704	http://identifiers.org/genecards/MDFIC	
+	SO:0000704	http://identifiers.org/genecards/LOC105377183	
+	SO:0000704	http://identifiers.org/genecards/SLC15A5	
+	SO:0000704	http://identifiers.org/genecards/ADRA2A	
+	SO:0000704	http://identifiers.org/genecards/NXPH4	
+	SO:0000704	http://identifiers.org/genecards/MKRN9P	
+	SO:0000704	http://identifiers.org/genecards/PDYN	
+	SO:0000704	http://identifiers.org/genecards/LOC105371497	
+	SO:0000704	http://identifiers.org/genecards/LOC101927987	
+	SO:0000704	http://identifiers.org/genecards/SLN	
+	SO:0000704	http://identifiers.org/genecards/FAM163A	
+	SO:0000704	http://identifiers.org/genecards/CHRNA7	
+	SO:0000704	http://identifiers.org/genecards/CXCL14	
+	SO:0000704	http://identifiers.org/genecards/ADAM33	
+	SO:0000704	http://identifiers.org/genecards/LOC101927269	
+	SO:0000704	http://identifiers.org/genecards/PRELID2	
+	SO:0000704	http://identifiers.org/genecards/EGFR	
+	SO:0000704	http://identifiers.org/genecards/KIT	
+	SO:0000704	http://identifiers.org/genecards/LOC101927870	
+	SO:0000704	http://identifiers.org/genecards/NDNF	
+	SO:0000704	http://identifiers.org/genecards/SP8	
+	SO:0000704	http://identifiers.org/genecards/DDR2	
+	SO:0000704	http://identifiers.org/genecards/LOC105377434	
+	SO:0000704	http://identifiers.org/genecards/CHRNA6	
+	SO:0000704	http://identifiers.org/genecards/CNR1	
+	SO:0000704	http://identifiers.org/genecards/VIP	
+	SO:0000704	http://identifiers.org/genecards/RGS10	
+	SO:0000704	http://identifiers.org/genecards/SOX6	
+	SO:0000704	http://identifiers.org/genecards/PVALB	
+	SO:0000704	http://identifiers.org/genecards/TAC1	
+	SO:0000704	http://identifiers.org/genecards/SYTL5	
+	SO:0000704	http://identifiers.org/genecards/KAL1	
+	SO:0000704	http://identifiers.org/genecards/RGS5	
+	SO:0000704	http://identifiers.org/genecards/SST	
+	SO:0000704	http://identifiers.org/genecards/LOC105379168	
+	SO:0000704	http://identifiers.org/genecards/SCML4	
+	SO:0000704	http://identifiers.org/genecards/LOC105373643	
+	SO:0000704	http://identifiers.org/genecards/LOC105376133	
+	SO:0000704	http://identifiers.org/genecards/SLC22A3	
+	SO:0000704	http://identifiers.org/genecards/FLT1	
+	SO:0000704	http://identifiers.org/genecards/LOC105373642	
+	SO:0000704	http://identifiers.org/genecards/NOS1	
+	SO:0000704	http://identifiers.org/genecards/CA8	
+	SO:0000704	http://identifiers.org/genecards/CPLX3	
+	SO:0000704	http://identifiers.org/genecards/PKP2	
+	SO:0000704	http://identifiers.org/genecards/COL15A1	
+	SO:0000704	http://identifiers.org/genecards/ABI3BP	
+	SO:0000704	http://identifiers.org/genecards/PTHLH	
+	SO:0000704	http://identifiers.org/genecards/MYO5B	
+	SO:0000704	http://identifiers.org/genecards/FAM19A4	
+	SO:0000704	http://identifiers.org/genecards/KCNS3	
+	SO:0000704	http://identifiers.org/genecards/NMU	
+	SO:0000704	http://identifiers.org/genecards/FRZB	
+	SO:0000704	http://identifiers.org/genecards/PENK	
+	SO:0000704	http://identifiers.org/genecards/SULF1	
+	SO:0000704	http://identifiers.org/genecards/HOMER3	
+	SO:0000704	http://identifiers.org/genecards/SMOC2	
+	SO:0000704	http://identifiers.org/genecards/ACAN	
+	SO:0000704	http://identifiers.org/genecards/LRRC38	
+	SO:0000704	http://identifiers.org/genecards/ADGRG6	
+	SO:0000704	http://identifiers.org/genecards/KMO	
+	SO:0000704	http://identifiers.org/genecards/SLC24A3	
+	SO:0000704	http://identifiers.org/genecards/KIRREL3	
+	SO:0000704	http://identifiers.org/genecards/CBLN4	
+	SO:0000704	http://identifiers.org/genecards/TAC3	
+	SO:0000704	http://identifiers.org/genecards/LOC105373452	
+	SO:0000704	http://identifiers.org/genecards/LOC105377632	
+	SO:0000704	http://identifiers.org/genecards/LOC105373451	
+	SO:0000704	http://identifiers.org/genecards/FGD3	
+	SO:0000704	http://identifiers.org/genecards/FREM1	
+	SO:0000704	http://identifiers.org/genecards/LOC105373538	
+	SO:0000704	http://identifiers.org/genecards/BCHE	
+	SO:0000704	http://identifiers.org/genecards/PDGFD	
+	SO:0000704	http://identifiers.org/genecards/HGF	
+	SO:0000704	http://identifiers.org/genecards/MEPE	
+	SO:0000704	http://identifiers.org/genecards/FAM150B	
+	SO:0000704	http://identifiers.org/genecards/ANKRD34B	
+	SO:0000704	http://identifiers.org/genecards/ZFPM2_AS1	
+	SO:0000704	http://identifiers.org/genecards/STON2	
+	SO:0000704	http://identifiers.org/genecards/PAWR	
+	SO:0000704	http://identifiers.org/genecards/HPGD	
+	SO:0000704	http://identifiers.org/genecards/FBN2	
+	SO:0000704	http://identifiers.org/genecards/ADAMTS20	
+	SO:0000704	http://identifiers.org/genecards/LOC105378030	
+	SO:0000704	http://identifiers.org/genecards/LOC100996671	
+	SO:0000704	http://identifiers.org/genecards/BMP3	
+	SO:0000704	http://identifiers.org/genecards/TH	
+	SO:0000704	http://identifiers.org/genecards/SLA	
+	SO:0000704	http://identifiers.org/genecards/OPALIN	
+	SO:0000704	http://identifiers.org/genecards/LOC101927199	
+	SO:0000704	http://identifiers.org/genecards/LINC00609	
+	SO:0000704	http://identifiers.org/genecards/LOC105371624	
+	SO:0000704	http://identifiers.org/genecards/GAD1	
+	SO:0000704	http://identifiers.org/genecards/PROX1	
+	SO:0000704	http://identifiers.org/genecards/SAMD5	
+	SO:0000704	http://identifiers.org/genecards/LY86_AS1	

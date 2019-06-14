@@ -1,0 +1,28 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/PCL_00000000",
+      "type" : "CLASS",
+      "lbl" : "root node"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_00000000",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/pcl/pcl-simple.json",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ {
+        "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+        "val" : "Provisional cell ontology"
+      } ],
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2019-06-14/pcl-simple.json"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}
