@@ -1,0 +1,13 @@
+format-version: 1.2
+data-version: pcl/releases/2021-11-24/pcl-base.owl
+ontology: pcl/pcl-base
+property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Provisional Cell Ontology" xsd:string
+property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: owl:versionInfo "2021-11-24" xsd:string
+
+[Term]
+id: PCL:00000000
+name: root node
+

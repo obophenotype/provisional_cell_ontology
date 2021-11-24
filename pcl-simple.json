@@ -1,0 +1,42 @@
+{
+  "graphs": [
+    {
+      "domainRangeAxioms": [],
+      "edges": [],
+      "equivalentNodesSets": [],
+      "id": "http://purl.obolibrary.org/obo/pcl/pcl-simple.json",
+      "logicalDefinitionAxioms": [],
+      "meta": {
+        "basicPropertyValues": [
+          {
+            "pred": "http://purl.org/dc/elements/1.1/description",
+            "val": "None"
+          },
+          {
+            "pred": "http://purl.org/dc/elements/1.1/title",
+            "val": "Provisional Cell Ontology"
+          },
+          {
+            "pred": "http://purl.org/dc/terms/license",
+            "val": "https://creativecommons.org/licenses/unspecified"
+          },
+          {
+            "pred": "http://www.w3.org/2002/07/owl#versionInfo",
+            "val": "2021-11-24"
+          }
+        ],
+        "subsets": [],
+        "version": "http://purl.obolibrary.org/obo/pcl/releases/2021-11-24/pcl-simple.json",
+        "xrefs": []
+      },
+      "nodes": [
+        {
+          "id": "http://purl.obolibrary.org/obo/PCL_00000000",
+          "lbl": "root node",
+          "type": "CLASS"
+        }
+      ],
+      "propertyChainAxioms": []
+    }
+  ]
+}
