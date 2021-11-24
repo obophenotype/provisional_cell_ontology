@@ -1,1 +1,0 @@
-https://raw.githubusercontent.com/obophenotype/upheno/master/src/patterns/dosdp-patterns/abnormalAnatomicalEntity.yaml
