@@ -46,21 +46,21 @@ Datatype: idrange:2
     
 Datatype: idrange:3
     Annotations: 
-        allocatedto: "BDS MOp Mouse Taxonomy Classes"
+        allocatedto: "BDS MOp Mouse Taxonomy (CCN202002013) Classes"
     EquivalentTo: 
         xsd:integer[> 0010100 , <= 0010399]
     
     
 Datatype: idrange:4
     Annotations: 
-        allocatedto: "BDS M1 Human Taxonomy Classes"
+        allocatedto: "BDS M1 Human Taxonomy (CCN201912131) Classes"
     EquivalentTo: 
         xsd:integer[> 0010400 , <= 0010699]    
         
         
 Datatype: idrange:5
     Annotations: 
-        allocatedto: "BDS M1 Marmoset Taxonomy Classes"
+        allocatedto: "BDS M1 Marmoset Taxonomy (CCN201912132) Classes"
     EquivalentTo: 
         xsd:integer[> 0010700 , <= 0011000]    
     
@@ -74,21 +74,21 @@ Datatype: idrange:6
 
 Datatype: idrange:7
     Annotations: 
-        allocatedto: "BDS MOp Mouse Taxonomy Individuals"
+        allocatedto: "BDS MOp Mouse Taxonomy (CCN202002013) Individuals"
     EquivalentTo: 
         xsd:integer[> 0012500 , <= 0012899]
             
             
 Datatype: idrange:8
     Annotations: 
-        allocatedto: "BDS M1 Human Taxonomy Individuals"
+        allocatedto: "BDS M1 Human Taxonomy (CCN201912131) Individuals"
     EquivalentTo: 
         xsd:integer[> 0013300 , <= 0013699]    
                 
                 
 Datatype: idrange:9
     Annotations: 
-        allocatedto: "BDS M1 Marmoset Taxonomy Individuals"
+        allocatedto: "BDS M1 Marmoset Taxonomy (CCN201912132) Individuals"
     EquivalentTo: 
         xsd:integer[> 0014100 , <= 0014499]    
             
