@@ -31,23 +31,81 @@ AnnotationProperty: idsfor:
 AnnotationProperty: allocatedto:
 
 Datatype: idrange:1
-
     Annotations: 
-        allocatedto: "ONTOLOGY-CREATOR"
-    
+        allocatedto: "Legacy"
     EquivalentTo: 
-        xsd:integer[>= 0 , <= 999999]
+        xsd:integer[>= 0 , <= 0009999]
 
     
 Datatype: idrange:2
-
     Annotations: 
-        allocatedto: "ADDITIONAL EDITOR"
-    
+        allocatedto: "BDS helper entities"
     EquivalentTo: 
-        xsd:integer[>= 1000000 , <= 1999999]
+        xsd:integer[> 0010000 , <= 0010099]    
+
+    
+Datatype: idrange:3
+    Annotations: 
+        allocatedto: "BDS MOp Mouse Taxonomy Classes"
+    EquivalentTo: 
+        xsd:integer[> 0010100 , <= 0010399]
     
     
+Datatype: idrange:4
+    Annotations: 
+        allocatedto: "BDS M1 Human Taxonomy Classes"
+    EquivalentTo: 
+        xsd:integer[> 0010400 , <= 0010699]    
+        
+        
+Datatype: idrange:5
+    Annotations: 
+        allocatedto: "BDS M1 Marmoset Taxonomy Classes"
+    EquivalentTo: 
+        xsd:integer[> 0010700 , <= 0011000]    
+    
+
+Datatype: idrange:6
+    Annotations: 
+        allocatedto: "BDS Other Classes"
+    EquivalentTo: 
+        xsd:integer[> 0011000 , <= 0012499]    
+
+
+Datatype: idrange:7
+    Annotations: 
+        allocatedto: "BDS MOp Mouse Taxonomy Individuals"
+    EquivalentTo: 
+        xsd:integer[> 0012500 , <= 0012899]
+            
+            
+Datatype: idrange:8
+    Annotations: 
+        allocatedto: "BDS M1 Human Taxonomy Individuals"
+    EquivalentTo: 
+        xsd:integer[> 0013300 , <= 0013699]    
+                
+                
+Datatype: idrange:9
+    Annotations: 
+        allocatedto: "BDS M1 Marmoset Taxonomy Individuals"
+    EquivalentTo: 
+        xsd:integer[> 0014100 , <= 0014499]    
+            
+
+Datatype: idrange:10
+    Annotations: 
+        allocatedto: "BDS Other Individuals"
+    EquivalentTo: 
+        xsd:integer[> 0014500 , <= 0018499]   
+
+
+Datatype: idrange:11
+Annotations: 
+    allocatedto: "Shawn Tan"
+EquivalentTo: 
+    xsd:integer[> 1000000 , <= 1000999]   
+
 Datatype: xsd:integer
 Datatype: rdf:PlainLiteral
 
