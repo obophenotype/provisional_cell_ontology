@@ -1,0 +1,28 @@
+id: pcl
+title: "Provisional Cell Ontology"
+github_org: obophenotype
+repo: provisional_cell_ontology
+#report_fail_on: ERROR
+report_fail_on: None
+use_dosdps: TRUE
+export_formats:
+  - owl
+  - obo
+  - json
+release_artefacts: 
+  - base
+  - full
+  - simple
+primary_release: full
+import_group:
+  products:
+    - id: pr
+    - id: go
+    - id: uberon 
+    - id: ro
+    - id: pato
+    - id: ncbitaxon
+    - id: bfo
+    - id: cl
+    - id: omo
+robot_java_args: '-Xmx8G'

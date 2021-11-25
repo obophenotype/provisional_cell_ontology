@@ -1,0 +1,5 @@
+term
+http://www.w3.org/2002/07/owl#Thing
+http://purl.obolibrary.org/obo/BFO_0000050
+http://purl.obolibrary.org/obo/pcl/example.yaml
+http://purl.org/dc/terms/title
