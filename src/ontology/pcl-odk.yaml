@@ -17,12 +17,17 @@ primary_release: full
 import_group:
   products:
     - id: pr
+      mirror_from: https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl
     - id: go
-    - id: uberon 
+    - id: uberon
     - id: ro
     - id: pato
     - id: ncbitaxon
+      mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
     - id: bfo
     - id: cl
     - id: omo
 robot_java_args: '-Xmx8G'
+components:
+  products:
+    - filename: all_components.owl
