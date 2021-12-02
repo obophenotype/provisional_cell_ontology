@@ -35,5 +35,6 @@
   
  
   <uri name="http://purl.obolibrary.org/obo/pcl/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/components/all_components.owl" uri="components/all_components.owl"/>
 </group>
 </catalog>

@@ -17,12 +17,5 @@ all_components.owl: $(COMPONENT_OWL_FILES)
 	 annotate --ontology-iri ${ONTBASE}/$@  \
 	 convert -f ofn	 -o $(COMPONENTSDIR)/all_components.owl
 
-# Full: The full artefacts with imports merged, reasoned
-$(ONT)-full.owl: $(SRC) $(OTHER_SRC)
-	$(ROBOT) merge --input $< $(patsubst %, -i %, $(OTHER_SRC)) \
-		reason --reasoner ELK --equivalent-classes-allowed all --exclude-tautologies structural \
-		relax \
-		reduce -r ELK \
-		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
 
 
