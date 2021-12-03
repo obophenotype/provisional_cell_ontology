@@ -27,3 +27,7 @@ Please use this GitHub repository's [Issue tracker](https://github.com/obophenot
 ## Acknowledgements
 
 This ontology repository was created using the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).
+
+## For Editors
+
+Currently, for the release to be prepared correctly, we need to force components to be built first - this can be done by using `sh run.sh make all_components prepare_release`
