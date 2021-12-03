@@ -3,16 +3,14 @@
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
+$(SRCMERGED): $(SRC) $(COMPONENTSDIR)/bdso-base-ext.owl
+	$(ROBOT) remove --input $< --select imports --trim false \
+		merge  $(patsubst %, -i %, $(OTHER_SRC)) -o $@
 
-imports/pr_import.owl: mirror/pr.owl imports/pr_terms_combined.txt
-	if [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) extract -i $< -T imports/pr_terms_combined.txt --force true --individuals include --method BOT \
-		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/postprocess-module.ru \
-		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
-.PRECIOUS: imports/pr_import.owl
+BDSO_BASE_EXT_URL = "https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/pcl_migration/bdso-base-ext.owl"
+$(COMPONENTSDIR)/bdso-base-ext.owl: $(SRC)
+	$(ROBOT) annotate -I $(BDSO_BASE_EXT_URL) --ontology-iri $(ONTBASE)/$@ -o $@
+	echo "Warning: Using pcl_migration branch from BDSO repo"
 	
-imports/ncbitaxon_import.owl: mirror/ncbitaxon.owl imports/ncbitaxon_terms_combined.txt
-	if [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) extract -i $< -T imports/ncbitaxon_terms_combined.txt --force true --individuals include --method BOT \
-		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/postprocess-module.ru \
-		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
-.PRECIOUS: imports/ncbitaxon_import.owl
-	
+
+

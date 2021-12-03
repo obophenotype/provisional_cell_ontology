@@ -29,8 +29,10 @@ Import(<http://purl.obolibrary.org/obo/pcl/imports/cl_import.owl>)
 
 Import(<http://purl.obolibrary.org/obo/pcl/imports/omo_import.owl>)
 
-
 Import(<http://purl.obolibrary.org/obo/pcl/patterns/definitions.owl>)
+
+Import(<http://purl.obolibrary.org/obo/pcl/components/bdso-base-ext.owl>)
+
 
 Annotation(dce:title "Provisional Cell Ontology")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
