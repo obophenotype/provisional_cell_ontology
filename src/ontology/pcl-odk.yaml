@@ -30,4 +30,4 @@ import_group:
 robot_java_args: '-Xmx8G'
 components:
   products:
-    - filename: all_components.owl
+    - filename: bdso-base-ext.owl
