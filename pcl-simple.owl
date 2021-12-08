@@ -16,11 +16,11 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:nsf2_full_mtg="http://www.jcvi.org/framework/nsf2_full_mtg#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pcl/pcl-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2021-12-03/pcl-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2021-12-08/pcl-simple.owl"/>
         <dc:description>None</dc:description>
         <dc:title>Provisional Cell Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-03</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-08</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -346,6 +346,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
         <oboInOwl:hasDbXref rdf:resource="http://purl.org/dc/elements/1.1/description"/>
+        <oboInOwl:hasDbXref>http://purl.org/dc/elements/1.1/description</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>dc-description</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
@@ -365,6 +366,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title">
         <oboInOwl:hasDbXref rdf:resource="http://purl.org/dc/elements/1.1/title"/>
+        <oboInOwl:hasDbXref>http://purl.org/dc/elements/1.1/title</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>dc-title</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
@@ -378,6 +380,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
         <oboInOwl:hasDbXref rdf:resource="http://purl.org/dc/terms/license"/>
+        <oboInOwl:hasDbXref>http://purl.org/dc/terms/license</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>dcterms-license</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
@@ -605,11 +608,11 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <obo:IAO_0000118 xml:lang="en">is bearer of</obo:IAO_0000118>
         <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
         <oboInOwl:hasDbXref>RO:0000053</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>external</oboInOwl:hasOBONamespace>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>bearer_of</oboInOwl:id>
         <oboInOwl:shorthand>bearer_of</oboInOwl:shorthand>
         <rdfs:label>bearer of</rdfs:label>
-        <rdfs:label xml:lang="en">bearer of</rdfs:label>
         <rdfs:label xml:lang="en">has characteristic</rdfs:label>
     </owl:ObjectProperty>
     
@@ -675,6 +678,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/21208450"/>
         <obo:IAO_0000232>For compatibility with BFO, this relation has a shortcut definition in which the expression &quot;capable of some P&quot; expands to &quot;bearer_of (some realized_by only P)&quot;.</obo:IAO_0000232>
         <oboInOwl:hasDbXref>RO:0002215</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>external</oboInOwl:hasOBONamespace>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>capable_of</oboInOwl:id>
@@ -8414,7 +8418,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011002"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Fbn2, Chrna7, Tafa1. These cells also express Egln3. The reference data for this cell type is CS202002013_2. This class represents a cross-species homology grouping.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616062</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -8446,7 +8450,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011003"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Crim1, Zfp804b. These cells also express Lamp5, Egln3. The reference data for this cell type is CS202002013_3.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -8628,7 +8632,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011008"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Nos1, Gm45680. These cells also express Lhx6, Lamp5. The reference data for this cell type is CS202002013_8. This class represents a cross-species homology grouping.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616062</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -8812,7 +8816,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011014"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Unc5b, Nectin3, Crh. These cells also express Vip, Sncg, Cck. The reference data for this cell type is CS202002013_14.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -9252,7 +9256,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011028"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Chodl, Nos1. These cells also express Sst, Chodl. The reference data for this cell type is CS202002013_28. This class represents a cross-species homology grouping.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616062</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -9573,7 +9577,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011038"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Rerg, Hpse. These cells also express Sst, Hpse. The reference data for this cell type is CS202002013_38.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -9662,7 +9666,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011041"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Moxd1, Prkg2. These cells also express Calb2, Sst, Pvalb. The reference data for this cell type is CS202002013_41.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -9906,7 +9910,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011048"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Th, Gabrg1. These cells also express Gabrg1, Pvalb. The reference data for this cell type is CS202002013_48.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -10580,7 +10584,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011069"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A glutamatergic neuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Nr4a2, Tfap2d. These cells also express Car3. These cells have projection type intratelencephalic projecting. The soma of these cells in located in: cortical layer VI. The reference data for this cell type is CS202002013_69. This class represents a cross-species homology grouping.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616062</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -10615,8 +10619,8 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011070"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A glutamatergic neuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Npr3, Crym, Gm2164. These cells have projection type extratelencephalic projecting. The soma of these cells in located in: cortical layer V. The reference data for this cell type is CS202002013_70.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:30382198</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:30382198</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -12366,7 +12370,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011139"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Col14a1, Enpp2, Pbx3. These cells also express Cck. The soma of these cells in located in: cortical layer V/VI. The reference data for this cell type is CS202002013_139.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -12398,7 +12402,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011143"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Car4, Vip, Crh. These cells also express Vip. The soma of these cells in located in: cortical layer V. The reference data for this cell type is CS202002013_143.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -12429,7 +12433,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011145"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Vip, Wnt5b. The soma of these cells in located in: cortical layer II/III. The reference data for this cell type is CS202002013_145.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -12477,7 +12481,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011149"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Thsd7b, Gm39185. The reference data for this cell type is CS202002013_149. This class represents a cross-species homology grouping.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616062</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -12601,7 +12605,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011161"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Rbp4, Trpc6, Lgals1. The soma of these cells in located in: cortical layer V. The reference data for this cell type is CS202002013_161.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -12632,7 +12636,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011164"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Sst, Olfm3. The reference data for this cell type is CS202002013_164.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -12664,7 +12668,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011165"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Cdh13, Tmtc2, Crh. The soma of these cells in located in: cortical layer V/VI. The reference data for this cell type is CS202002013_165.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -12695,7 +12699,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011170"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Th, Cort. These cells also express Th, Sst. The soma of these cells in located in: cortical layer VI. The reference data for this cell type is CS202002013_170.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -12727,7 +12731,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011177"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Eya4, Cemip. The reference data for this cell type is CS202002013_177.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -12774,7 +12778,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011178"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Unc5b, Cntnap5b. The reference data for this cell type is CS202002013_178. This class represents a cross-species homology grouping.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -13113,8 +13117,8 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011194"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A glutamatergic neuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Trpc7, Col8a1, Pou3f1. These cells have projection type extratelencephalic projecting. The soma of these cells in located in: cortical layer V. The reference data for this cell type is CS202002013_194.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:30382198</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:30382198</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -13162,7 +13166,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011197"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A glutamatergic neuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Foxp2, Hs3st4. These cells have projection type corticothalamic projecting. The soma of these cells in located in: cortical layer VI. The reference data for this cell type is CS202002013_197. This class represents a cross-species homology grouping.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -13209,7 +13213,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011203"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A glutamatergic neuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Ccn2, Cplx3. The soma of these cells in located in: cortical layer VIb. The reference data for this cell type is CS202002013_203. This class represents a cross-species homology grouping.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616062</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -13257,7 +13261,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011207"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A glutamatergic neuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Etv1, Tshz2. These cells have projection type near projecting. The soma of these cells in located in: cortical layer V/VI. The reference data for this cell type is CS202002013_207. This class represents a cross-species homology grouping.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616062</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -14222,7 +14226,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011255"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. The reference data for this cell type is CS202002013_255.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14248,7 +14252,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011256"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. The soma of these cells in located in: cortical layer V. The reference data for this cell type is CS202002013_256.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14274,7 +14278,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011257"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A GABAergic interneuron of the Mus musculus primary motor cortex. The reference data for this cell type is CS202002013_257.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33184512</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
