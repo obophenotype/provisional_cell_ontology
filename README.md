@@ -30,4 +30,4 @@ This ontology repository was created using the [Ontology Development Kit (ODK)](
 
 ## For Editors
 
-Currently, for the release to be prepared correctly, we need to force components to be built first - this can be done by using `sh run.sh make all_components prepare_release`
+Currently, for the release to be prepared correctly, we need to force bdso-ext.owl component to be built first - this can be done by using `sh run.sh make components/bdso-base-ext.owl prepare_release`
