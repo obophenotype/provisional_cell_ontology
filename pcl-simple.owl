@@ -16,11 +16,11 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:nsf2_full_mtg="http://www.jcvi.org/framework/nsf2_full_mtg#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pcl/pcl-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2021-12-03/pcl-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2021-12-08/pcl-simple.owl"/>
         <dc:description>None</dc:description>
         <dc:title>Provisional Cell Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-03</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-08</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -10615,7 +10615,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011070"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A glutamatergic neuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Npr3, Crym, Gm2164. These cells have projection type extratelencephalic projecting. The soma of these cells in located in: cortical layer V. The reference data for this cell type is CS202002013_70.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:30382198</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:30382198</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -13113,7 +13113,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011194"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A glutamatergic neuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Trpc7, Col8a1, Pou3f1. These cells have projection type extratelencephalic projecting. The soma of these cells in located in: cortical layer V. The reference data for this cell type is CS202002013_194.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:30382198</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:30382198</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
