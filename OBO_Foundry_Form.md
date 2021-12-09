@@ -21,7 +21,7 @@ https://github.com/obophenotype/provisional_cell_ontology/issues
 ## Ontology license
 
 - [ ] CC0 (public domain)
-- [ ] CC-BY (version 3 or later)
+- [X] CC-BY (version 3 or later)
 - [ ] Other: *please specify*
 
 ## Available ontology formats
@@ -98,7 +98,7 @@ dependencies:
   - id: omo
 tracker: https://github.com/obophenotype/provisional_cell_ontology/issues
 license:
-  url: http://creativecommons.org/licenses/by/3.0/
+  url: http://creativecommons.org/licenses/by/4.0/
   label: CC-BY
 usages:
   - user: https://biccn.org/
