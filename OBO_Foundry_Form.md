@@ -21,7 +21,7 @@ https://github.com/obophenotype/provisional_cell_ontology/issues
 ## Ontology license
 
 - [ ] CC0 (public domain)
-- [X] CC-BY (version 3 or later)
+- [x] CC-BY (version 3 or later)
 - [ ] Other: *please specify*
 
 ## Available ontology formats
@@ -30,17 +30,17 @@ obo
 json
 
 ## What domain is the ontology intended to cover?
-Cell types that are provisionally defined by experimental techniques such as single cell transcriptomics rather than a straightforward & coherent set of properties 
+Cell types that are provisionally defined by experimental techniques such as single cell transcriptomics rather than a straightforward & coherent set of properties.  All terms subclass conventionally defined terms in CL. If more data emerges that allows more conventional definitions, terms may migrate to CL.
 
 ## Related OBO Foundry ontologies
 Cell Ontology
 
 ## Intended use/related projects
-Annotations for single cell transcriptomics projects 
+Annotations for single cell transcriptomics projects. 
 Search and navigation of single cell transcriptomics data explorer (see DOI:10.1101/2021.10.10.463703)
 
 ## Data source
-Single Cell Transcriptomics experiments
+Single Cell Transcriptomics experiments.
 
 ## Additional comments or remarks
 
@@ -98,8 +98,8 @@ dependencies:
   - id: omo
 tracker: https://github.com/obophenotype/provisional_cell_ontology/issues
 license:
-  url: http://creativecommons.org/licenses/by/4.0/
+  url: http://creativecommons.org/licenses/by/3.0/
   label: CC-BY
 usages:
   - user: https://biccn.org/
-    description: This ontology will be used to annotate single cell transcriptomics cell typing on the brain, and underly the search and navigation of cell type data explorer web application. 
+    description: This ontology will be used to annotate cell types in single cell transcriptomics data, with an initial focus on the brain.  I is also used to drive search and navigation in a cell type data explorer web application. 
