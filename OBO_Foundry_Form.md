@@ -70,7 +70,7 @@ title: "Provisional Cell Ontology"
 contact:
   email: davidos@ebi.ac.uk
   label: David Osumi-Sutherland
-description: Some one sentence description of your ontology.
+description: Cell types that are provisionally defined by experimental techniques such as single cell transcriptomics rather than a straightforward & coherent set of properties. 
 domain: obophenotype
 homepage: https://github.com/obophenotype/provisional_cell_ontology
 products:
@@ -102,4 +102,4 @@ license:
   label: CC-BY
 usages:
   - user: https://biccn.org/
-    description: This ontology will be used to annotate cell types in single cell transcriptomics data, with an initial focus on the brain.  I is also used to drive search and navigation in a cell type data explorer web application. 
+    description: This ontology will be used to annotate cell types in single cell transcriptomics data, with an initial focus on the brain. It is also used to drive search and navigation in a cell type data explorer web application. 
