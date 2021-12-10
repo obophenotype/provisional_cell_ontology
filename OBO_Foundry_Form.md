@@ -15,6 +15,10 @@ Name: David Osumi-Sutherland
 Email address: davidos@ebi.ac.uk
 GitHub username: dosumis
 
+Name: Richard Scheuermann
+Email address: rscheuermann@jcvi.org
+GitHub username: scheuerm
+
 ## Issue tracker
 https://github.com/obophenotype/provisional_cell_ontology/issues
 
@@ -30,7 +34,7 @@ obo
 json
 
 ## What domain is the ontology intended to cover?
-Cell types that are provisionally defined by experimental techniques such as single cell transcriptomics rather than a straightforward & coherent set of properties.  All terms subclass conventionally defined terms in CL. If more data emerges that allows more conventional definitions, terms may migrate to CL.
+Cell types that are provisionally defined by experimental techniques such as single cell or single nucleus transcriptomics rather than a straightforward & coherent set of properties.  All terms subclass to conventionally defined terms in CL. If more data emerges that allows more conventional definitions, terms may migrate to CL.
 
 ## Related OBO Foundry ontologies
 Cell Ontology
@@ -40,7 +44,7 @@ Annotations for single cell transcriptomics projects.
 Search and navigation of single cell transcriptomics data explorer (see DOI:10.1101/2021.10.10.463703)
 
 ## Data source
-Single Cell Transcriptomics experiments.
+Single Cell/Nucleus Transcriptomics experiments.
 
 ## Additional comments or remarks
 
@@ -70,7 +74,9 @@ title: "Provisional Cell Ontology"
 contact:
   email: davidos@ebi.ac.uk
   label: David Osumi-Sutherland
-description: Cell types that are provisionally defined by experimental techniques such as single cell transcriptomics rather than a straightforward & coherent set of properties. 
+  email: rscheuermann@jcvi.org
+  label: Richard Scheuermann
+description: Cell types that are provisionally defined by experimental techniques such as single cell or single nucleus transcriptomics rather than a straightforward & coherent set of properties. 
 domain: obophenotype
 homepage: https://github.com/obophenotype/provisional_cell_ontology
 products:
