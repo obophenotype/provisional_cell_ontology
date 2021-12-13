@@ -23,6 +23,7 @@ import_group:
     - <http://purl.obolibrary.org/obo/ENVO_*>
     - <http://purl.obolibrary.org/obo/OBI_*>
     - <http://purl.obolibrary.org/obo/GOCHE_*>
+    - <http://purl.obolibrary.org/obo/CARO_*>
     - <http://www.genenames.org/cgi-bin/gene_symbol_report*>
   slme_individuals: exclude
   products:
@@ -49,6 +50,10 @@ import_group:
       use_base: TRUE
     - id: omo
       use_base: TRUE
+    - id: chebi
+      make_base: TRUE
+      use_gzipped: TRUE
+      is_large: TRUE
 robot_java_args: '-Xmx8G'
 components:
   products:
