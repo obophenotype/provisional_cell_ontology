@@ -46,4 +46,5 @@ Currently, for the release to be prepared correctly, we need to force bdso-ext.o
 
 ## Cite
 
-Brain Data Standards: https://www.biorxiv.org/content/10.1101/2021.10.10.463703v1
+- Brain Data Standards: https://www.biorxiv.org/content/10.1101/2021.10.10.463703v1
+- PCL usage: [PMID:34616062](https://pubmed.ncbi.nlm.nih.gov/34616062/), [PMID:31435019](https://pubmed.ncbi.nlm.nih.gov/31435019/), [PMID:29322913](https://pubmed.ncbi.nlm.nih.gov/29322913/)
