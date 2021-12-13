@@ -14,3 +14,4 @@ src/ontology/ed_definitions_merged.owl
 src/ontology/patterns 
 *.tmp.obo
 *.tmp.owl
+.DS_Store
