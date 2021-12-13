@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-  
+
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/components/bdso-base-ext.owl" uri="components/bdso-base-ext.owl"/>
+
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl.owl" uri="pcl.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/pr_import.owl" uri="imports/pr_import.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/go_import.owl" uri="imports/go_import.owl"/>
@@ -13,9 +16,6 @@
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/omo_import.owl" uri="imports/omo_import.owl"/>
   
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/merged_import.owl" uri="imports/merged_import.owl"/>
- 
-  <uri name="http://purl.obolibrary.org/obo/pcl/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/pcl/components/bdso-base-ext.owl" uri="components/bdso-base-ext.owl"/>
   
   <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
 </catalog>
