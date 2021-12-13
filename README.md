@@ -34,11 +34,11 @@ Brain Data Standards Ontology (https://github.com/obophenotype/brain_data_standa
 
 ## Contributors
 
-David Osumi-Sutherland 
-Huseyin Kir
-Shawn Zheng Kai Tan
-Richard Scheuermann
-Brian Aevermann 
+- David Osumi-Sutherland 
+- Huseyin Kir
+- Shawn Zheng Kai Tan
+- Richard Scheuermann
+- Brian Aevermann 
 
 ## For Editors
 
