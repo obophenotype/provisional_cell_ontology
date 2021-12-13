@@ -17,16 +17,29 @@ primary_release: full
 import_group:
   products:
     - id: pr
+      make_base: TRUE
       mirror_from: https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl
+      is_large: TRUE
     - id: go
+      use_base: TRUE
+      base_iris:
+        - http://purl.obolibrary.org/obo/GO_
+        - http://purl.obolibrary.org/obo/GOREL_
+        - http://purl.obolibrary.org/obo/GOCHE_
     - id: uberon
+      use_base: TRUE
     - id: ro
+      use_base: TRUE
     - id: pato
+      use_base: TRUE
     - id: ncbitaxon
       mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
     - id: bfo
+      use_base: TRUE
     - id: cl
+      use_base: TRUE
     - id: omo
+      use_base: TRUE
 robot_java_args: '-Xmx8G'
 components:
   products:

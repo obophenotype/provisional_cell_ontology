@@ -1,40 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-<group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
-
   
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/pr_import.owl" uri="imports/pr_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/pr_import.obo" uri="imports/pr_import.obo"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/pcl_import.owl" uri="imports/pcl_import.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/pr_import.owl" uri="imports/pr_import.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/go_import.owl" uri="imports/go_import.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/ro_import.owl" uri="imports/ro_import.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/pato_import.owl" uri="imports/pato_import.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/cl_import.owl" uri="imports/cl_import.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/omo_import.owl" uri="imports/omo_import.owl"/>
   
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/go_import.owl" uri="imports/go_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/go_import.obo" uri="imports/go_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/uberon_import.obo" uri="imports/uberon_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/ro_import.obo" uri="imports/ro_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/pato_import.owl" uri="imports/pato_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/pato_import.obo" uri="imports/pato_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/ncbitaxon_import.obo" uri="imports/ncbitaxon_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/bfo_import.obo" uri="imports/bfo_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/cl_import.owl" uri="imports/cl_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/cl_import.obo" uri="imports/cl_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/omo_import.owl" uri="imports/omo_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/pcl/imports/omo_import.obo" uri="imports/omo_import.obo"/>
-  
-
-
-  
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/merged_import.owl" uri="imports/merged_import.owl"/>
  
   <uri name="http://purl.obolibrary.org/obo/pcl/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
   <uri name="http://purl.obolibrary.org/obo/pcl/components/bdso-base-ext.owl" uri="components/bdso-base-ext.owl"/>
-</group>
+  
+  <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
 </catalog>
