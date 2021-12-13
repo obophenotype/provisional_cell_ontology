@@ -104,8 +104,8 @@ dependencies:
   - id: omo
 tracker: https://github.com/obophenotype/provisional_cell_ontology/issues
 license:
-  url: http://creativecommons.org/licenses/by/3.0/
-  label: CC-BY
+  url: http://creativecommons.org/licenses/by/4.0/
+  label: CC-BY 4.0
 usages:
   - user: https://biccn.org/
     description: This ontology will be used to annotate cell types in single cell transcriptomics data, with an initial focus on the brain. It is also used to drive search and navigation in a cell type data explorer web application. 
