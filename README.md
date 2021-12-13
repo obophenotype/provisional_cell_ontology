@@ -28,6 +28,10 @@ Please use this GitHub repository's [Issue tracker](https://github.com/obophenot
 
 This ontology repository was created using the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).
 
+## Ontology Components 
+
+Brain Data Standards Ontology (https://github.com/obophenotype/brain_data_standards_ontologies)
+
 ## Contributors
 
 David Osumi-Sutherland 
