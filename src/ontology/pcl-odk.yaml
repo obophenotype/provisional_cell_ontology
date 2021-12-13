@@ -24,6 +24,7 @@ import_group:
     - <http://purl.obolibrary.org/obo/OBI_*>
     - <http://purl.obolibrary.org/obo/GOCHE_*>
     - <http://www.genenames.org/cgi-bin/gene_symbol_report*>
+  slme_individuals: exclude
   products:
     - id: pr
       make_base: TRUE
