@@ -227,14 +227,24 @@ imports/%_terms_combined.txt: $(IMPORTSEED) imports/%_terms.txt
 	if [ $(IMP) = true ]; then cat $^ | grep -v ^# | sort | uniq >  $@; fi
 
 
+ALL_TERMS_COMBINED = $(patsubst %, imports/%_terms_combined.txt, $(IMPORTS))
+imports/merged_terms_combined.txt: $(ALL_TERMS_COMBINED)
+	if [ $(IMP) = true ]; then cat $^ | grep -v ^# | sort | uniq >  $@; fi
+
+
 imports/merged_import.owl: mirror/merged.owl imports/merged_terms_combined.txt
-	echo "ERROR: You have configured your default module type to be slme; this behavior needs to be overwritten in pcl.Makefile!" && false
+	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< \
+		remove  --select "<http://www.informatics.jax.org/marker/MGI:*>" remove  --select "<http://purl.obolibrary.org/obo/OBA_*>" remove  --select "<http://purl.obolibrary.org/obo/ENVO_*>" remove  --select "<http://purl.obolibrary.org/obo/OBI_*>" remove  --select "<http://purl.obolibrary.org/obo/GOCHE_*>" remove  --select "<http://www.genenames.org/cgi-bin/gene_symbol_report*>"  \
+		extract -T imports/merged_terms_combined.txt --force true --copy-ontology-annotations true --individuals exclude --method BOT \
+		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/postprocess-module.ru \
+		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 
 
-imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
+
+imports/%_import.owl: mirror/merged.owl imports/%_terms_combined.txt
 	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
-		extract -T imports/$*_terms_combined.txt --force true --copy-ontology-annotations true --individuals include --method BOT \
+		extract -T imports/$*_terms_combined.txt --force true --copy-ontology-annotations true --individuals exclude --method BOT \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/postprocess-module.ru \
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 
@@ -242,8 +252,8 @@ imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
 
 ## Module for ontology: pr
 
-imports/pr_import.owl: mirror/pr.owl imports/pr_terms_combined.txt
-	if [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) extract -i $< -T imports/pr_terms_combined.txt --force true --individuals include --method BOT \
+imports/pr_import.owl: mirror/merged.owl imports/pr_terms_combined.txt
+	if [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) extract -i $< -T imports/pr_terms_combined.txt --force true --individuals exclude --method BOT \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/postprocess-module.ru \
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 
@@ -354,7 +364,7 @@ mirror/ncbitaxon.owl: mirror/ncbitaxon.trigger
 mirror/bfo.trigger: $(SRC)
 
 mirror/bfo.owl: mirror/bfo.trigger
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/bfo/bfo-base.owl --create-dirs -o mirror/bfo.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/bfo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/bfo.owl --create-dirs -o mirror/bfo.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/bfo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/bfo.owl
 
 
@@ -374,6 +384,13 @@ mirror/omo.trigger: $(SRC)
 mirror/omo.owl: mirror/omo.trigger
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/omo/omo-base.owl --create-dirs -o mirror/omo.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/omo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/omo.owl
+
+ALL_MIRRORS = $(patsubst %, mirror/%.owl, $(IMPORTS))
+MERGE_MIRRORS = true
+
+mirror/merged.owl: $(ALL_MIRRORS)
+	if [ $(IMP) = true ] && [ $(MERGE_MIRRORS) = true ]; then $(ROBOT) merge $(patsubst %, -i %, $^) -o $@; fi
+.PRECIOUS: mirror/merged.owl
 
 
 
