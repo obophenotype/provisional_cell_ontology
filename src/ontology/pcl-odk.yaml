@@ -58,7 +58,7 @@ import_group:
       is_large: TRUE
     - id: nbo
       use_base: TRUE
-robot_java_args: '-Xmx8G'
+robot_java_args: '-Xmx12G'
 components:
   products:
     - filename: bdso-base-ext.owl
