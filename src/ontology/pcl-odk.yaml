@@ -26,6 +26,7 @@ import_group:
     - <http://purl.obolibrary.org/obo/CARO_*>
     - <http://www.genenames.org/cgi-bin/gene_symbol_report*>
   slme_individuals: exclude
+  mirror_max_time_download: 400
   products:
     - id: pr
       make_base: TRUE
@@ -55,6 +56,8 @@ import_group:
       make_base: TRUE
       use_gzipped: TRUE
       is_large: TRUE
+    - id: nbo
+      use_base: TRUE
 robot_java_args: '-Xmx8G'
 components:
   products:

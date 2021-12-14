@@ -25,4 +25,4 @@ import_group:
     - id: bfo
     - id: cl
     - id: omo
-robot_java_args: '-Xmx8G'
+robot_java_args: '-Xmx24G'
