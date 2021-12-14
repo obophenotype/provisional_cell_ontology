@@ -17,4 +17,7 @@ src/ontology/patterns
 .DS_Store
 src/ontology/.DS_Store
 src/.DS_Store
-imports/*_terms_combined.txt
+src/ontology/imports/*_terms_combined.txt
+src/ontology/tmp/merged-pcl-edit.owl
+src/ontology/tmp/pre_seed.txt
+src/ontology/tmp/seed.txt

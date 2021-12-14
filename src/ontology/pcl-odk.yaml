@@ -24,6 +24,7 @@ import_group:
     - <http://purl.obolibrary.org/obo/OBI_*>
     - <http://purl.obolibrary.org/obo/GOCHE_*>
     - <http://purl.obolibrary.org/obo/CARO_*>
+    - <http://purl.obolibrary.org/obo/NCBITaxon_Union_*>
     - <http://www.genenames.org/cgi-bin/gene_symbol_report*>
   slme_individuals: exclude
   mirror_max_time_download: 400
@@ -58,6 +59,8 @@ import_group:
       is_large: TRUE
     - id: nbo
       use_base: TRUE
+    - id: so
+      make_base: TRUE
 robot_java_args: '-Xmx12G'
 components:
   products:

@@ -94,7 +94,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  pr go uberon ro pato ncbitaxon bfo cl omo chebi nbo
+IMPORTS =  pr go uberon ro pato ncbitaxon bfo cl omo chebi nbo so
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -234,7 +234,7 @@ imports/merged_terms_combined.txt: $(ALL_TERMS_COMBINED)
 
 imports/merged_import.owl: mirror/merged.owl imports/merged_terms_combined.txt
 	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< \
-		remove  --select "<http://www.informatics.jax.org/marker/MGI:*>" remove  --select "<http://purl.obolibrary.org/obo/OBA_*>" remove  --select "<http://purl.obolibrary.org/obo/ENVO_*>" remove  --select "<http://purl.obolibrary.org/obo/OBI_*>" remove  --select "<http://purl.obolibrary.org/obo/GOCHE_*>" remove  --select "<http://purl.obolibrary.org/obo/CARO_*>" remove  --select "<http://www.genenames.org/cgi-bin/gene_symbol_report*>"  \
+		remove  --select "<http://www.informatics.jax.org/marker/MGI:*>" remove  --select "<http://purl.obolibrary.org/obo/OBA_*>" remove  --select "<http://purl.obolibrary.org/obo/ENVO_*>" remove  --select "<http://purl.obolibrary.org/obo/OBI_*>" remove  --select "<http://purl.obolibrary.org/obo/GOCHE_*>" remove  --select "<http://purl.obolibrary.org/obo/CARO_*>" remove  --select "<http://purl.obolibrary.org/obo/NCBITaxon_Union_*>" remove  --select "<http://www.genenames.org/cgi-bin/gene_symbol_report*>"  \
 		extract -T imports/merged_terms_combined.txt --force true --copy-ontology-annotations true --individuals exclude --method BOT \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/postprocess-module.ru \
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
@@ -411,6 +411,16 @@ mirror/nbo.trigger: $(SRC)
 mirror/nbo.owl: mirror/nbo.trigger
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/nbo/nbo-base.owl --create-dirs -o mirror/nbo.owl --retry 4 --max-time 400 && $(ROBOT) convert -i mirror/nbo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/nbo.owl
+
+
+## ONTOLOGY: so
+## Copy of so is re-downloaded whenever source changes
+mirror/so.trigger: $(SRC)
+
+mirror/so.owl: mirror/so.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/so.owl --create-dirs -o mirror/so.owl --retry 4 --max-time 400 && $(ROBOT) convert -i mirror/so.owl -o $@.tmp.owl && \
+		$(ROBOT) remove -i $@.tmp.owl --base-iri $(URIBASE)/SO --axioms external --preserve-structure false --trim false -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/so.owl
 
 ALL_MIRRORS = $(patsubst %, mirror/%.owl, $(IMPORTS))
 MERGE_MIRRORS = true
