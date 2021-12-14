@@ -23,8 +23,10 @@ import_group:
     - <http://purl.obolibrary.org/obo/ENVO_*>
     - <http://purl.obolibrary.org/obo/OBI_*>
     - <http://purl.obolibrary.org/obo/GOCHE_*>
+    - <http://purl.obolibrary.org/obo/CARO_*>
     - <http://www.genenames.org/cgi-bin/gene_symbol_report*>
   slme_individuals: exclude
+  mirror_max_time_download: 400
   products:
     - id: pr
       make_base: TRUE
@@ -45,11 +47,18 @@ import_group:
     - id: ncbitaxon
       mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
     - id: bfo
+      make_base: TRUE
     - id: cl
       use_base: TRUE
     - id: omo
       use_base: TRUE
-robot_java_args: '-Xmx8G'
+    - id: chebi
+      make_base: TRUE
+      use_gzipped: TRUE
+      is_large: TRUE
+    - id: nbo
+      use_base: TRUE
+robot_java_args: '-Xmx12G'
 components:
   products:
     - filename: bdso-base-ext.owl

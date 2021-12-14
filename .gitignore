@@ -15,3 +15,4 @@ src/ontology/patterns
 *.tmp.obo
 *.tmp.owl
 .DS_Store
+src/ontology/.DS_Store

@@ -14,6 +14,8 @@
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/cl_import.owl" uri="imports/cl_import.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/omo_import.owl" uri="imports/omo_import.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/caro_import.owl" uri="imports/caro_import.owl"/>
   
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/merged_import.owl" uri="imports/merged_import.owl"/>
   
