@@ -42,6 +42,7 @@ Brain Data Standards Ontology (https://github.com/obophenotype/brain_data_standa
 - Jeremy A Miller 
 - Tom Gillespie 
 - Yun (Renee) Zhang 
+- Nicolas Matentzoglu
 
 
 ## For Editors
