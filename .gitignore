@@ -16,3 +16,4 @@ src/ontology/patterns
 *.tmp.owl
 .DS_Store
 src/ontology/.DS_Store
+src/.DS_Store
