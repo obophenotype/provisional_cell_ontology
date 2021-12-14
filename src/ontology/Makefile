@@ -371,7 +371,8 @@ mirror/ncbitaxon.owl: mirror/ncbitaxon.trigger
 mirror/bfo.trigger: $(SRC)
 
 mirror/bfo.owl: mirror/bfo.trigger
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/bfo.owl --create-dirs -o mirror/bfo.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/bfo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/bfo.owl --create-dirs -o mirror/bfo.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/bfo.owl -o $@.tmp.owl && \
+		$(ROBOT) remove -i $@.tmp.owl --base-iri $(URIBASE)/BFO --axioms external --preserve-structure false --trim false -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/bfo.owl
 
 

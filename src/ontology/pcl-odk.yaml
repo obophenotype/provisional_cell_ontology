@@ -46,6 +46,7 @@ import_group:
     - id: ncbitaxon
       mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
     - id: bfo
+      make_base: TRUE
     - id: cl
       use_base: TRUE
     - id: omo
