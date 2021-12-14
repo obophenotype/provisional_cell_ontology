@@ -17,3 +17,4 @@ src/ontology/patterns
 .DS_Store
 src/ontology/.DS_Store
 src/.DS_Store
+imports/*_terms_combined.txt
