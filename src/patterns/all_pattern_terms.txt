@@ -1,6 +1,3 @@
-http://purl.obolibrary.org/obo/BFO_0000050
-http://purl.obolibrary.org/obo/BFO_0000050
-http://purl.obolibrary.org/obo/pcl/example.yaml
-http://purl.org/dc/terms/title
-http://www.w3.org/2002/07/owl#Thing
 term
+http://purl.obolibrary.org/obo/pcl/releases/2021-12-08/patterns/definitions.owl
+http://purl.obolibrary.org/obo/pcl/patterns/definitions.owl

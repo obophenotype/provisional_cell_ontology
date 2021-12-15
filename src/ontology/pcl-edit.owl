@@ -10,28 +10,21 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<http://purl.obolibrary.org/obo/pcl.owl>
 Import(<http://purl.obolibrary.org/obo/pcl/components/bdso-base-ext.owl>)
-Import(<http://purl.obolibrary.org/obo/pcl/imports/bfo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/pcl/imports/cl_import.owl>)
-Import(<http://purl.obolibrary.org/obo/pcl/imports/go_import.owl>)
-Import(<http://purl.obolibrary.org/obo/pcl/imports/ncbitaxon_import.owl>)
-Import(<http://purl.obolibrary.org/obo/pcl/imports/omo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/pcl/imports/pato_import.owl>)
-Import(<http://purl.obolibrary.org/obo/pcl/imports/pr_import.owl>)
-Import(<http://purl.obolibrary.org/obo/pcl/imports/ro_import.owl>)
-Import(<http://purl.obolibrary.org/obo/pcl/imports/uberon_import.owl>)
+Import(<http://purl.obolibrary.org/obo/pcl/imports/merged_import.owl>)
 Import(<http://purl.obolibrary.org/obo/pcl/patterns/definitions.owl>)
 Annotation(dce:contributor "https://orcid.org/0000-0001-7258-9596")
 Annotation(dce:contributor "https://orcid.org/0000-0002-3315-2794")
 Annotation(dce:contributor "https://orcid.org/0000-0002-7073-9172")
+Annotation(dce:contributor "https://orcid.org/0000-0002-7509-4801")
 Annotation(dce:contributor "https://orcid.org/0000-0003-1355-892X")
+Annotation(dce:contributor "https://orcid.org/0000-0003-2707-5881")
+Annotation(dce:contributor "https://orcid.org/0000-0003-4549-588X")
+Annotation(dce:contributor "https://orcid.org/0000-0002-7356-1779")
 Annotation(dce:description "Cell types that are provisionally defined by experimental techniques such as single cell transcriptomics rather than a straightforward & coherent set of properties.")
 Annotation(dce:title "Provisional Cell Ontology")
 Annotation(dcterms:license <http://creativecommons.org/licenses/by/4.0/>)
 Annotation(rdfs:comment "See DOI:10.1101/2021.10.10.463703, PMID:34616062, PMID:31435019, PMID:29322913")
 
-
-############################
-#   Classes
-############################
+Declaration(AnnotationProperty(dce:contributor))
 
 )
