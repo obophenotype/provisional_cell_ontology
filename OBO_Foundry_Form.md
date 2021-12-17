@@ -102,6 +102,9 @@ dependencies:
   - id: bfo
   - id: cl
   - id: omo
+  - id: nbo
+  - id: chebi
+  - id: so
 tracker: https://github.com/obophenotype/provisional_cell_ontology/issues
 license:
   url: http://creativecommons.org/licenses/by/4.0/
