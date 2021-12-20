@@ -18,7 +18,7 @@ http://purl.obolibrary.org/obo/pcl.owl
 
 ### Editors' version
 
-Editors of this ontology should use the edit version, [src/ontology/pcl-edit.owl](src/ontology/pcl-edit.owl)
+Currently PCL works by importing components that should be created seperated, with a base file (an ontology file that only contains axioms belonging to the ontology, excluding any axioms from imported ontologies). To request inclusion of your ontology into PCL, please create a ticket in our [Issue tracker](https://github.com/obophenotype/provisional_cell_ontology/issues). 
 
 ## Contact
 
@@ -48,6 +48,8 @@ Brain Data Standards Ontology (https://github.com/obophenotype/brain_data_standa
 ## For Editors
 
 Currently, for the release to be prepared correctly, we need to force bdso-ext.owl component to be built first - this can be done by using `sh run.sh make components/bdso-base-ext.owl prepare_release`
+
+PCL uses a "base file import system" that merges before incorporating. To update imports, use `sh run.sh make no-mirror-refresh-imports`; to update merged imports, use  `sh run.sh make no-mirror-refresh-merged`
 
 ## Cite
 
