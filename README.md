@@ -49,7 +49,7 @@ Brain Data Standards Ontology (https://github.com/obophenotype/brain_data_standa
 
 Currently, for the release to be prepared correctly, we need to force bdso-ext.owl component to be built first - this can be done by using `sh run.sh make components/bdso-base-ext.owl prepare_release`
 
-PCL uses a "base file import system" that merges before incorporating. To update imports, use `sh run.sh make no-mirror-refresh-imports`; to update merged imports, use  `sh run.sh make no-mirror-refresh-merged`
+PCL uses a "base file import system" that merges before incorporating. To update imports, use  `sh run.sh make no-mirror-refresh-merged`
 
 ## Cite
 
