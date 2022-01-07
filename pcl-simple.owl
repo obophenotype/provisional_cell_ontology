@@ -10593,7 +10593,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011070"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A glutamatergic neuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Mouse Npr3, Mouse Crym, Mouse Gm2164. These cells have projection type extratelencephalic projecting. The soma of these cells in located in: cortical layer V. The reference data for this cell type is CS202002013_70.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:30382198</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:30382198</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -13053,7 +13053,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011194"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A glutamatergic neuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Mouse Trpc7, Mouse Col8a1, Mouse Pou3f1. These cells have projection type extratelencephalic projecting. The soma of these cells in located in: cortical layer V. The reference data for this cell type is CS202002013_194.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:30382198</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:30382198</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
