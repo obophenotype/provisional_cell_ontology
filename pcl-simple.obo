@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pcl/releases/2021-12-17/pcl-simple.owl
+data-version: pcl/releases/2022-01-07/pcl-simple.owl
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
@@ -19,7 +19,7 @@ property_value: dc-contributor https://orcid.org/0000-0003-4549-588X xsd:string
 property_value: dc-description "Cell types that are provisionally defined by experimental techniques such as single cell transcriptomics rather than a straightforward & coherent set of properties." xsd:string
 property_value: dc-title "Provisional Cell Ontology" xsd:string
 property_value: dcterms-license http://creativecommons.org/licenses/by/4.0/
-property_value: owl:versionInfo "2021-12-17" xsd:string
+property_value: owl:versionInfo "2022-01-07" xsd:string
 
 [Term]
 id: PCL:0000
@@ -6721,6 +6721,7 @@ synonym: "Mouse Moxd1, Mouse Prkg2 expressing GABAergic interneuron of primary m
 synonym: "RNAseq 041" EXACT []
 synonym: "Sst Pvalb Calb2" EXACT []
 is_a: PCL:0011245 ! Sst-like_C3 primary motor cortex GABAergic interneuron (Mus musculus)
+is_a: PCL:1000002 {xref="PMID:34616066"} ! L2/3 pvalb-like sst GABAergic cortical interneuron (Mus musculus)
 property_value: IAO:0000028 "Sst Pvalb Calb2 MOp (Mouse)" xsd:string
 property_value: PCL:0010058 "Mouse Moxd1" xsd:string
 property_value: PCL:0010058 "Mouse Prkg2" xsd:string
@@ -13965,6 +13966,21 @@ synonym: "n74" EXACT []
 synonym: "Non-neuron 002-003" EXACT []
 property_value: IAO:0000028 "Astrocyte MTG (Human)" xsd:string
 property_value: prefLabel "Astrocyte" xsd:string
+
+[Term]
+id: PCL:1000002
+name: L2/3 pvalb-like sst GABAergic cortical interneuron (Mus musculus)
+def: "A sst GABAergic cortical interneuron transcriptomically between the sst and the pvalb families with a soma found in L2/3. Some L2/3 PV-like sst cells have Martinotti morphology while some have basket cell morphology. L2/3 PV-like sst cells have lower AP width and higher firing rate than typical Sst subclass cells. L2/3 PV-like sst cells have high maximum firing rate variability, with many classified as belonging to the pvalb subclass on the basis of electrophysiology." [PMID:33184512]
+synonym: "L2/3 PV-like SST Mus" EXACT []
+relationship: dc-contributor http://orcid.org/0000-0001-7258-9596
+
+[Term]
+id: PCL:1000004
+name: Martinotti morphology L2/3 pvalb-like sst GABAergic cortical interneuron (Mus musculus)
+def: "A L2/3 pvalb-like sst GABAergic cortical interneuron (Mus musculus) that has Martinotti morphology." [PMID:33184512]
+synonym: "Martinotti L2/3 PV-like SST (Mus)" EXACT []
+is_a: PCL:1000002 ! L2/3 pvalb-like sst GABAergic cortical interneuron (Mus musculus)
+relationship: dc-contributor http://orcid.org/0000-0001-7258-9596
 
 [Typedef]
 id: RO:0002100
