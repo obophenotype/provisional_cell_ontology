@@ -16,7 +16,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:nsf2_full_mtg="http://www.jcvi.org/framework/nsf2_full_mtg#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pcl/pcl-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2021-12-17/pcl-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2022-01-07/pcl-simple.owl"/>
         <dc:contributor>https://orcid.org/0000-0001-7258-9596</dc:contributor>
         <dc:contributor>https://orcid.org/0000-0002-3315-2794</dc:contributor>
         <dc:contributor>https://orcid.org/0000-0002-7073-9172</dc:contributor>
@@ -30,7 +30,7 @@
         <dc:title>Provisional Cell Ontology</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment>See DOI:10.1101/2021.10.10.463703, PMID:34616062, PMID:31435019, PMID:29322913</rdfs:comment>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-17</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-01-07</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -9619,6 +9619,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCL_0011041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0011245"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_1000002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
@@ -9636,6 +9637,12 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <rdfs:label>Sst Pvalb Calb2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel>Sst Pvalb Calb2</skos:prefLabel>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011041"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/PCL_1000002"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011041"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -10586,7 +10593,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011070"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A glutamatergic neuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Mouse Npr3, Mouse Crym, Mouse Gm2164. These cells have projection type extratelencephalic projecting. The soma of these cells in located in: cortical layer V. The reference data for this cell type is CS202002013_70.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:30382198</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:30382198</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -13046,7 +13053,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0011194"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A glutamatergic neuron of the Mus musculus primary motor cortex. These cells can be distinguished from other cells in the primary motor cortex by their selective expression of Mouse Trpc7, Mouse Col8a1, Mouse Pou3f1. These cells have projection type extratelencephalic projecting. The soma of these cells in located in: cortical layer V. The reference data for this cell type is CS202002013_194.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:30382198</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:30382198</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:34616066</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -26538,6 +26545,41 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <rdfs:label>Astrocyte middle temporal gyrus glial cell (Homo sapiens)</rdfs:label>
         <skos:prefLabel>Astrocyte</skos:prefLabel>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_1000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCL_1000002">
+        <obo:IAO_0000115>A sst GABAergic cortical interneuron transcriptomically between the sst and the pvalb families with a soma found in L2/3. Some L2/3 PV-like sst cells have Martinotti morphology while some have basket cell morphology. L2/3 PV-like sst cells have lower AP width and higher firing rate than typical Sst subclass cells. L2/3 PV-like sst cells have high maximum firing rate variability, with many classified as belonging to the pvalb subclass on the basis of electrophysiology.</obo:IAO_0000115>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0001-7258-9596"/>
+        <oboInOwl:hasExactSynonym>L2/3 PV-like SST Mus</oboInOwl:hasExactSynonym>
+        <rdfs:label>L2/3 pvalb-like sst GABAergic cortical interneuron (Mus musculus)</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_1000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A sst GABAergic cortical interneuron transcriptomically between the sst and the pvalb families with a soma found in L2/3. Some L2/3 PV-like sst cells have Martinotti morphology while some have basket cell morphology. L2/3 PV-like sst cells have lower AP width and higher firing rate than typical Sst subclass cells. L2/3 PV-like sst cells have high maximum firing rate variability, with many classified as belonging to the pvalb subclass on the basis of electrophysiology.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_1000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCL_1000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_1000002"/>
+        <obo:IAO_0000115>A L2/3 pvalb-like sst GABAergic cortical interneuron (Mus musculus) that has Martinotti morphology.</obo:IAO_0000115>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0001-7258-9596"/>
+        <oboInOwl:hasExactSynonym>Martinotti L2/3 PV-like SST (Mus)</oboInOwl:hasExactSynonym>
+        <rdfs:label>Martinotti morphology L2/3 pvalb-like sst GABAergic cortical interneuron (Mus musculus)</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_1000004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A L2/3 pvalb-like sst GABAergic cortical interneuron (Mus musculus) that has Martinotti morphology.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 

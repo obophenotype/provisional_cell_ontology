@@ -1836,6 +1836,8 @@ http://purl.obolibrary.org/obo/PCL_0014546
 http://purl.obolibrary.org/obo/PCL_0014547
 http://purl.obolibrary.org/obo/PCL_0014548
 http://purl.obolibrary.org/obo/PCL_0014549
+http://purl.obolibrary.org/obo/PCL_1000002
+http://purl.obolibrary.org/obo/PCL_1000004
 http://purl.obolibrary.org/obo/RO_0000053
 http://purl.obolibrary.org/obo/RO_0002100
 http://purl.obolibrary.org/obo/RO_0002162
