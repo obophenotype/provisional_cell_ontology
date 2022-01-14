@@ -16,7 +16,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:nsf2_full_mtg="http://www.jcvi.org/framework/nsf2_full_mtg#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pcl/pcl-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2022-01-07/pcl-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2022-01-14/pcl-simple.owl"/>
         <dc:contributor>https://orcid.org/0000-0001-7258-9596</dc:contributor>
         <dc:contributor>https://orcid.org/0000-0002-3315-2794</dc:contributor>
         <dc:contributor>https://orcid.org/0000-0002-7073-9172</dc:contributor>
@@ -30,7 +30,7 @@
         <dc:title>Provisional Cell Ontology</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment>See DOI:10.1101/2021.10.10.463703, PMID:34616062, PMID:31435019, PMID:29322913</rdfs:comment>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-01-07</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-01-14</owl:versionInfo>
     </owl:Ontology>
     
 

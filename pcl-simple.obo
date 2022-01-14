@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pcl/releases/2022-01-07/pcl-simple.owl
+data-version: pcl/releases/2022-01-14/pcl-simple.owl
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
@@ -19,7 +19,7 @@ property_value: dc-contributor https://orcid.org/0000-0003-4549-588X xsd:string
 property_value: dc-description "Cell types that are provisionally defined by experimental techniques such as single cell transcriptomics rather than a straightforward & coherent set of properties." xsd:string
 property_value: dc-title "Provisional Cell Ontology" xsd:string
 property_value: dcterms-license http://creativecommons.org/licenses/by/4.0/
-property_value: owl:versionInfo "2022-01-07" xsd:string
+property_value: owl:versionInfo "2022-01-14" xsd:string
 
 [Term]
 id: PCL:0000
