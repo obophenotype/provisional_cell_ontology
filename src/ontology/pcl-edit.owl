@@ -9,7 +9,7 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pcl.owl>
-Import(<http://purl.obolibrary.org/obo/pcl/components/bdso-base-ext.owl>)
+Import(<http://purl.obolibrary.org/obo/pcl/components/bdso-pcl-comp.owl>)
 Import(<http://purl.obolibrary.org/obo/pcl/imports/merged_import.owl>)
 Import(<http://purl.obolibrary.org/obo/pcl/patterns/definitions.owl>)
 Annotation(dce:contributor "https://orcid.org/0000-0001-7258-9596")

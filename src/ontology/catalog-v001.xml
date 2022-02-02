@@ -2,7 +2,7 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
 
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/components/bdso-base-ext.owl" uri="components/bdso-base-ext.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/components/bdso-pcl-comp.owl" uri="components/bdso-pcl-comp.owl"/>
 
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl.owl" uri="pcl.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pcl/imports/pr_import.owl" uri="imports/pr_import.owl"/>
