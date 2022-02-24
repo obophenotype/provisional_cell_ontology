@@ -64,4 +64,4 @@ import_group:
 robot_java_args: '-Xmx12G'
 components:
   products:
-    - filename: bdso-base-ext.owl
+    - filename: bdso-pcl-comp.owl
