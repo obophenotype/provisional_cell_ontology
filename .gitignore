@@ -21,3 +21,4 @@ src/ontology/imports/*_terms_combined.txt
 src/ontology/tmp/merged-pcl-edit.owl
 src/ontology/tmp/pre_seed.txt
 src/ontology/tmp/seed.txt
+src/ontology/tmp/*
