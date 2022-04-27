@@ -55,7 +55,7 @@ PATTERN_RELEASE_FILES=       $(PATTERNDIR)/definitions.owl $(PATTERNDIR)/pattern
 
 
 
-FORMATS = $(sort  owl obo json owl)
+FORMATS = $(sort  owl obo owl)
 FORMATS_INCL_TSV = $(sort $(FORMATS) tsv)
 RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-full $(ONT)-simple $(ONT)-base $(ONT)-full)
 
@@ -461,10 +461,6 @@ $(SUBSETDIR)/%.owl: $(ONT).owl | $(SUBSETDIR)
 $(SUBSETDIR)/%.obo: $(SUBSETDIR)/%.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
 
-$(SUBSETDIR)/%.json: $(SUBSETDIR)/%.owl
-	$(ROBOT) convert --input $< --check false -f json -o $@.tmp.json &&\
-	jq -S 'walk(if type == "array" then sort else . end)' $@.tmp.json > $@ && rm $@.tmp.json
-
 
 # ---------------------------------------------
 # Sparql queries: Table exports / Query Reports
@@ -579,22 +575,10 @@ $(PATTERNDIR)/definitions.owl: $(DOSDP_OWL_FILES_DEFAULT)
 
 $(ONT)-base.obo: $(ONT)-base.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
-$(ONT)-base.json: $(ONT)-base.owl
-	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
-		convert --check false -f json -o $@.tmp.json &&\
-	jq -S 'walk(if type == "array" then sort else . end)' $@.tmp.json > $@ && rm $@.tmp.json
 $(ONT)-full.obo: $(ONT)-full.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
-$(ONT)-full.json: $(ONT)-full.owl
-	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
-		convert --check false -f json -o $@.tmp.json &&\
-	jq -S 'walk(if type == "array" then sort else . end)' $@.tmp.json > $@ && rm $@.tmp.json
 $(ONT)-simple.obo: $(ONT)-simple.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
-$(ONT)-simple.json: $(ONT)-simple.owl
-	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
-		convert --check false -f json -o $@.tmp.json &&\
-	jq -S 'walk(if type == "array" then sort else . end)' $@.tmp.json > $@ && rm $@.tmp.json
 # We always want a base - even if it is not explicitly configured..
 # We always want a full release - even if it is not explicitly configured..
 # ----------------------------------------
@@ -607,10 +591,6 @@ $(ONT).owl: $(ONT)-full.owl
 
 $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
-$(ONT).json: $(ONT)-full.owl
-	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
-		convert --check false -f json -o $@.tmp.json && \
-	jq -S 'walk(if type == "array" then sort else . end)' $@.tmp.json > $@ && rm $@.tmp.json
 # -----------------------------------------------------
 # Release artefacts: variants (base, full, simple, etc)
 # -----------------------------------------------------
@@ -619,8 +599,6 @@ SHARED_ROBOT_COMMANDS =
 $(ONTOLOGYTERMS): $(SRC) $(OTHER_SRC)
 	touch $(ONTOLOGYTERMS) && \
 	$(ROBOT) query --use-graphs true -f csv -i $< --query ../sparql/pcl_terms.sparql $@
-
-
 
 
 
