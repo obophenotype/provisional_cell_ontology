@@ -18,7 +18,7 @@ http://purl.obolibrary.org/obo/pcl.owl
 
 ### Editors' version
 
-Currently PCL works by importing components that should be created seperated, with a base file (an ontology file that only contains axioms belonging to the ontology, excluding any axioms from imported ontologies). To request inclusion of your ontology into PCL, please create a ticket in our [Issue tracker](https://github.com/obophenotype/provisional_cell_ontology/issues). 
+Currently PCL works by importing components that should be created seperated, with a base file (an ontology file that only contains axioms belonging to the ontology, excluding any axioms from imported ontologies). To request inclusion of your ontology into PCL, please create a ticket in our [Issue tracker](https://github.com/obophenotype/provisional_cell_ontology/issues).
 
 ## Contact
 
@@ -28,20 +28,21 @@ Please use this GitHub repository's [Issue tracker](https://github.com/obophenot
 
 This ontology repository was created using the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).
 
-## Ontology Components 
+## Ontology Components
 
 Brain Data Standards Ontology (https://github.com/obophenotype/brain_data_standards_ontologies)
 
 ## Contributors
 
-- David Osumi-Sutherland 
+- David Osumi-Sutherland
 - Huseyin Kir
 - Richard Scheuermann
-- Brian Aevermann 
-- Jeremy A Miller 
-- Tom Gillespie 
-- Yun (Renee) Zhang 
+- Brian Aevermann
+- Jeremy A Miller
+- Tom Gillespie
+- Yun (Renee) Zhang
 - Nicolas Matentzoglu
+- Shawn Zheng Kai Tan
 
 
 ## For Editors
@@ -64,7 +65,7 @@ contact:
   email: davidos@ebi.ac.uk
   label: David Osumi-Sutherland
   github: dosumis
-description: Cell types that are provisionally defined by experimental techniques such as single cell or single nucleus transcriptomics rather than a straightforward & coherent set of properties. 
+description: Cell types that are provisionally defined by experimental techniques such as single cell or single nucleus transcriptomics rather than a straightforward & coherent set of properties.
 domain: phenotype
 homepage: https://github.com/obophenotype/provisional_cell_ontology
 products:
@@ -83,7 +84,7 @@ products:
 dependencies:
   - id: pr
   - id: go
-  - id: uberon 
+  - id: uberon
   - id: ro
   - id: pato
   - id: ncbitaxon
@@ -99,7 +100,7 @@ license:
   label: CC BY 4.0
 usages:
   - user: https://biccn.org/
-    description: This ontology will be used to annotate cell types in single cell transcriptomics data, with an initial focus on the brain. It is also used to drive search and navigation in a cell type data explorer web application. 
+    description: This ontology will be used to annotate cell types in single cell transcriptomics data, with an initial focus on the brain. It is also used to drive search and navigation in a cell type data explorer web application.
 repository: https://github.com/obophenotype/provisional_cell_ontology
 preferredPrefix: PCL
 ```
