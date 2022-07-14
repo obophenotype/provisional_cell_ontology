@@ -36,7 +36,6 @@ Brain Data Standards Ontology (https://github.com/obophenotype/brain_data_standa
 
 - David Osumi-Sutherland 
 - Huseyin Kir
-- Shawn Zheng Kai Tan
 - Richard Scheuermann
 - Brian Aevermann 
 - Jeremy A Miller 
