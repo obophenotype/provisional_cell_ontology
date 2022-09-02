@@ -32,10 +32,9 @@ $(IMPORTDIR)/merged_cl-full_import.owl: $(MIRRORDIR)/merged.owl $(TMPDIR)/full_s
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 # Merge full import in
-$(ONT)-cl-full.owl: $(SRC) $(OTHER_SRC) $(IMPORTDIR)/merged_cl-full_import.owl
+pcl-cl-full.owl: $(SRC) $(OTHER_SRC) $(IMPORTDIR)/merged_cl-full_import.owl
 	$(ROBOT) merge --input $< \
 		reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
 		relax \
 		reduce -r ELK \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
-	mv -f $@ ../../ 
