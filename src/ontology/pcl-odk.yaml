@@ -12,6 +12,7 @@ release_artefacts:
   - base
   - full
   - simple
+  - custom-pcl-cl-full
 primary_release: full
 import_group:
   use_base_merging: TRUE

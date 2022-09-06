@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pcl/releases/2022-04-27/pcl-simple.owl
+data-version: pcl/releases/2022-09-02/pcl-simple.owl
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
@@ -19,7 +19,7 @@ property_value: http://purl.org/dc/elements/1.1/contributor https://orcid.org/00
 property_value: http://purl.org/dc/elements/1.1/contributor https://orcid.org/0000-0003-1355-892X xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor https://orcid.org/0000-0003-2707-5881 xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor https://orcid.org/0000-0003-4549-588X xsd:string
-property_value: owl:versionInfo "2022-04-27" xsd:string
+property_value: owl:versionInfo "2022-09-02" xsd:string
 
 [Term]
 id: PCL:0000
@@ -15688,7 +15688,6 @@ id: bearer_of
 name: bearer of
 name: has characteristic
 namespace: external
-namespace: uberon
 def: "Inverse of characteristic_of" []
 xref: RO:0000053
 property_value: IAO:0000111 "bearer of" xsd:string
