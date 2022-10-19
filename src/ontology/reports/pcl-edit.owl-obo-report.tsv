@@ -1,40 +1,40 @@
 Level	Rule Name	Subject	Property	Value
-WARN	annotation_whitespace	CCN202002013	dc:description	The navigational tool on this page is a visual representation of the transcriptomic taxonomy of mouse MOp, which provides a comprehensive assessment of the molecular signatures of cell types comprising this region. Cell types in the taxonomy are grouped and visualized at three different levels: Class (innermost ring), Subclass (middle ring) and Cluster (outermost ring). Clicking on any region in the tool will navigate to an individual Cell Type Card, each of which provides detailed multimodal information describing that cell type and links to underlying data. 
 WARN	annotation_whitespace	CCN201912131	dc:description	The navigational tool on this page is a visual representation of the transcriptomic taxonomy of human M1, which provides a comprehensive assessment of the molecular signatures of cell types comprising this region. Cell types in the taxonomy are grouped and visualized at three different levels: Class (innermost ring), Subclass (middle ring) and Cluster (outermost ring). Clicking on any region in the tool will navigate to an individual Cell Type Card, each of which provides detailed multimodal information describing that cell type and links to underlying data. 
 WARN	annotation_whitespace	CCN201912132	dc:description	The navigational tool on this page is a visual representation of the transcriptomic taxonomy of marmoset M1, which provides a comprehensive assessment of the molecular signatures of cell types comprising this region. Cell types in the taxonomy are grouped and visualized at three different levels: Class (innermost ring), Subclass (middle ring) and Cluster (outermost ring). Clicking on any region in the tool will navigate to an individual Cell Type Card, each of which provides detailed multimodal information describing that cell type and links to underlying data. 
+WARN	annotation_whitespace	CCN202002013	dc:description	The navigational tool on this page is a visual representation of the transcriptomic taxonomy of mouse MOp, which provides a comprehensive assessment of the molecular signatures of cell types comprising this region. Cell types in the taxonomy are grouped and visualized at three different levels: Class (innermost ring), Subclass (middle ring) and Cluster (outermost ring). Clicking on any region in the tool will navigate to an individual Cell Type Card, each of which provides detailed multimodal information describing that cell type and links to underlying data. 
 WARN	duplicate_exact_synonym	VLMC(i) primary motor cortex vascular leptomeningeal cell (Mmus)	oboInOwl:hasExactSynonym	VLMC(i)
-WARN	duplicate_exact_synonym	RNAseq 104-107, 110 - CS202002013_254	oboInOwl:hasExactSynonym	VLMC(i)
 WARN	duplicate_exact_synonym	VLMC(i) primary motor cortex vascular leptomeningeal cell (Cjac)	oboInOwl:hasExactSynonym	VLMC(i)
-WARN	duplicate_exact_synonym	RNAseq 104-110 - CS202002013_222	oboInOwl:hasExactSynonym	VLMC
+WARN	duplicate_exact_synonym	RNAseq 104-107, 110 - CS202002013_254	oboInOwl:hasExactSynonym	VLMC(i)
 WARN	duplicate_exact_synonym	VLMC L1-5 PDGFRA COLEC12 primary motor cortex vascular leptomeningeal cell (Hsap)	oboInOwl:hasExactSynonym	VLMC
-WARN	duplicate_exact_synonym	RNAseq 126 - CS201912131_126	oboInOwl:hasExactSynonym	VLMC
 WARN	duplicate_exact_synonym	VLMC(i) primary motor cortex vascular leptomeningeal cell (Cjac)	oboInOwl:hasExactSynonym	VLMC
+WARN	duplicate_exact_synonym	RNAseq 126 - CS201912131_126	oboInOwl:hasExactSynonym	VLMC
 WARN	duplicate_exact_synonym	RNAseq 90-93 - CS201912132_109	oboInOwl:hasExactSynonym	VLMC
 WARN	duplicate_exact_synonym	RNAseq 90-92 - CS201912132_134	oboInOwl:hasExactSynonym	VLMC
+WARN	duplicate_exact_synonym	RNAseq 104-110 - CS202002013_222	oboInOwl:hasExactSynonym	VLMC
 WARN	duplicate_exact_synonym	Vip-like_C4 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Vip_4
-WARN	duplicate_exact_synonym	RNAseq 026-027 - CS202002013_149	oboInOwl:hasExactSynonym	Vip_4
 WARN	duplicate_exact_synonym	(Mouse Vip)-like_C4 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Vip_4
-WARN	duplicate_exact_synonym	RNAseq 034-038 - CS201912131_162	oboInOwl:hasExactSynonym	Vip_4
 WARN	duplicate_exact_synonym	(Mouse Vip)-like_C4 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Vip_4
+WARN	duplicate_exact_synonym	RNAseq 034-038 - CS201912131_162	oboInOwl:hasExactSynonym	Vip_4
 WARN	duplicate_exact_synonym	RNAseq 15, 25 - CS201912132_124	oboInOwl:hasExactSynonym	Vip_4
+WARN	duplicate_exact_synonym	RNAseq 026-027 - CS202002013_149	oboInOwl:hasExactSynonym	Vip_4
 WARN	duplicate_exact_synonym	Vip-like_C3 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Vip_3
-WARN	duplicate_exact_synonym	RNAseq 015, 019, 022 - CS202002013_241	oboInOwl:hasExactSynonym	Vip_3
 WARN	duplicate_exact_synonym	(Mouse Vip)-like_C3 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Vip_3
-WARN	duplicate_exact_synonym	RNAseq 029-033 - CS201912131_161	oboInOwl:hasExactSynonym	Vip_3
 WARN	duplicate_exact_synonym	(Mouse Vip)-like_C3 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Vip_3
+WARN	duplicate_exact_synonym	RNAseq 029-033 - CS201912131_161	oboInOwl:hasExactSynonym	Vip_3
 WARN	duplicate_exact_synonym	RNAseq 21-23 - CS201912132_127	oboInOwl:hasExactSynonym	Vip_3
+WARN	duplicate_exact_synonym	RNAseq 015, 019, 022 - CS202002013_241	oboInOwl:hasExactSynonym	Vip_3
 WARN	duplicate_exact_synonym	Vip-like_C2 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Vip_2
-WARN	duplicate_exact_synonym	RNAseq 017-018, 020-021 - CS202002013_242	oboInOwl:hasExactSynonym	Vip_2
 WARN	duplicate_exact_synonym	(Mouse Vip)-like_C2 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Vip_2
-WARN	duplicate_exact_synonym	RNAseq 022-028, 039 - CS201912131_160	oboInOwl:hasExactSynonym	Vip_2
 WARN	duplicate_exact_synonym	(Mouse Vip)-like_C2 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Vip_2
+WARN	duplicate_exact_synonym	RNAseq 022-028, 039 - CS201912131_160	oboInOwl:hasExactSynonym	Vip_2
 WARN	duplicate_exact_synonym	RNAseq 16-18, 24 - CS201912132_125	oboInOwl:hasExactSynonym	Vip_2
+WARN	duplicate_exact_synonym	RNAseq 017-018, 020-021 - CS202002013_242	oboInOwl:hasExactSynonym	Vip_2
 WARN	duplicate_exact_synonym	Vip-like_C1 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Vip_1
-WARN	duplicate_exact_synonym	RNAseq 023-025 - CS202002013_243	oboInOwl:hasExactSynonym	Vip_1
 WARN	duplicate_exact_synonym	(Mouse Vip)-like_C1 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Vip_1
-WARN	duplicate_exact_synonym	RNAseq 019-021 - CS201912131_159	oboInOwl:hasExactSynonym	Vip_1
 WARN	duplicate_exact_synonym	(Mouse Vip)-like_C1 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Vip_1
+WARN	duplicate_exact_synonym	RNAseq 019-021 - CS201912131_159	oboInOwl:hasExactSynonym	Vip_1
 WARN	duplicate_exact_synonym	RNAseq 19-20 - CS201912132_126	oboInOwl:hasExactSynonym	Vip_1
+WARN	duplicate_exact_synonym	RNAseq 023-025 - CS202002013_243	oboInOwl:hasExactSynonym	Vip_1
 WARN	duplicate_exact_synonym	VIP-like middle temporal gyrus GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	VIP-like
 WARN	duplicate_exact_synonym	Neuron 007-027 - CS1908210085	oboInOwl:hasExactSynonym	VIP-like
 WARN	duplicate_exact_synonym	Vip-like Serpinf1_3 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Vip Serpinf1_3
@@ -42,11 +42,11 @@ WARN	duplicate_exact_synonym	RNAseq 017 - CS202002013_17	oboInOwl:hasExactSynony
 WARN	duplicate_exact_synonym	Vip-like Igfbp6_1 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Vip Igfbp6_1
 WARN	duplicate_exact_synonym	RNAseq 026 - CS202002013_26	oboInOwl:hasExactSynonym	Vip Igfbp6_1
 WARN	duplicate_exact_synonym	Vip-like primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Vip
-WARN	duplicate_exact_synonym	RNAseq 015-027 - CS202002013_138	oboInOwl:hasExactSynonym	Vip
 WARN	duplicate_exact_synonym	(Mouse Vip)-like primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Vip
-WARN	duplicate_exact_synonym	RNAseq 019-039 - CS201912131_130	oboInOwl:hasExactSynonym	Vip
 WARN	duplicate_exact_synonym	(Mouse Vip)-like primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Vip
+WARN	duplicate_exact_synonym	RNAseq 019-039 - CS201912131_130	oboInOwl:hasExactSynonym	Vip
 WARN	duplicate_exact_synonym	RNAseq 15-25 - CS201912132_97	oboInOwl:hasExactSynonym	Vip
+WARN	duplicate_exact_synonym	RNAseq 015-027 - CS202002013_138	oboInOwl:hasExactSynonym	Vip
 WARN	duplicate_exact_synonym	L6 CT primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	VAL/VM Projecting
 WARN	duplicate_exact_synonym	RNAseq 074-080 - CS202002013_197	oboInOwl:hasExactSynonym	VAL/VM Projecting
 WARN	duplicate_exact_synonym	Upper FS Basket cell primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Upper FS Basket cell
@@ -58,97 +58,97 @@ WARN	duplicate_exact_synonym	Chandelier primary motor cortex GABAergic interneur
 WARN	duplicate_exact_synonym	Sst Th_3 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Th (Mmus), Cort (Mmus) expressing GABAergic interneuron of primary motor cortex (Mus musculus)
 WARN	duplicate_exact_synonym	L6 Th+ SST/PV cell primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Th (Mmus), Cort (Mmus) expressing GABAergic interneuron of primary motor cortex (Mus musculus)
 WARN	duplicate_exact_synonym	Sst Th_3 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Sst_7
-WARN	duplicate_exact_synonym	RNAseq 047 - CS202002013_47	oboInOwl:hasExactSynonym	Sst_7
 WARN	duplicate_exact_synonym	Inh L6 SST TH primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Sst_7
-WARN	duplicate_exact_synonym	RNAseq 058 - CS201912131_58	oboInOwl:hasExactSynonym	Sst_7
 WARN	duplicate_exact_synonym	Inh SST LOC103788138 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Sst_7
+WARN	duplicate_exact_synonym	RNAseq 058 - CS201912131_58	oboInOwl:hasExactSynonym	Sst_7
 WARN	duplicate_exact_synonym	RNAseq 29 - CS201912132_29	oboInOwl:hasExactSynonym	Sst_7
+WARN	duplicate_exact_synonym	RNAseq 047 - CS202002013_47	oboInOwl:hasExactSynonym	Sst_7
 WARN	duplicate_exact_synonym	Sst-like_C6 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Sst_6
-WARN	duplicate_exact_synonym	RNAseq 043-045 - CS202002013_246	oboInOwl:hasExactSynonym	Sst_6
 WARN	duplicate_exact_synonym	(Mouse Sst)-like_C6 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Sst_6
-WARN	duplicate_exact_synonym	RNAseq 055-057 - CS201912131_168	oboInOwl:hasExactSynonym	Sst_6
 WARN	duplicate_exact_synonym	Inh SST LOC108588801 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Sst_6
+WARN	duplicate_exact_synonym	RNAseq 055-057 - CS201912131_168	oboInOwl:hasExactSynonym	Sst_6
 WARN	duplicate_exact_synonym	RNAseq 28 - CS201912132_28	oboInOwl:hasExactSynonym	Sst_6
+WARN	duplicate_exact_synonym	RNAseq 043-045 - CS202002013_246	oboInOwl:hasExactSynonym	Sst_6
 WARN	duplicate_exact_synonym	Sst C1ql3_1 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Sst_5
-WARN	duplicate_exact_synonym	RNAseq 042 - CS202002013_42	oboInOwl:hasExactSynonym	Sst_5
 WARN	duplicate_exact_synonym	(Mouse Sst)-like_C5 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Sst_5
-WARN	duplicate_exact_synonym	RNAseq 053-054 - CS201912131_167	oboInOwl:hasExactSynonym	Sst_5
 WARN	duplicate_exact_synonym	Inh SST LOC108589054 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Sst_5
+WARN	duplicate_exact_synonym	RNAseq 053-054 - CS201912131_167	oboInOwl:hasExactSynonym	Sst_5
 WARN	duplicate_exact_synonym	RNAseq 27 - CS201912132_27	oboInOwl:hasExactSynonym	Sst_5
+WARN	duplicate_exact_synonym	RNAseq 042 - CS202002013_42	oboInOwl:hasExactSynonym	Sst_5
 WARN	duplicate_exact_synonym	Sst Crhr2_2 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Sst_4
-WARN	duplicate_exact_synonym	RNAseq 037 - CS202002013_37	oboInOwl:hasExactSynonym	Sst_4
 WARN	duplicate_exact_synonym	(Mouse Sst)-like_C4 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Sst_4
-WARN	duplicate_exact_synonym	RNAseq 048-049 - CS201912131_166	oboInOwl:hasExactSynonym	Sst_4
 WARN	duplicate_exact_synonym	Inh SST LTBP1 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Sst_4
+WARN	duplicate_exact_synonym	RNAseq 048-049 - CS201912131_166	oboInOwl:hasExactSynonym	Sst_4
 WARN	duplicate_exact_synonym	RNAseq 37 - CS201912132_37	oboInOwl:hasExactSynonym	Sst_4
+WARN	duplicate_exact_synonym	RNAseq 037 - CS202002013_37	oboInOwl:hasExactSynonym	Sst_4
 WARN	duplicate_exact_synonym	Sst-like_C3 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Sst_3
-WARN	duplicate_exact_synonym	RNAseq 035-036, 038-041 - CS202002013_245	oboInOwl:hasExactSynonym	Sst_3
 WARN	duplicate_exact_synonym	(Mouse Sst)-like_C3 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Sst_3
-WARN	duplicate_exact_synonym	RNAseq 046-047, 050-052 - CS201912131_165	oboInOwl:hasExactSynonym	Sst_3
 WARN	duplicate_exact_synonym	(Mouse Sst)-like_C3 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Sst_3
+WARN	duplicate_exact_synonym	RNAseq 046-047, 050-052 - CS201912131_165	oboInOwl:hasExactSynonym	Sst_3
 WARN	duplicate_exact_synonym	RNAseq 31-36, 40, 47 - CS201912132_128	oboInOwl:hasExactSynonym	Sst_3
+WARN	duplicate_exact_synonym	RNAseq 035-036, 038-041 - CS202002013_245	oboInOwl:hasExactSynonym	Sst_3
 WARN	duplicate_exact_synonym	Sst-like_C2 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Sst_2
-WARN	duplicate_exact_synonym	RNAseq 029-030, 034 - CS202002013_244	oboInOwl:hasExactSynonym	Sst_2
 WARN	duplicate_exact_synonym	(Mouse Sst)-like_C2 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Sst_2
-WARN	duplicate_exact_synonym	RNAseq 043-045 - CS201912131_164	oboInOwl:hasExactSynonym	Sst_2
 WARN	duplicate_exact_synonym	Inh SST VAPA primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Sst_2
+WARN	duplicate_exact_synonym	RNAseq 043-045 - CS201912131_164	oboInOwl:hasExactSynonym	Sst_2
 WARN	duplicate_exact_synonym	RNAseq 39 - CS201912132_39	oboInOwl:hasExactSynonym	Sst_2
+WARN	duplicate_exact_synonym	RNAseq 029-030, 034 - CS202002013_244	oboInOwl:hasExactSynonym	Sst_2
 WARN	duplicate_exact_synonym	Sst-like_C1 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Sst_1
-WARN	duplicate_exact_synonym	RNAseq 031-033 - CS202002013_156	oboInOwl:hasExactSynonym	Sst_1
 WARN	duplicate_exact_synonym	(Mouse Sst)-like_C1 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Sst_1
-WARN	duplicate_exact_synonym	RNAseq 041-042 - CS201912131_163	oboInOwl:hasExactSynonym	Sst_1
 WARN	duplicate_exact_synonym	Inh SST AIM1 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Sst_1
+WARN	duplicate_exact_synonym	RNAseq 041-042 - CS201912131_163	oboInOwl:hasExactSynonym	Sst_1
 WARN	duplicate_exact_synonym	RNAseq 38 - CS201912132_38	oboInOwl:hasExactSynonym	Sst_1
+WARN	duplicate_exact_synonym	RNAseq 031-033 - CS202002013_156	oboInOwl:hasExactSynonym	Sst_1
 WARN	duplicate_exact_synonym	SST-like middle temporal gyrus GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	SST-like
 WARN	duplicate_exact_synonym	Neuron 029-038 - CS1908210108	oboInOwl:hasExactSynonym	SST-like
 WARN	duplicate_exact_synonym	Sst Chodl primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Sst Chodl
-WARN	duplicate_exact_synonym	RNAseq 028 - CS202002013_28	oboInOwl:hasExactSynonym	Sst Chodl
 WARN	duplicate_exact_synonym	Inh L1-6 SST NPY primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Sst Chodl
-WARN	duplicate_exact_synonym	RNAseq 040 - CS201912131_40	oboInOwl:hasExactSynonym	Sst Chodl
 WARN	duplicate_exact_synonym	Inh SST NPY primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Sst Chodl
 WARN	duplicate_exact_synonym	Sst Chodl(i) primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Sst Chodl
-WARN	duplicate_exact_synonym	RNAseq 01 - CS201912132_1	oboInOwl:hasExactSynonym	Sst Chodl
-WARN	duplicate_exact_synonym	RNAseq 01, 30 - CS201912132_119	oboInOwl:hasExactSynonym	Sst Chodl
 WARN	duplicate_exact_synonym	Inh L3-6 SST NPY middle temporal gyrus GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Sst Chodl
 WARN	duplicate_exact_synonym	Neuron 028 - CS1908210028	oboInOwl:hasExactSynonym	Sst Chodl
+WARN	duplicate_exact_synonym	RNAseq 040 - CS201912131_40	oboInOwl:hasExactSynonym	Sst Chodl
+WARN	duplicate_exact_synonym	RNAseq 01 - CS201912132_1	oboInOwl:hasExactSynonym	Sst Chodl
+WARN	duplicate_exact_synonym	RNAseq 01, 30 - CS201912132_119	oboInOwl:hasExactSynonym	Sst Chodl
+WARN	duplicate_exact_synonym	RNAseq 028 - CS202002013_28	oboInOwl:hasExactSynonym	Sst Chodl
 WARN	duplicate_exact_synonym	Sst Calb2 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Sst (Mmus), Olfm3 (Mmus) expressing GABAergic interneuron of primary motor cortex (Mus musculus)
 WARN	duplicate_exact_synonym	L2/3/5 fan Martinotti cell primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Sst (Mmus), Olfm3 (Mmus) expressing GABAergic interneuron of primary motor cortex (Mus musculus)
 WARN	duplicate_exact_synonym	Sst-like primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Sst
-WARN	duplicate_exact_synonym	RNAseq 029-047 - CS202002013_232	oboInOwl:hasExactSynonym	Sst
 WARN	duplicate_exact_synonym	(Mouse Sst)-like primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Sst
-WARN	duplicate_exact_synonym	RNAseq 041-058 - CS201912131_131	oboInOwl:hasExactSynonym	Sst
 WARN	duplicate_exact_synonym	(Mouse Sst)-like primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Sst
+WARN	duplicate_exact_synonym	RNAseq 041-058 - CS201912131_131	oboInOwl:hasExactSynonym	Sst
 WARN	duplicate_exact_synonym	RNAseq 27-40, 47 - CS201912132_98	oboInOwl:hasExactSynonym	Sst
+WARN	duplicate_exact_synonym	RNAseq 029-047 - CS202002013_232	oboInOwl:hasExactSynonym	Sst
 WARN	duplicate_exact_synonym	Lamp5-like Egln3_1 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Sncg_4
-WARN	duplicate_exact_synonym	RNAseq 002 - CS202002013_2	oboInOwl:hasExactSynonym	Sncg_4
 WARN	duplicate_exact_synonym	(Mouse Sncg)-like_C4 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Sncg_4
-WARN	duplicate_exact_synonym	RNAseq 016-018 - CS201912131_158	oboInOwl:hasExactSynonym	Sncg_4
 WARN	duplicate_exact_synonym	(Mouse Sncg)-like_C4 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Sncg_4
+WARN	duplicate_exact_synonym	RNAseq 016-018 - CS201912131_158	oboInOwl:hasExactSynonym	Sncg_4
 WARN	duplicate_exact_synonym	RNAseq 13-14 - CS201912132_123	oboInOwl:hasExactSynonym	Sncg_4
+WARN	duplicate_exact_synonym	RNAseq 002 - CS202002013_2	oboInOwl:hasExactSynonym	Sncg_4
 WARN	duplicate_exact_synonym	Sncg-like_C3 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Sncg_3
-WARN	duplicate_exact_synonym	RNAseq 011-013 - CS202002013_239	oboInOwl:hasExactSynonym	Sncg_3
 WARN	duplicate_exact_synonym	(Mouse Sncg)-like_C3 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Sncg_3
-WARN	duplicate_exact_synonym	RNAseq 012-013 - CS201912131_156	oboInOwl:hasExactSynonym	Sncg_3
 WARN	duplicate_exact_synonym	(Mouse Sncg)-like_C3 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Sncg_3
+WARN	duplicate_exact_synonym	RNAseq 012-013 - CS201912131_156	oboInOwl:hasExactSynonym	Sncg_3
 WARN	duplicate_exact_synonym	RNAseq 10-11 - CS201912132_122	oboInOwl:hasExactSynonym	Sncg_3
+WARN	duplicate_exact_synonym	RNAseq 011-013 - CS202002013_239	oboInOwl:hasExactSynonym	Sncg_3
 WARN	duplicate_exact_synonym	Sncg-like_C2 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Sncg_2
-WARN	duplicate_exact_synonym	RNAseq 009-010 - CS202002013_134	oboInOwl:hasExactSynonym	Sncg_2
 WARN	duplicate_exact_synonym	Inh L2 PAX6 FREM2 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Sncg_2
-WARN	duplicate_exact_synonym	RNAseq 011 - CS201912131_11	oboInOwl:hasExactSynonym	Sncg_2
 WARN	duplicate_exact_synonym	Inh SNCG PLPPR1 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Sncg_2
+WARN	duplicate_exact_synonym	RNAseq 011 - CS201912131_11	oboInOwl:hasExactSynonym	Sncg_2
 WARN	duplicate_exact_synonym	RNAseq 08 - CS201912132_8	oboInOwl:hasExactSynonym	Sncg_2
+WARN	duplicate_exact_synonym	RNAseq 009-010 - CS202002013_134	oboInOwl:hasExactSynonym	Sncg_2
 WARN	duplicate_exact_synonym	Sncg-like_C1 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Sncg_1
-WARN	duplicate_exact_synonym	RNAseq 014, 016 - CS202002013_240	oboInOwl:hasExactSynonym	Sncg_1
 WARN	duplicate_exact_synonym	(Mouse Sncg)-like_C1 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Sncg_1
-WARN	duplicate_exact_synonym	RNAseq 009-010 - CS201912131_155	oboInOwl:hasExactSynonym	Sncg_1
 WARN	duplicate_exact_synonym	(Mouse Sncg)-like_C1 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Sncg_1
+WARN	duplicate_exact_synonym	RNAseq 009-010 - CS201912131_155	oboInOwl:hasExactSynonym	Sncg_1
 WARN	duplicate_exact_synonym	RNAseq 09, 12 - CS201912132_121	oboInOwl:hasExactSynonym	Sncg_1
+WARN	duplicate_exact_synonym	RNAseq 014, 016 - CS202002013_240	oboInOwl:hasExactSynonym	Sncg_1
 WARN	duplicate_exact_synonym	Sncg-like primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Sncg
-WARN	duplicate_exact_synonym	RNAseq 009-014 - CS202002013_133	oboInOwl:hasExactSynonym	Sncg
 WARN	duplicate_exact_synonym	(Mouse Sncg)-like primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Sncg
-WARN	duplicate_exact_synonym	RNAseq 009-013, 016-018 - CS201912131_129	oboInOwl:hasExactSynonym	Sncg
 WARN	duplicate_exact_synonym	(Mouse Sncg)-like primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Sncg
+WARN	duplicate_exact_synonym	RNAseq 009-013, 016-018 - CS201912131_129	oboInOwl:hasExactSynonym	Sncg
 WARN	duplicate_exact_synonym	RNAseq 08-14 - CS201912132_96	oboInOwl:hasExactSynonym	Sncg
+WARN	duplicate_exact_synonym	RNAseq 009-014 - CS202002013_133	oboInOwl:hasExactSynonym	Sncg
 WARN	duplicate_exact_synonym	SMC primary motor cortex smooth muscle cell of the brain vasculature (Mmus)	oboInOwl:hasExactSynonym	SMC
 WARN	duplicate_exact_synonym	RNAseq 111 - CS202002013_111	oboInOwl:hasExactSynonym	SMC
 WARN	duplicate_exact_synonym	Vip Sncg primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Small CCK basket cell
@@ -156,110 +156,110 @@ WARN	duplicate_exact_synonym	RNAseq 014 - CS202002013_14	oboInOwl:hasExactSynony
 WARN	duplicate_exact_synonym	Inh L1-4 LAMP5 LCP2 middle temporal gyrus GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Rosehip
 WARN	duplicate_exact_synonym	Neuron 004 - CS1908210004	oboInOwl:hasExactSynonym	Rosehip
 WARN	duplicate_exact_synonym	Pvalb-like_C2 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Pvalb_2
-WARN	duplicate_exact_synonym	RNAseq 048-049 - CS202002013_248	oboInOwl:hasExactSynonym	Pvalb_2
 WARN	duplicate_exact_synonym	(Mouse Pvalb)-like_C2 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Pvalb_2
-WARN	duplicate_exact_synonym	RNAseq 069-071 - CS201912131_170	oboInOwl:hasExactSynonym	Pvalb_2
 WARN	duplicate_exact_synonym	Inh PVALB KLHL29 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Pvalb_2
+WARN	duplicate_exact_synonym	RNAseq 069-071 - CS201912131_170	oboInOwl:hasExactSynonym	Pvalb_2
 WARN	duplicate_exact_synonym	RNAseq 51 - CS201912132_51	oboInOwl:hasExactSynonym	Pvalb_2
+WARN	duplicate_exact_synonym	RNAseq 048-049 - CS202002013_248	oboInOwl:hasExactSynonym	Pvalb_2
 WARN	duplicate_exact_synonym	Pvalb-like_C1 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Pvalb_1
-WARN	duplicate_exact_synonym	RNAseq 046, 050-055 - CS202002013_247	oboInOwl:hasExactSynonym	Pvalb_1
 WARN	duplicate_exact_synonym	(Mouse Pvalb)-like_C1 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Pvalb_1
-WARN	duplicate_exact_synonym	RNAseq 059-068 - CS201912131_169	oboInOwl:hasExactSynonym	Pvalb_1
 WARN	duplicate_exact_synonym	(Mouse Pvalb)-like_C1 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Pvalb_1
+WARN	duplicate_exact_synonym	RNAseq 059-068 - CS201912131_169	oboInOwl:hasExactSynonym	Pvalb_1
 WARN	duplicate_exact_synonym	RNAseq 41-46, 48-50 - CS201912132_129	oboInOwl:hasExactSynonym	Pvalb_1
+WARN	duplicate_exact_synonym	RNAseq 046, 050-055 - CS202002013_247	oboInOwl:hasExactSynonym	Pvalb_1
 WARN	duplicate_exact_synonym	PVALB-like middle temporal gyrus GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	PVALB-like
 WARN	duplicate_exact_synonym	Neuron 039-044 - CS1908210117	oboInOwl:hasExactSynonym	PVALB-like
 WARN	duplicate_exact_synonym	Pvalb-like primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Pvalb
-WARN	duplicate_exact_synonym	RNAseq 048-057 - CS202002013_233	oboInOwl:hasExactSynonym	Pvalb
 WARN	duplicate_exact_synonym	(Mouse Pvalb)-like primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Pvalb
-WARN	duplicate_exact_synonym	RNAseq 059-072 - CS201912131_132	oboInOwl:hasExactSynonym	Pvalb
 WARN	duplicate_exact_synonym	(Mouse Pvalb)-like primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Pvalb
+WARN	duplicate_exact_synonym	RNAseq 059-072 - CS201912131_132	oboInOwl:hasExactSynonym	Pvalb
 WARN	duplicate_exact_synonym	RNAseq 41-46, 48-52 - CS201912132_99	oboInOwl:hasExactSynonym	Pvalb
+WARN	duplicate_exact_synonym	RNAseq 048-057 - CS202002013_233	oboInOwl:hasExactSynonym	Pvalb
 WARN	duplicate_exact_synonym	Peri primary motor cortex brain pericyte (Mmus)	oboInOwl:hasExactSynonym	Pericyte
-WARN	duplicate_exact_synonym	RNAseq 112 - CS202002013_112	oboInOwl:hasExactSynonym	Pericyte
 WARN	duplicate_exact_synonym	RNAseq 88-89 - CS201912132_108	oboInOwl:hasExactSynonym	Pericyte
+WARN	duplicate_exact_synonym	RNAseq 112 - CS202002013_112	oboInOwl:hasExactSynonym	Pericyte
 WARN	duplicate_exact_synonym	Peri primary motor cortex brain pericyte (Mmus)	oboInOwl:hasExactSynonym	Peri
 WARN	duplicate_exact_synonym	RNAseq 88-89 - CS201912132_108	oboInOwl:hasExactSynonym	Peri
 WARN	duplicate_exact_synonym	PAX6 middle temporal gyrus GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	PAX6
 WARN	duplicate_exact_synonym	Neuron 001-002 - CS1908210081	oboInOwl:hasExactSynonym	PAX6
 WARN	duplicate_exact_synonym	OPC Pdgfra primary motor cortex oligodendrocyte precursor cell (Mmus)	oboInOwl:hasExactSynonym	OPC
-WARN	duplicate_exact_synonym	RNAseq 091 - CS202002013_91	oboInOwl:hasExactSynonym	OPC
 WARN	duplicate_exact_synonym	OPC L1-6 PDGFRA COL20A1 primary motor cortex oligodendrocyte precursor cell (Hsap)	oboInOwl:hasExactSynonym	OPC
-WARN	duplicate_exact_synonym	RNAseq 118 - CS201912131_118	oboInOwl:hasExactSynonym	OPC
 WARN	duplicate_exact_synonym	OPC PDGFRA VCAN primary motor cortex oligodendrocyte precursor cell (Cjac)	oboInOwl:hasExactSynonym	OPC
-WARN	duplicate_exact_synonym	RNAseq 78 - CS201912132_78	oboInOwl:hasExactSynonym	OPC
 WARN	duplicate_exact_synonym	OPC L1-6 PDGFRA middle temporal gyrus oligodendrocyte precursor cell (Hsap)	oboInOwl:hasExactSynonym	OPC
 WARN	duplicate_exact_synonym	Non-neuron 001 - CS1908210070	oboInOwl:hasExactSynonym	OPC
+WARN	duplicate_exact_synonym	RNAseq 118 - CS201912131_118	oboInOwl:hasExactSynonym	OPC
+WARN	duplicate_exact_synonym	RNAseq 78 - CS201912132_78	oboInOwl:hasExactSynonym	OPC
+WARN	duplicate_exact_synonym	RNAseq 091 - CS202002013_91	oboInOwl:hasExactSynonym	OPC
 WARN	duplicate_exact_synonym	Oligo_C2 primary motor cortex oligodendrocyte (Mmus)	oboInOwl:hasExactSynonym	Oligo_C2
 WARN	duplicate_exact_synonym	Oligo_C2 primary motor cortex oligodendrocyte (Hsap)	oboInOwl:hasExactSynonym	Oligo_C2
 WARN	duplicate_exact_synonym	Oligo_C2 primary motor cortex oligodendrocyte (Mmus)	oboInOwl:hasExactSynonym	Oligo_2
-WARN	duplicate_exact_synonym	RNAseq 098, 100-102 - CS202002013_253	oboInOwl:hasExactSynonym	Oligo_2
 WARN	duplicate_exact_synonym	Oligo_C2 primary motor cortex oligodendrocyte (Hsap)	oboInOwl:hasExactSynonym	Oligo_2
-WARN	duplicate_exact_synonym	RNAseq 120-121 - CS201912131_179	oboInOwl:hasExactSynonym	Oligo_2
 WARN	duplicate_exact_synonym	Oligo OPALIN LOC103790018 primary motor cortex oligodendrocyte (Cjac)	oboInOwl:hasExactSynonym	Oligo_2
+WARN	duplicate_exact_synonym	RNAseq 120-121 - CS201912131_179	oboInOwl:hasExactSynonym	Oligo_2
 WARN	duplicate_exact_synonym	RNAseq 83 - CS201912132_83	oboInOwl:hasExactSynonym	Oligo_2
+WARN	duplicate_exact_synonym	RNAseq 098, 100-102 - CS202002013_253	oboInOwl:hasExactSynonym	Oligo_2
 WARN	duplicate_exact_synonym	Oligo Opalin_1 primary motor cortex oligodendrocyte (Mmus)	oboInOwl:hasExactSynonym	Oligo_1
-WARN	duplicate_exact_synonym	RNAseq 099 - CS202002013_99	oboInOwl:hasExactSynonym	Oligo_1
 WARN	duplicate_exact_synonym	Oligo L3-6 OPALIN-like ENPP6 primary motor cortex oligodendrocyte precursor cell (Hsap)	oboInOwl:hasExactSynonym	Oligo_1
-WARN	duplicate_exact_synonym	RNAseq 119 - CS201912131_119	oboInOwl:hasExactSynonym	Oligo_1
 WARN	duplicate_exact_synonym	Oligo OPALIN MOBP primary motor cortex oligodendrocyte (Cjac)	oboInOwl:hasExactSynonym	Oligo_1
+WARN	duplicate_exact_synonym	RNAseq 119 - CS201912131_119	oboInOwl:hasExactSynonym	Oligo_1
 WARN	duplicate_exact_synonym	RNAseq 84 - CS201912132_84	oboInOwl:hasExactSynonym	Oligo_1
-WARN	duplicate_exact_synonym	RNAseq 091,095-102 - CS202002013_236	oboInOwl:hasExactSynonym	Oligodendrocyte-OPC
+WARN	duplicate_exact_synonym	RNAseq 099 - CS202002013_99	oboInOwl:hasExactSynonym	Oligo_1
 WARN	duplicate_exact_synonym	Oligo-OPC primary motor cortex glial cell (Hsap)	oboInOwl:hasExactSynonym	Oligodendrocyte-OPC
 WARN	duplicate_exact_synonym	RNAseq 117-120 - CS201912131_147	oboInOwl:hasExactSynonym	Oligodendrocyte-OPC
 WARN	duplicate_exact_synonym	RNAseq 77-78, 83-84 - CS201912132_114	oboInOwl:hasExactSynonym	Oligodendrocyte-OPC
-WARN	duplicate_exact_synonym	RNAseq 095-102 - CS202002013_212	oboInOwl:hasExactSynonym	Oligodendrocyte
+WARN	duplicate_exact_synonym	RNAseq 091,095-102 - CS202002013_236	oboInOwl:hasExactSynonym	Oligodendrocyte-OPC
 WARN	duplicate_exact_synonym	Oligo primary motor cortex glial cell (Hsap)	oboInOwl:hasExactSynonym	Oligodendrocyte
-WARN	duplicate_exact_synonym	RNAseq 117, 119-121 - CS201912131_140	oboInOwl:hasExactSynonym	Oligodendrocyte
-WARN	duplicate_exact_synonym	RNAseq 77, 83-84 - CS201912132_105	oboInOwl:hasExactSynonym	Oligodendrocyte
 WARN	duplicate_exact_synonym	Oligo L1-6 OPALIN middle temporal gyrus oligodendrocyte (Hsap)	oboInOwl:hasExactSynonym	Oligodendrocyte
 WARN	duplicate_exact_synonym	Non-neuron 004 - CS1908210073	oboInOwl:hasExactSynonym	Oligodendrocyte
-WARN	duplicate_exact_synonym	RNAseq 091-102 - CS202002013_235	oboInOwl:hasExactSynonym	Non-neuronal
+WARN	duplicate_exact_synonym	RNAseq 117, 119-121 - CS201912131_140	oboInOwl:hasExactSynonym	Oligodendrocyte
+WARN	duplicate_exact_synonym	RNAseq 77, 83-84 - CS201912132_105	oboInOwl:hasExactSynonym	Oligodendrocyte
+WARN	duplicate_exact_synonym	RNAseq 095-102 - CS202002013_212	oboInOwl:hasExactSynonym	Oligodendrocyte
 WARN	duplicate_exact_synonym	RNAseq 117-124 - CS201912131_151	oboInOwl:hasExactSynonym	Non-neuronal
 WARN	duplicate_exact_synonym	RNAseq 77-84 - CS201912132_118	oboInOwl:hasExactSynonym	Non-neuronal
-WARN	duplicate_exact_synonym	RNAseq 103-116 - CS202002013_219	oboInOwl:hasExactSynonym	Non-neural
+WARN	duplicate_exact_synonym	RNAseq 091-102 - CS202002013_235	oboInOwl:hasExactSynonym	Non-neuronal
 WARN	duplicate_exact_synonym	RNAseq 125-127 - CS201912131_148	oboInOwl:hasExactSynonym	Non-neural
 WARN	duplicate_exact_synonym	RNAseq 85-94 - CS201912132_115	oboInOwl:hasExactSynonym	Non-neural
+WARN	duplicate_exact_synonym	RNAseq 103-116 - CS202002013_219	oboInOwl:hasExactSynonym	Non-neural
 WARN	duplicate_exact_synonym	L5 ET (Non-MY-projecting) primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	Non-MY-projecting L5 ET
 WARN	duplicate_exact_synonym	RNAseq 071-073 - CS202002013_194	oboInOwl:hasExactSynonym	Non-MY-projecting L5 ET
 WARN	duplicate_exact_synonym	Non-IT projecting primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	Non-IT projecting
-WARN	duplicate_exact_synonym	RNAseq 070-088 - CS202002013_234	oboInOwl:hasExactSynonym	Non-IT projecting
 WARN	duplicate_exact_synonym	(Mouse Non-IT projecting)-like primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	Non-IT projecting
-WARN	duplicate_exact_synonym	RNAseq 097-116 - CS201912131_146	oboInOwl:hasExactSynonym	Non-IT projecting
 WARN	duplicate_exact_synonym	(Mouse Non-IT projecting)-like primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	Non-IT projecting
+WARN	duplicate_exact_synonym	RNAseq 097-116 - CS201912131_146	oboInOwl:hasExactSynonym	Non-IT projecting
 WARN	duplicate_exact_synonym	RNAseq 69-76 - CS201912132_113	oboInOwl:hasExactSynonym	Non-IT projecting
-WARN	duplicate_exact_synonym	RNAseq 058-088 - CS202002013_179	oboInOwl:hasExactSynonym	Neuronal: Glutamatergic
+WARN	duplicate_exact_synonym	RNAseq 070-088 - CS202002013_234	oboInOwl:hasExactSynonym	Non-IT projecting
 WARN	duplicate_exact_synonym	RNAseq 073-116 - CS201912131_150	oboInOwl:hasExactSynonym	Neuronal: Glutamatergic
 WARN	duplicate_exact_synonym	RNAseq 53-76 - CS201912132_117	oboInOwl:hasExactSynonym	Neuronal: Glutamatergic
-WARN	duplicate_exact_synonym	RNAseq 001-057, 089-090 - CS202002013_123	oboInOwl:hasExactSynonym	Neuronal: GABAergic
+WARN	duplicate_exact_synonym	RNAseq 058-088 - CS202002013_179	oboInOwl:hasExactSynonym	Neuronal: Glutamatergic
 WARN	duplicate_exact_synonym	RNAseq 001-072 - CS201912131_149	oboInOwl:hasExactSynonym	Neuronal: GABAergic
 WARN	duplicate_exact_synonym	RNAseq 01-52 - CS201912132_116	oboInOwl:hasExactSynonym	Neuronal: GABAergic
+WARN	duplicate_exact_synonym	RNAseq 001-057, 089-090 - CS202002013_123	oboInOwl:hasExactSynonym	Neuronal: GABAergic
 WARN	duplicate_exact_synonym	L5/6 NP primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	Near-projecting
 WARN	duplicate_exact_synonym	RNAseq 086-088 - CS202002013_207	oboInOwl:hasExactSynonym	Near-projecting
 WARN	duplicate_exact_synonym	L5 ET_1 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	MY-projecting L5 ET
 WARN	duplicate_exact_synonym	RNAseq 070 - CS202002013_70	oboInOwl:hasExactSynonym	MY-projecting L5 ET
-WARN	duplicate_exact_synonym	RNAseq 113-116 - CS202002013_229	oboInOwl:hasExactSynonym	Microglia/PVM
 WARN	duplicate_exact_synonym	Micro L1-6 TYROBP CD74 primary motor cortex microglial cell (Hsap)	oboInOwl:hasExactSynonym	Microglia/PVM
 WARN	duplicate_exact_synonym	RNAseq 127 - CS201912131_127	oboInOwl:hasExactSynonym	Microglia/PVM
-WARN	duplicate_exact_synonym	RNAseq 113-116 - CS202002013_229	oboInOwl:hasExactSynonym	Microglia-PVM
+WARN	duplicate_exact_synonym	RNAseq 113-116 - CS202002013_229	oboInOwl:hasExactSynonym	Microglia/PVM
 WARN	duplicate_exact_synonym	Micro L1-6 TYROBP CD74 primary motor cortex microglial cell (Hsap)	oboInOwl:hasExactSynonym	Microglia-PVM
-WARN	duplicate_exact_synonym	RNAseq 127 - CS201912131_127	oboInOwl:hasExactSynonym	Microglia-PVM
 WARN	duplicate_exact_synonym	Micro TYROBP LOC103788313 primary motor cortex microglial cell (Cjac)	oboInOwl:hasExactSynonym	Microglia-PVM
+WARN	duplicate_exact_synonym	RNAseq 127 - CS201912131_127	oboInOwl:hasExactSynonym	Microglia-PVM
 WARN	duplicate_exact_synonym	RNAseq 94 - CS201912132_94	oboInOwl:hasExactSynonym	Microglia-PVM
+WARN	duplicate_exact_synonym	RNAseq 113-116 - CS202002013_229	oboInOwl:hasExactSynonym	Microglia-PVM
 WARN	duplicate_exact_synonym	Micro primary motor cortex microglial cell (Mmus)	oboInOwl:hasExactSynonym	Microglia
-WARN	duplicate_exact_synonym	RNAseq 113 - CS202002013_113	oboInOwl:hasExactSynonym	Microglia
 WARN	duplicate_exact_synonym	Micro L1-6 TYROBP middle temporal gyrus microglial cell (Hsap)	oboInOwl:hasExactSynonym	Microglia
 WARN	duplicate_exact_synonym	Non-neuron 006 - CS1908210075	oboInOwl:hasExactSynonym	Microglia
+WARN	duplicate_exact_synonym	RNAseq 113 - CS202002013_113	oboInOwl:hasExactSynonym	Microglia
 WARN	duplicate_exact_synonym	MGE primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	MGE
-WARN	duplicate_exact_synonym	RNAseq 028-057 - CS202002013_150	oboInOwl:hasExactSynonym	MGE
 WARN	duplicate_exact_synonym	(Mouse MGE)-like primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	MGE
-WARN	duplicate_exact_synonym	RNAseq 040-072 - CS201912131_144	oboInOwl:hasExactSynonym	MGE
 WARN	duplicate_exact_synonym	(Mouse MGE)-like primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	MGE
+WARN	duplicate_exact_synonym	RNAseq 040-072 - CS201912131_144	oboInOwl:hasExactSynonym	MGE
 WARN	duplicate_exact_synonym	RNAseq 01, 27-52 - CS201912132_110	oboInOwl:hasExactSynonym	MGE
+WARN	duplicate_exact_synonym	RNAseq 028-057 - CS202002013_150	oboInOwl:hasExactSynonym	MGE
 WARN	duplicate_exact_synonym	Meis2 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Meis2
-WARN	duplicate_exact_synonym	RNAseq 089-090 - CS202002013_209	oboInOwl:hasExactSynonym	Meis2
 WARN	duplicate_exact_synonym	Inh PAX6 MEIS2 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Meis2
 WARN	duplicate_exact_synonym	RNAseq 26 - CS201912132_26	oboInOwl:hasExactSynonym	Meis2
+WARN	duplicate_exact_synonym	RNAseq 089-090 - CS202002013_209	oboInOwl:hasExactSynonym	Meis2
 WARN	duplicate_exact_synonym	Lower FS Basket cell primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Lower FS Basket cell
 WARN	duplicate_exact_synonym	RNAseq 049-053 - CS202002013_257	oboInOwl:hasExactSynonym	Lower FS Basket cell
 WARN	duplicate_exact_synonym	Sst Chodl primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Long-projecting SST cell
@@ -271,35 +271,35 @@ WARN	duplicate_exact_synonym	Neuron 028-045 - CS1908210105	oboInOwl:hasExactSyno
 WARN	duplicate_exact_synonym	Large CCK basket cell primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Large CCK basket cell
 WARN	duplicate_exact_synonym	RNAseq 009-012 - CS202002013_255	oboInOwl:hasExactSynonym	Large CCK basket cell
 WARN	duplicate_exact_synonym	Lamp5-like_C5 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Lamp5_5
-WARN	duplicate_exact_synonym	RNAseq 003-004 - CS202002013_128	oboInOwl:hasExactSynonym	Lamp5_5
 WARN	duplicate_exact_synonym	(Mouse Lamp5)-like_C5 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Lamp5_5
-WARN	duplicate_exact_synonym	RNAseq 014-015 - CS201912131_157	oboInOwl:hasExactSynonym	Lamp5_5
 WARN	duplicate_exact_synonym	Inh LAMP5 COL5A2 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Lamp5_5
+WARN	duplicate_exact_synonym	RNAseq 014-015 - CS201912131_157	oboInOwl:hasExactSynonym	Lamp5_5
 WARN	duplicate_exact_synonym	RNAseq 02 - CS201912132_2	oboInOwl:hasExactSynonym	Lamp5_5
+WARN	duplicate_exact_synonym	RNAseq 003-004 - CS202002013_128	oboInOwl:hasExactSynonym	Lamp5_5
 WARN	duplicate_exact_synonym	Lamp5-like Pax6 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Lamp5_4
-WARN	duplicate_exact_synonym	RNAseq 001 - CS202002013_1	oboInOwl:hasExactSynonym	Lamp5_4
 WARN	duplicate_exact_synonym	(Mouse Lamp5)-like_C4 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Lamp5_4
-WARN	duplicate_exact_synonym	RNAseq 007-008 - CS201912131_154	oboInOwl:hasExactSynonym	Lamp5_4
 WARN	duplicate_exact_synonym	Inh PAX6 HMBOX1 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Lamp5_4
+WARN	duplicate_exact_synonym	RNAseq 007-008 - CS201912131_154	oboInOwl:hasExactSynonym	Lamp5_4
 WARN	duplicate_exact_synonym	RNAseq 07 - CS201912132_7	oboInOwl:hasExactSynonym	Lamp5_4
+WARN	duplicate_exact_synonym	RNAseq 001 - CS202002013_1	oboInOwl:hasExactSynonym	Lamp5_4
 WARN	duplicate_exact_synonym	Lamp5 Lhx6 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Lamp5_3
-WARN	duplicate_exact_synonym	RNAseq 008 - CS202002013_8	oboInOwl:hasExactSynonym	Lamp5_3
 WARN	duplicate_exact_synonym	(Mouse Lamp5)-like_C3 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Lamp5_3
-WARN	duplicate_exact_synonym	RNAseq 005-006 - CS201912131_153	oboInOwl:hasExactSynonym	Lamp5_3
 WARN	duplicate_exact_synonym	Inh LAMP5 TRPC6 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Lamp5_3
+WARN	duplicate_exact_synonym	RNAseq 005-006 - CS201912131_153	oboInOwl:hasExactSynonym	Lamp5_3
 WARN	duplicate_exact_synonym	RNAseq 04 - CS201912132_4	oboInOwl:hasExactSynonym	Lamp5_3
+WARN	duplicate_exact_synonym	RNAseq 008 - CS202002013_8	oboInOwl:hasExactSynonym	Lamp5_3
 WARN	duplicate_exact_synonym	Lamp5-like_C2 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Lamp5_2
-WARN	duplicate_exact_synonym	RNAseq 006-007 - CS202002013_238	oboInOwl:hasExactSynonym	Lamp5_2
 WARN	duplicate_exact_synonym	(Mouse Lamp5)-like_C2 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Lamp5_2
-WARN	duplicate_exact_synonym	RNAseq 002-004 - CS201912131_152	oboInOwl:hasExactSynonym	Lamp5_2
 WARN	duplicate_exact_synonym	(Mouse Lamp5)-like_C2 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Lamp5_2
+WARN	duplicate_exact_synonym	RNAseq 002-004 - CS201912131_152	oboInOwl:hasExactSynonym	Lamp5_2
 WARN	duplicate_exact_synonym	RNAseq 05-06 - CS201912132_120	oboInOwl:hasExactSynonym	Lamp5_2
+WARN	duplicate_exact_synonym	RNAseq 006-007 - CS202002013_238	oboInOwl:hasExactSynonym	Lamp5_2
 WARN	duplicate_exact_synonym	Lamp5 Pdlim5_1 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Lamp5_1
-WARN	duplicate_exact_synonym	RNAseq 005 - CS202002013_5	oboInOwl:hasExactSynonym	Lamp5_1
 WARN	duplicate_exact_synonym	Inh L1 LAMP5 PVRL2 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Lamp5_1
-WARN	duplicate_exact_synonym	RNAseq 001 - CS201912131_1	oboInOwl:hasExactSynonym	Lamp5_1
 WARN	duplicate_exact_synonym	Inh LAMP5 TOX2 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Lamp5_1
+WARN	duplicate_exact_synonym	RNAseq 001 - CS201912131_1	oboInOwl:hasExactSynonym	Lamp5_1
 WARN	duplicate_exact_synonym	RNAseq 03 - CS201912132_3	oboInOwl:hasExactSynonym	Lamp5_1
+WARN	duplicate_exact_synonym	RNAseq 005 - CS202002013_5	oboInOwl:hasExactSynonym	Lamp5_1
 WARN	duplicate_exact_synonym	LAMP5/PAX6-like middle temporal gyrus GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	LAMP5/PAX6-like
 WARN	duplicate_exact_synonym	Neuron 001-006 - CS1908210080	oboInOwl:hasExactSynonym	LAMP5/PAX6-like
 WARN	duplicate_exact_synonym	LAMP5-like middle temporal gyrus GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	LAMP5-like
@@ -307,94 +307,94 @@ WARN	duplicate_exact_synonym	Neuron 003-006 - CS1908210082	oboInOwl:hasExactSyno
 WARN	duplicate_exact_synonym	Lamp5-like Pax6 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Lamp5 Pax6
 WARN	duplicate_exact_synonym	RNAseq 001 - CS202002013_1	oboInOwl:hasExactSynonym	Lamp5 Pax6
 WARN	duplicate_exact_synonym	Lamp5 Lhx6 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Lamp5 Lhx6
-WARN	duplicate_exact_synonym	RNAseq 008 - CS202002013_8	oboInOwl:hasExactSynonym	Lamp5 Lhx6
 WARN	duplicate_exact_synonym	(Mouse Lamp5)-like_C3 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Lamp5 Lhx6
-WARN	duplicate_exact_synonym	RNAseq 005-006 - CS201912131_153	oboInOwl:hasExactSynonym	Lamp5 Lhx6
 WARN	duplicate_exact_synonym	Inh LAMP5 TRPC6 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Lamp5 Lhx6
-WARN	duplicate_exact_synonym	RNAseq 04 - CS201912132_4	oboInOwl:hasExactSynonym	Lamp5 Lhx6
 WARN	duplicate_exact_synonym	Inh L2-6 LAMP5 CA1 middle temporal gyrus GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Lamp5 Lhx6
 WARN	duplicate_exact_synonym	Neuron 006 - CS1908210006	oboInOwl:hasExactSynonym	Lamp5 Lhx6
+WARN	duplicate_exact_synonym	RNAseq 005-006 - CS201912131_153	oboInOwl:hasExactSynonym	Lamp5 Lhx6
+WARN	duplicate_exact_synonym	RNAseq 04 - CS201912132_4	oboInOwl:hasExactSynonym	Lamp5 Lhx6
+WARN	duplicate_exact_synonym	RNAseq 008 - CS202002013_8	oboInOwl:hasExactSynonym	Lamp5 Lhx6
 WARN	duplicate_exact_synonym	Lamp5 Egln3_3 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Lamp5 Egln3_3
 WARN	duplicate_exact_synonym	RNAseq 004 - CS202002013_4	oboInOwl:hasExactSynonym	Lamp5 Egln3_3
 WARN	duplicate_exact_synonym	Lamp5-like primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Lamp5
-WARN	duplicate_exact_synonym	RNAseq 001-008 - CS202002013_125	oboInOwl:hasExactSynonym	Lamp5
 WARN	duplicate_exact_synonym	(Mouse Lamp5)-like primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Lamp5
-WARN	duplicate_exact_synonym	RNAseq 001-008, 014-015 - CS201912131_128	oboInOwl:hasExactSynonym	Lamp5
 WARN	duplicate_exact_synonym	(Mouse Lamp5)-like primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Lamp5
+WARN	duplicate_exact_synonym	RNAseq 001-008, 014-015 - CS201912131_128	oboInOwl:hasExactSynonym	Lamp5
 WARN	duplicate_exact_synonym	RNAseq 02-07 - CS201912132_95	oboInOwl:hasExactSynonym	Lamp5
+WARN	duplicate_exact_synonym	RNAseq 001-008 - CS202002013_125	oboInOwl:hasExactSynonym	Lamp5
 WARN	duplicate_exact_synonym	L6b primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L6b subplate
 WARN	duplicate_exact_synonym	RNAseq 081-085 - CS202002013_203	oboInOwl:hasExactSynonym	L6b subplate
 WARN	duplicate_exact_synonym	L6b primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L6b
-WARN	duplicate_exact_synonym	RNAseq 081-085 - CS202002013_203	oboInOwl:hasExactSynonym	L6b
 WARN	duplicate_exact_synonym	(Mouse L6b)-like primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L6b
-WARN	duplicate_exact_synonym	RNAseq 103-108 - CS201912131_137	oboInOwl:hasExactSynonym	L6b
 WARN	duplicate_exact_synonym	Exc FEZF2 ARSJ primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L6b
-WARN	duplicate_exact_synonym	RNAseq 74 - CS201912132_75	oboInOwl:hasExactSynonym	L6b
 WARN	duplicate_exact_synonym	L6b middle temporal gyrus glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L6b
 WARN	duplicate_exact_synonym	Neuron 066-069 - CS1908210142	oboInOwl:hasExactSynonym	L6b
+WARN	duplicate_exact_synonym	RNAseq 103-108 - CS201912131_137	oboInOwl:hasExactSynonym	L6b
+WARN	duplicate_exact_synonym	RNAseq 74 - CS201912132_75	oboInOwl:hasExactSynonym	L6b
+WARN	duplicate_exact_synonym	RNAseq 081-085 - CS202002013_203	oboInOwl:hasExactSynonym	L6b
 WARN	duplicate_exact_synonym	L6 Th+ SST/PV cell primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	L6 Th+ SST/PV cell
 WARN	duplicate_exact_synonym	RNAseq 046-047 - CS202002013_170	oboInOwl:hasExactSynonym	L6 Th+ SST/PV cell
 WARN	duplicate_exact_synonym	L6 IT Car3 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L6 IT_3
-WARN	duplicate_exact_synonym	RNAseq 069 - CS202002013_69	oboInOwl:hasExactSynonym	L6 IT_3
 WARN	duplicate_exact_synonym	Exc L5-6 THEMIS SMYD1 primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L6 IT_3
-WARN	duplicate_exact_synonym	RNAseq 096 - CS201912131_97	oboInOwl:hasExactSynonym	L6 IT_3
 WARN	duplicate_exact_synonym	Exc THEMIS NTNG2 primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L6 IT_3
+WARN	duplicate_exact_synonym	RNAseq 096 - CS201912131_97	oboInOwl:hasExactSynonym	L6 IT_3
 WARN	duplicate_exact_synonym	RNAseq 75 - CS201912132_76	oboInOwl:hasExactSynonym	L6 IT_3
+WARN	duplicate_exact_synonym	RNAseq 069 - CS202002013_69	oboInOwl:hasExactSynonym	L6 IT_3
 WARN	duplicate_exact_synonym	L6 IT_2 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L6 IT_2
 WARN	duplicate_exact_synonym	L6 IT_C2 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L6 IT_2
-WARN	duplicate_exact_synonym	RNAseq 066, 068 - CS202002013_250	oboInOwl:hasExactSynonym	L6 IT_2
 WARN	duplicate_exact_synonym	(Mouse L6 IT)-like_C2 primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L6 IT_2
-WARN	duplicate_exact_synonym	RNAseq 088, 095 - CS201912131_174	oboInOwl:hasExactSynonym	L6 IT_2
 WARN	duplicate_exact_synonym	Exc THEMIS KCTD16 primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L6 IT_2
+WARN	duplicate_exact_synonym	RNAseq 088, 095 - CS201912131_174	oboInOwl:hasExactSynonym	L6 IT_2
 WARN	duplicate_exact_synonym	RNAseq 59 - CS201912132_59	oboInOwl:hasExactSynonym	L6 IT_2
+WARN	duplicate_exact_synonym	RNAseq 066, 068 - CS202002013_250	oboInOwl:hasExactSynonym	L6 IT_2
 WARN	duplicate_exact_synonym	L6 IT_1 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L6 IT_1
-WARN	duplicate_exact_synonym	RNAseq 067 - CS202002013_67	oboInOwl:hasExactSynonym	L6 IT_1
 WARN	duplicate_exact_synonym	(Mouse L6 IT)-like_C1 primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L6 IT_1
-WARN	duplicate_exact_synonym	RNAseq 093-094 - CS201912131_176	oboInOwl:hasExactSynonym	L6 IT_1
 WARN	duplicate_exact_synonym	Exc THEMIS COBL primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L6 IT_1
+WARN	duplicate_exact_synonym	RNAseq 093-094 - CS201912131_176	oboInOwl:hasExactSynonym	L6 IT_1
 WARN	duplicate_exact_synonym	RNAseq 60 - CS201912132_60	oboInOwl:hasExactSynonym	L6 IT_1
+WARN	duplicate_exact_synonym	RNAseq 067 - CS202002013_67	oboInOwl:hasExactSynonym	L6 IT_1
 WARN	duplicate_exact_synonym	L6 IT Car3 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L6 IT Car3
-WARN	duplicate_exact_synonym	RNAseq 069 - CS202002013_69	oboInOwl:hasExactSynonym	L6 IT Car3
 WARN	duplicate_exact_synonym	Exc L5-6 THEMIS SMYD1 primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L6 IT Car3
-WARN	duplicate_exact_synonym	RNAseq 096 - CS201912131_97	oboInOwl:hasExactSynonym	L6 IT Car3
 WARN	duplicate_exact_synonym	Exc THEMIS NTNG2 primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L6 IT Car3
+WARN	duplicate_exact_synonym	RNAseq 096 - CS201912131_97	oboInOwl:hasExactSynonym	L6 IT Car3
 WARN	duplicate_exact_synonym	RNAseq 75 - CS201912132_76	oboInOwl:hasExactSynonym	L6 IT Car3
+WARN	duplicate_exact_synonym	RNAseq 069 - CS202002013_69	oboInOwl:hasExactSynonym	L6 IT Car3
 WARN	duplicate_exact_synonym	L6 IT primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L6 IT
-WARN	duplicate_exact_synonym	RNAseq 067-068 - CS202002013_192	oboInOwl:hasExactSynonym	L6 IT
 WARN	duplicate_exact_synonym	(Mouse L6 IT)-like primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L6 IT
-WARN	duplicate_exact_synonym	RNAseq 093-095 - CS201912131_135	oboInOwl:hasExactSynonym	L6 IT
 WARN	duplicate_exact_synonym	(Mouse L6 IT)-like primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L6 IT
-WARN	duplicate_exact_synonym	RNAseq 59-60 - CS201912132_102	oboInOwl:hasExactSynonym	L6 IT
 WARN	duplicate_exact_synonym	L6 IT middle temporal gyrus glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L6 IT
 WARN	duplicate_exact_synonym	Neuron 061-063 - CS1908210138	oboInOwl:hasExactSynonym	L6 IT
+WARN	duplicate_exact_synonym	RNAseq 093-095 - CS201912131_135	oboInOwl:hasExactSynonym	L6 IT
+WARN	duplicate_exact_synonym	RNAseq 59-60 - CS201912132_102	oboInOwl:hasExactSynonym	L6 IT
+WARN	duplicate_exact_synonym	RNAseq 067-068 - CS202002013_192	oboInOwl:hasExactSynonym	L6 IT
 WARN	duplicate_exact_synonym	Pvalb Gabrg1 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	L6 FS cell w/ large sag
 WARN	duplicate_exact_synonym	RNAseq 048 - CS202002013_48	oboInOwl:hasExactSynonym	L6 FS cell w/ large sag
 WARN	duplicate_exact_synonym	L6 CT Cpa6 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L6 CT_2
-WARN	duplicate_exact_synonym	RNAseq 076 - CS202002013_76	oboInOwl:hasExactSynonym	L6 CT_2
 WARN	duplicate_exact_synonym	Exc L5-6 FEZF2 C9orf135-AS1 primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L6 CT_2
-WARN	duplicate_exact_synonym	RNAseq 100 - CS201912131_101	oboInOwl:hasExactSynonym	L6 CT_2
 WARN	duplicate_exact_synonym	Exc FEZF2 NRP1 primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L6 CT_2
+WARN	duplicate_exact_synonym	RNAseq 100 - CS201912131_101	oboInOwl:hasExactSynonym	L6 CT_2
 WARN	duplicate_exact_synonym	RNAseq 73 - CS201912132_74	oboInOwl:hasExactSynonym	L6 CT_2
+WARN	duplicate_exact_synonym	RNAseq 076 - CS202002013_76	oboInOwl:hasExactSynonym	L6 CT_2
 WARN	duplicate_exact_synonym	L6 CT_C1 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L6 CT_1
-WARN	duplicate_exact_synonym	RNAseq 075, 077-081 - CS202002013_252	oboInOwl:hasExactSynonym	L6 CT_1
 WARN	duplicate_exact_synonym	(Mouse L6 CT)-like_C1 primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L6 CT_1
-WARN	duplicate_exact_synonym	RNAseq 097-099, 101-102 - CS201912131_177	oboInOwl:hasExactSynonym	L6 CT_1
 WARN	duplicate_exact_synonym	Exc FEZF2 RGS4 primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L6 CT_1
+WARN	duplicate_exact_synonym	RNAseq 097-099, 101-102 - CS201912131_177	oboInOwl:hasExactSynonym	L6 CT_1
 WARN	duplicate_exact_synonym	RNAseq 72 - CS201912132_73	oboInOwl:hasExactSynonym	L6 CT_1
+WARN	duplicate_exact_synonym	RNAseq 075, 077-081 - CS202002013_252	oboInOwl:hasExactSynonym	L6 CT_1
 WARN	duplicate_exact_synonym	L6 CT primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L6 CT
-WARN	duplicate_exact_synonym	RNAseq 074-080 - CS202002013_197	oboInOwl:hasExactSynonym	L6 CT
 WARN	duplicate_exact_synonym	(Mouse L6 CT)-like primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L6 CT
-WARN	duplicate_exact_synonym	RNAseq 097-102 - CS201912131_136	oboInOwl:hasExactSynonym	L6 CT
 WARN	duplicate_exact_synonym	(Mouse L6 CT)-like primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L6 CT
-WARN	duplicate_exact_synonym	RNAseq 72-73 - CS201912132_104	oboInOwl:hasExactSynonym	L6 CT
 WARN	duplicate_exact_synonym	Exc L5-6 FEZF2 ABO middle temporal gyrus glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L6 CT
 WARN	duplicate_exact_synonym	Neuron 065 - CS1908210065	oboInOwl:hasExactSynonym	L6 CT
+WARN	duplicate_exact_synonym	RNAseq 097-102 - CS201912131_136	oboInOwl:hasExactSynonym	L6 CT
+WARN	duplicate_exact_synonym	RNAseq 72-73 - CS201912132_104	oboInOwl:hasExactSynonym	L6 CT
+WARN	duplicate_exact_synonym	RNAseq 074-080 - CS202002013_197	oboInOwl:hasExactSynonym	L6 CT
 WARN	duplicate_exact_synonym	L5/6 NP primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L5/6 NP
-WARN	duplicate_exact_synonym	RNAseq 086-088 - CS202002013_207	oboInOwl:hasExactSynonym	L5/6 NP
 WARN	duplicate_exact_synonym	(Mouse L5/6 NP)-like primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L5/6 NP
-WARN	duplicate_exact_synonym	RNAseq 112-116 - CS201912131_139	oboInOwl:hasExactSynonym	L5/6 NP
 WARN	duplicate_exact_synonym	Exc FEZF2 CRYM primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L5/6 NP
+WARN	duplicate_exact_synonym	RNAseq 112-116 - CS201912131_139	oboInOwl:hasExactSynonym	L5/6 NP
 WARN	duplicate_exact_synonym	RNAseq 76 - CS201912132_77	oboInOwl:hasExactSynonym	L5/6 NP
+WARN	duplicate_exact_synonym	RNAseq 086-088 - CS202002013_207	oboInOwl:hasExactSynonym	L5/6 NP
 WARN	duplicate_exact_synonym	L5/6 non-Martinotti cell primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	L5/6 non-Martinotti cell
 WARN	duplicate_exact_synonym	RNAseq 042-045 - CS202002013_165	oboInOwl:hasExactSynonym	L5/6 non-Martinotti cell
 WARN	duplicate_exact_synonym	Lamp5 Lhx6 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	L5/6 neurogliaform cell
@@ -421,104 +421,104 @@ WARN	duplicate_exact_synonym	L5 non-Martinotti cell primary motor cortex GABAerg
 WARN	duplicate_exact_synonym	RNAseq 036-037 - CS202002013_161	oboInOwl:hasExactSynonym	L5 non-Martinotti cell
 WARN	duplicate_exact_synonym	L5 IT_3 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L5 IT_3
 WARN	duplicate_exact_synonym	L5/6 NP CT primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L5 IT_3
-WARN	duplicate_exact_synonym	RNAseq 074 - CS202002013_74	oboInOwl:hasExactSynonym	L5 IT_3
 WARN	duplicate_exact_synonym	(Mouse L5 IT)-like_C3 primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L5 IT_3
-WARN	duplicate_exact_synonym	RNAseq 091-092 - CS201912131_175	oboInOwl:hasExactSynonym	L5 IT_3
 WARN	duplicate_exact_synonym	Exc RORB SLC38A11 primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L5 IT_3
+WARN	duplicate_exact_synonym	RNAseq 091-092 - CS201912131_175	oboInOwl:hasExactSynonym	L5 IT_3
 WARN	duplicate_exact_synonym	RNAseq 65 - CS201912132_65	oboInOwl:hasExactSynonym	L5 IT_3
+WARN	duplicate_exact_synonym	RNAseq 074 - CS202002013_74	oboInOwl:hasExactSynonym	L5 IT_3
 WARN	duplicate_exact_synonym	L5 IT_2 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L5 IT_2
 WARN	duplicate_exact_synonym	L5 IT_C2 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L5 IT_2
-WARN	duplicate_exact_synonym	RNAseq 063-064 - CS202002013_190	oboInOwl:hasExactSynonym	L5 IT_2
 WARN	duplicate_exact_synonym	(Mouse L5 IT)-like_C2 primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L5 IT_2
-WARN	duplicate_exact_synonym	RNAseq 087, 089-090 - CS201912131_173	oboInOwl:hasExactSynonym	L5 IT_2
 WARN	duplicate_exact_synonym	(Mouse L5 IT)-like_C2 primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L5 IT_2
+WARN	duplicate_exact_synonym	RNAseq 087, 089-090 - CS201912131_173	oboInOwl:hasExactSynonym	L5 IT_2
 WARN	duplicate_exact_synonym	RNAseq 66-68 - CS201912132_131	oboInOwl:hasExactSynonym	L5 IT_2
+WARN	duplicate_exact_synonym	RNAseq 063-064 - CS202002013_190	oboInOwl:hasExactSynonym	L5 IT_2
 WARN	duplicate_exact_synonym	L5 IT_1 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L5 IT_1
 WARN	duplicate_exact_synonym	L5 IT_C1 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L5 IT_1
-WARN	duplicate_exact_synonym	RNAseq 061-062, 065 - CS202002013_249	oboInOwl:hasExactSynonym	L5 IT_1
 WARN	duplicate_exact_synonym	(Mouse L5 IT)-like_C1 primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L5 IT_1
-WARN	duplicate_exact_synonym	RNAseq 079-086 - CS201912131_172	oboInOwl:hasExactSynonym	L5 IT_1
 WARN	duplicate_exact_synonym	(Mouse L5 IT)-like_C1 primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L5 IT_1
+WARN	duplicate_exact_synonym	RNAseq 079-086 - CS201912131_172	oboInOwl:hasExactSynonym	L5 IT_1
 WARN	duplicate_exact_synonym	RNAseq 57-58, 61-64 - CS201912132_130	oboInOwl:hasExactSynonym	L5 IT_1
+WARN	duplicate_exact_synonym	RNAseq 061-062, 065 - CS202002013_249	oboInOwl:hasExactSynonym	L5 IT_1
 WARN	duplicate_exact_synonym	L5 IT primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L5 IT
-WARN	duplicate_exact_synonym	RNAseq 063-066 - CS202002013_189	oboInOwl:hasExactSynonym	L5 IT
 WARN	duplicate_exact_synonym	(Mouse L5 IT)-like primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L5 IT
-WARN	duplicate_exact_synonym	RNAseq 081-092 - CS201912131_134	oboInOwl:hasExactSynonym	L5 IT
 WARN	duplicate_exact_synonym	(Mouse L5 IT)-like primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L5 IT
-WARN	duplicate_exact_synonym	RNAseq 57-58, 61-68 - CS201912132_101	oboInOwl:hasExactSynonym	L5 IT
 WARN	duplicate_exact_synonym	L5 IT middle temporal gyrus glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L5 IT
 WARN	duplicate_exact_synonym	Neuron 055-059 - CS1908210134	oboInOwl:hasExactSynonym	L5 IT
+WARN	duplicate_exact_synonym	RNAseq 081-092 - CS201912131_134	oboInOwl:hasExactSynonym	L5 IT
+WARN	duplicate_exact_synonym	RNAseq 57-58, 61-68 - CS201912132_101	oboInOwl:hasExactSynonym	L5 IT
+WARN	duplicate_exact_synonym	RNAseq 063-066 - CS202002013_189	oboInOwl:hasExactSynonym	L5 IT
 WARN	duplicate_exact_synonym	L5 ET_2 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L5 ET_2
-WARN	duplicate_exact_synonym	RNAseq 071 - CS202002013_71	oboInOwl:hasExactSynonym	L5 ET_2
 WARN	duplicate_exact_synonym	Exc L3-5 FEZF2 LINC01107 primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L5 ET_2
-WARN	duplicate_exact_synonym	RNAseq 111 - CS201912131_112	oboInOwl:hasExactSynonym	L5 ET_2
 WARN	duplicate_exact_synonym	Exc FEZF2 PDZRN4 primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L5 ET_2
+WARN	duplicate_exact_synonym	RNAseq 111 - CS201912131_112	oboInOwl:hasExactSynonym	L5 ET_2
 WARN	duplicate_exact_synonym	RNAseq 71 - CS201912132_72	oboInOwl:hasExactSynonym	L5 ET_2
+WARN	duplicate_exact_synonym	RNAseq 071 - CS202002013_71	oboInOwl:hasExactSynonym	L5 ET_2
 WARN	duplicate_exact_synonym	L5 ET_1 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L5 ET_1
 WARN	duplicate_exact_synonym	L5 ET_C1 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L5 ET_1
-WARN	duplicate_exact_synonym	RNAseq 070, 072-073 - CS202002013_251	oboInOwl:hasExactSynonym	L5 ET_1
 WARN	duplicate_exact_synonym	(Mouse L5 ET)-like_C1 primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L5 ET_1
-WARN	duplicate_exact_synonym	RNAseq 109-110 - CS201912131_178	oboInOwl:hasExactSynonym	L5 ET_1
 WARN	duplicate_exact_synonym	(Mouse L5 ET)-like_C1 primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L5 ET_1
+WARN	duplicate_exact_synonym	RNAseq 109-110 - CS201912131_178	oboInOwl:hasExactSynonym	L5 ET_1
 WARN	duplicate_exact_synonym	RNAseq 69-70 - CS201912132_132	oboInOwl:hasExactSynonym	L5 ET_1
+WARN	duplicate_exact_synonym	RNAseq 070, 072-073 - CS202002013_251	oboInOwl:hasExactSynonym	L5 ET_1
 WARN	duplicate_exact_synonym	L5 ET (Non-MY-projecting) primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L5 ET (Non-MY-projecting)
 WARN	duplicate_exact_synonym	RNAseq 071-073 - CS202002013_194	oboInOwl:hasExactSynonym	L5 ET (Non-MY-projecting)
 WARN	duplicate_exact_synonym	L5 ET_1 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L5 ET (MY-projecting)
 WARN	duplicate_exact_synonym	RNAseq 070 - CS202002013_70	oboInOwl:hasExactSynonym	L5 ET (MY-projecting)
 WARN	duplicate_exact_synonym	L5 ET primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L5 ET
-WARN	duplicate_exact_synonym	RNAseq 070-073 - CS202002013_193	oboInOwl:hasExactSynonym	L5 ET
 WARN	duplicate_exact_synonym	(Mouse L5 ET)-like primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L5 ET
-WARN	duplicate_exact_synonym	RNAseq 109-111 - CS201912131_138	oboInOwl:hasExactSynonym	L5 ET
 WARN	duplicate_exact_synonym	(Mouse L5 ET)-like primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L5 ET
-WARN	duplicate_exact_synonym	RNAseq 69-71 - CS201912132_103	oboInOwl:hasExactSynonym	L5 ET
 WARN	duplicate_exact_synonym	Exc L4-5 FEZF2 SCN4B middle temporal gyrus glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L5 ET
+WARN	duplicate_exact_synonym	RNAseq 109-111 - CS201912131_138	oboInOwl:hasExactSynonym	L5 ET
+WARN	duplicate_exact_synonym	RNAseq 69-71 - CS201912132_103	oboInOwl:hasExactSynonym	L5 ET
+WARN	duplicate_exact_synonym	RNAseq 070-073 - CS202002013_193	oboInOwl:hasExactSynonym	L5 ET
 WARN	duplicate_exact_synonym	L4/5 IT_2 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L4/5 IT
 WARN	duplicate_exact_synonym	L4 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L4/5 IT
-WARN	duplicate_exact_synonym	RNAseq 062 - CS202002013_62	oboInOwl:hasExactSynonym	L4/5 IT
 WARN	duplicate_exact_synonym	RNAseq 061-062 - CS202002013_188	oboInOwl:hasExactSynonym	L4/5 IT
+WARN	duplicate_exact_synonym	RNAseq 062 - CS202002013_62	oboInOwl:hasExactSynonym	L4/5 IT
 WARN	duplicate_exact_synonym	Sst Hpse primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	L4 SST cell
 WARN	duplicate_exact_synonym	RNAseq 038 - CS202002013_38	oboInOwl:hasExactSynonym	L4 SST cell
 WARN	duplicate_exact_synonym	L4/5 IT_1 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L4 IT
-WARN	duplicate_exact_synonym	RNAseq 061 - CS202002013_61	oboInOwl:hasExactSynonym	L4 IT
 WARN	duplicate_exact_synonym	L4 IT middle temporal gyrus glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L4 IT
 WARN	duplicate_exact_synonym	Neuron 050-054 - CS1908210130	oboInOwl:hasExactSynonym	L4 IT
+WARN	duplicate_exact_synonym	RNAseq 061 - CS202002013_61	oboInOwl:hasExactSynonym	L4 IT
 WARN	duplicate_exact_synonym	L4 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L4
 WARN	duplicate_exact_synonym	L2/3/5 fan Martinotti cell primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	L2/3/5 fan Martinotti cell
 WARN	duplicate_exact_synonym	RNAseq 039-040 - CS202002013_164	oboInOwl:hasExactSynonym	L2/3/5 fan Martinotti cell
 WARN	duplicate_exact_synonym	Sst Pvalb Calb2 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	L2/3 PV-like cell
 WARN	duplicate_exact_synonym	RNAseq 041 - CS202002013_41	oboInOwl:hasExactSynonym	L2/3 PV-like cell
 WARN	duplicate_exact_synonym	L2/3 IT primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	L2/3 IT
-WARN	duplicate_exact_synonym	RNAseq 058-060 - CS202002013_183	oboInOwl:hasExactSynonym	L2/3 IT
 WARN	duplicate_exact_synonym	(Mouse L2/3 IT)-like primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L2/3 IT
 WARN	duplicate_exact_synonym	(Mouse IT projecting)-like(i) primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L2/3 IT
-WARN	duplicate_exact_synonym	RNAseq 073-080 - CS201912131_133	oboInOwl:hasExactSynonym	L2/3 IT
-WARN	duplicate_exact_synonym	RNAseq 073-078 - CS201912131_171	oboInOwl:hasExactSynonym	L2/3 IT
 WARN	duplicate_exact_synonym	(Mouse L2/3 IT)-like primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	L2/3 IT
-WARN	duplicate_exact_synonym	RNAseq 53-56 - CS201912132_100	oboInOwl:hasExactSynonym	L2/3 IT
 WARN	duplicate_exact_synonym	L2/3 IT middle temporal gyrus glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	L2/3 IT
 WARN	duplicate_exact_synonym	Neuron 046-048 - CS1908210127	oboInOwl:hasExactSynonym	L2/3 IT
+WARN	duplicate_exact_synonym	RNAseq 073-080 - CS201912131_133	oboInOwl:hasExactSynonym	L2/3 IT
+WARN	duplicate_exact_synonym	RNAseq 073-078 - CS201912131_171	oboInOwl:hasExactSynonym	L2/3 IT
+WARN	duplicate_exact_synonym	RNAseq 53-56 - CS201912132_100	oboInOwl:hasExactSynonym	L2/3 IT
+WARN	duplicate_exact_synonym	RNAseq 058-060 - CS202002013_183	oboInOwl:hasExactSynonym	L2/3 IT
 WARN	duplicate_exact_synonym	L2/3 Bipolar VIP cell primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	L2/3 Bipolar VIP cell
 WARN	duplicate_exact_synonym	RNAseq 021-025 - CS202002013_145	oboInOwl:hasExactSynonym	L2/3 Bipolar VIP cell
 WARN	duplicate_exact_synonym	IT projecting primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	IT projecting
-WARN	duplicate_exact_synonym	RNAseq 058-069 - CS202002013_182	oboInOwl:hasExactSynonym	IT projecting
 WARN	duplicate_exact_synonym	(Mouse IT projecting)-like primary motor cortex glutamatergic neuron (Hsap)	oboInOwl:hasExactSynonym	IT projecting
-WARN	duplicate_exact_synonym	RNAseq 073-096 - CS201912131_145	oboInOwl:hasExactSynonym	IT projecting
 WARN	duplicate_exact_synonym	(Mouse IT projecting)-like primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	IT projecting
+WARN	duplicate_exact_synonym	RNAseq 073-096 - CS201912131_145	oboInOwl:hasExactSynonym	IT projecting
 WARN	duplicate_exact_synonym	RNAseq 53-68, 75 - CS201912132_112	oboInOwl:hasExactSynonym	IT projecting
+WARN	duplicate_exact_synonym	RNAseq 058-069 - CS202002013_182	oboInOwl:hasExactSynonym	IT projecting
 WARN	duplicate_exact_synonym	Inh L1 LAMP5 NMBR primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Inh L1 LAMP5 NMBR
 WARN	duplicate_exact_synonym	Inh L1 LAMP5 NMBR middle temporal gyrus GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Inh L1 LAMP5 NMBR
 WARN	duplicate_exact_synonym	Endo primary motor cortex endothelial cell (Mmus)	oboInOwl:hasExactSynonym	Endothelial
-WARN	duplicate_exact_synonym	RNAseq 103 - CS202002013_103	oboInOwl:hasExactSynonym	Endothelial
 WARN	duplicate_exact_synonym	Endo L2-5 NOSTRIN SRGN primary motor cortex endothelial cell (Hsap)	oboInOwl:hasExactSynonym	Endothelial
-WARN	duplicate_exact_synonym	RNAseq 125 - CS201912131_125	oboInOwl:hasExactSynonym	Endothelial
-WARN	duplicate_exact_synonym	RNAseq 85-87 - CS201912132_107	oboInOwl:hasExactSynonym	Endothelial
 WARN	duplicate_exact_synonym	Endo L2-6 NOSTRIN middle temporal gyrus endothelial cell (Hsap)	oboInOwl:hasExactSynonym	Endothelial
 WARN	duplicate_exact_synonym	Non-neuron 005 - CS1908210074	oboInOwl:hasExactSynonym	Endothelial
+WARN	duplicate_exact_synonym	RNAseq 125 - CS201912131_125	oboInOwl:hasExactSynonym	Endothelial
+WARN	duplicate_exact_synonym	RNAseq 85-87 - CS201912132_107	oboInOwl:hasExactSynonym	Endothelial
+WARN	duplicate_exact_synonym	RNAseq 103 - CS202002013_103	oboInOwl:hasExactSynonym	Endothelial
 WARN	duplicate_exact_synonym	Endo primary motor cortex endothelial cell (Mmus)	oboInOwl:hasExactSynonym	Endo
-WARN	duplicate_exact_synonym	RNAseq 103 - CS202002013_103	oboInOwl:hasExactSynonym	Endo
 WARN	duplicate_exact_synonym	Endo L2-5 NOSTRIN SRGN primary motor cortex endothelial cell (Hsap)	oboInOwl:hasExactSynonym	Endo
 WARN	duplicate_exact_synonym	RNAseq 125 - CS201912131_125	oboInOwl:hasExactSynonym	Endo
 WARN	duplicate_exact_synonym	RNAseq 85-87 - CS201912132_107	oboInOwl:hasExactSynonym	Endo
+WARN	duplicate_exact_synonym	RNAseq 103 - CS202002013_103	oboInOwl:hasExactSynonym	Endo
 WARN	duplicate_exact_synonym	L5 IT_1 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	Deptor (Mmus), Il1rapl2 (Mmus) expressing glutamatergic neuron of primary motor cortex (Mus musculus)
 WARN	duplicate_exact_synonym	L5 IT_C2 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	Deptor (Mmus), Il1rapl2 (Mmus) expressing glutamatergic neuron of primary motor cortex (Mus musculus)
 WARN	duplicate_exact_synonym	L6 CT primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	Corticothalamic
@@ -526,45 +526,45 @@ WARN	duplicate_exact_synonym	RNAseq 074-080 - CS202002013_197	oboInOwl:hasExactS
 WARN	duplicate_exact_synonym	L6 IT Car3 primary motor cortex glutamatergic neuron (Mmus)	oboInOwl:hasExactSynonym	Claustrum-like IT
 WARN	duplicate_exact_synonym	RNAseq 069 - CS202002013_69	oboInOwl:hasExactSynonym	Claustrum-like IT
 WARN	duplicate_exact_synonym	Chandelier primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Chandelier cell
-WARN	duplicate_exact_synonym	RNAseq 056-057 - CS202002013_178	oboInOwl:hasExactSynonym	Chandelier cell
 WARN	duplicate_exact_synonym	Inh L1-6 PVALB COL15A1 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Chandelier cell
-WARN	duplicate_exact_synonym	RNAseq 072 - CS201912131_72	oboInOwl:hasExactSynonym	Chandelier cell
 WARN	duplicate_exact_synonym	Inh PVALB FAM19A4 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Chandelier cell
+WARN	duplicate_exact_synonym	RNAseq 072 - CS201912131_72	oboInOwl:hasExactSynonym	Chandelier cell
 WARN	duplicate_exact_synonym	RNAseq 52 - CS201912132_52	oboInOwl:hasExactSynonym	Chandelier cell
+WARN	duplicate_exact_synonym	RNAseq 056-057 - CS202002013_178	oboInOwl:hasExactSynonym	Chandelier cell
 WARN	duplicate_exact_synonym	Chandelier primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Chandelier
-WARN	duplicate_exact_synonym	RNAseq 056-057 - CS202002013_178	oboInOwl:hasExactSynonym	Chandelier
 WARN	duplicate_exact_synonym	Inh L1-6 PVALB COL15A1 primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Chandelier
-WARN	duplicate_exact_synonym	RNAseq 072 - CS201912131_72	oboInOwl:hasExactSynonym	Chandelier
 WARN	duplicate_exact_synonym	Inh PVALB FAM19A4 primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	Chandelier
-WARN	duplicate_exact_synonym	RNAseq 52 - CS201912132_52	oboInOwl:hasExactSynonym	Chandelier
 WARN	duplicate_exact_synonym	Inh L2-5 PVALB SCUBE3 middle temporal gyrus GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	Chandelier
 WARN	duplicate_exact_synonym	Neuron 045 - CS1908210045	oboInOwl:hasExactSynonym	Chandelier
+WARN	duplicate_exact_synonym	RNAseq 072 - CS201912131_72	oboInOwl:hasExactSynonym	Chandelier
+WARN	duplicate_exact_synonym	RNAseq 52 - CS201912132_52	oboInOwl:hasExactSynonym	Chandelier
+WARN	duplicate_exact_synonym	RNAseq 056-057 - CS202002013_178	oboInOwl:hasExactSynonym	Chandelier
 WARN	duplicate_exact_synonym	CGE/PoA primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	CGE/PoA
-WARN	duplicate_exact_synonym	RNAseq 001-027, 089-090 - CS202002013_124	oboInOwl:hasExactSynonym	CGE/PoA
 WARN	duplicate_exact_synonym	(Mouse CGE/PoA)-like primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	CGE/PoA
-WARN	duplicate_exact_synonym	RNAseq 001-039 - CS201912131_143	oboInOwl:hasExactSynonym	CGE/PoA
 WARN	duplicate_exact_synonym	(Mouse CGE/PoA)-like primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	CGE/PoA
+WARN	duplicate_exact_synonym	RNAseq 001-039 - CS201912131_143	oboInOwl:hasExactSynonym	CGE/PoA
 WARN	duplicate_exact_synonym	RNAseq 02-26 - CS201912132_111	oboInOwl:hasExactSynonym	CGE/PoA
+WARN	duplicate_exact_synonym	RNAseq 001-027, 089-090 - CS202002013_124	oboInOwl:hasExactSynonym	CGE/PoA
 WARN	duplicate_exact_synonym	Lamp5 Egln3_2 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Canopy cell
 WARN	duplicate_exact_synonym	RNAseq 003 - CS202002013_3	oboInOwl:hasExactSynonym	Canopy cell
 WARN	duplicate_exact_synonym	Astro_C1 primary motor cortex astrocyte (Mmus)	oboInOwl:hasExactSynonym	Astro_C1
 WARN	duplicate_exact_synonym	Astro_C1 primary motor cortex astrocyte (Hsap)	oboInOwl:hasExactSynonym	Astro_C1
 WARN	duplicate_exact_synonym	Astro L1-6 FGFR3 PLCG1 primary motor cortex astrocyte (Hsap)	oboInOwl:hasExactSynonym	Astro_2
-WARN	duplicate_exact_synonym	RNAseq 124 - CS201912131_124	oboInOwl:hasExactSynonym	Astro_2
 WARN	duplicate_exact_synonym	Astro_C2 primary motor cortex astrocyte (Cjac)	oboInOwl:hasExactSynonym	Astro_2
+WARN	duplicate_exact_synonym	RNAseq 124 - CS201912131_124	oboInOwl:hasExactSynonym	Astro_2
 WARN	duplicate_exact_synonym	RNAseq 79-81 - CS201912132_133	oboInOwl:hasExactSynonym	Astro_2
 WARN	duplicate_exact_synonym	Astro_C1 primary motor cortex astrocyte (Mmus)	oboInOwl:hasExactSynonym	Astro_1
-WARN	duplicate_exact_synonym	RNAseq 093-094 - CS202002013_211	oboInOwl:hasExactSynonym	Astro_1
 WARN	duplicate_exact_synonym	Astro_C1 primary motor cortex astrocyte (Hsap)	oboInOwl:hasExactSynonym	Astro_1
-WARN	duplicate_exact_synonym	RNAseq 122-123 - CS201912131_180	oboInOwl:hasExactSynonym	Astro_1
 WARN	duplicate_exact_synonym	Astro FGFR3 GFAP primary motor cortex astrocyte (Cjac)	oboInOwl:hasExactSynonym	Astro_1
+WARN	duplicate_exact_synonym	RNAseq 122-123 - CS201912131_180	oboInOwl:hasExactSynonym	Astro_1
 WARN	duplicate_exact_synonym	RNAseq 82 - CS201912132_82	oboInOwl:hasExactSynonym	Astro_1
-WARN	duplicate_exact_synonym	RNAseq 092-094 - CS202002013_210	oboInOwl:hasExactSynonym	Astrocyte
+WARN	duplicate_exact_synonym	RNAseq 093-094 - CS202002013_211	oboInOwl:hasExactSynonym	Astro_1
 WARN	duplicate_exact_synonym	Astro primary motor cortex glial cell (Hsap)	oboInOwl:hasExactSynonym	Astrocyte
-WARN	duplicate_exact_synonym	RNAseq 122-124 - CS201912131_142	oboInOwl:hasExactSynonym	Astrocyte
-WARN	duplicate_exact_synonym	RNAseq 79-82 - CS201912132_106	oboInOwl:hasExactSynonym	Astrocyte
 WARN	duplicate_exact_synonym	Astrocyte middle temporal gyrus glial cell (Hsap)	oboInOwl:hasExactSynonym	Astrocyte
 WARN	duplicate_exact_synonym	Non-neuron 002-003 - CS1908210149	oboInOwl:hasExactSynonym	Astrocyte
+WARN	duplicate_exact_synonym	RNAseq 122-124 - CS201912131_142	oboInOwl:hasExactSynonym	Astrocyte
+WARN	duplicate_exact_synonym	RNAseq 79-82 - CS201912132_106	oboInOwl:hasExactSynonym	Astrocyte
+WARN	duplicate_exact_synonym	RNAseq 092-094 - CS202002013_210	oboInOwl:hasExactSynonym	Astrocyte
 WARN	duplicate_exact_synonym	Lamp5-like Egln3_1 primary motor cortex GABAergic interneuron (Mmus)	oboInOwl:hasExactSynonym	Alpha7 cell
 WARN	duplicate_exact_synonym	RNAseq 002 - CS202002013_2	oboInOwl:hasExactSynonym	Alpha7 cell
 WARN	duplicate_exact_synonym	ADARB2 (CGE) middle temporal gyrus GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	ADARB2 (CGE)
@@ -623,74 +623,140 @@ WARN	duplicate_exact_synonym	(Mouse IT projecting)-like primary motor cortex glu
 WARN	duplicate_exact_synonym	(Mouse IT projecting)-like primary motor cortex glutamatergic neuron (Cjac)	oboInOwl:hasExactSynonym	(Mouse IT projecting)-like
 WARN	duplicate_exact_synonym	(Mouse CGE/PoA)-like primary motor cortex GABAergic interneuron (Hsap)	oboInOwl:hasExactSynonym	(Mouse CGE/PoA)-like
 WARN	duplicate_exact_synonym	(Mouse CGE/PoA)-like primary motor cortex GABAergic interneuron (Cjac)	oboInOwl:hasExactSynonym	(Mouse CGE/PoA)-like
-WARN	duplicate_scoped_synonym	RNAseq 001 - CS202002013_1	oboInOwl:hasExactSynonym	Lamp5_4
-WARN	duplicate_scoped_synonym	RNAseq 001 - CS202002013_1	oboInOwl:hasRelatedSynonym	Lamp5_4
-WARN	duplicate_scoped_synonym	RNAseq 002 - CS202002013_2	oboInOwl:hasExactSynonym	Alpha7 cell
-WARN	duplicate_scoped_synonym	RNAseq 002 - CS202002013_2	oboInOwl:hasExactSynonym	Sncg_4
-WARN	duplicate_scoped_synonym	RNAseq 002 - CS202002013_2	oboInOwl:hasRelatedSynonym	Alpha7 cell
-WARN	duplicate_scoped_synonym	RNAseq 002 - CS202002013_2	oboInOwl:hasRelatedSynonym	Sncg_4
-WARN	duplicate_scoped_synonym	RNAseq 003 - CS202002013_3	oboInOwl:hasExactSynonym	Canopy cell
-WARN	duplicate_scoped_synonym	RNAseq 003 - CS202002013_3	oboInOwl:hasRelatedSynonym	Canopy cell
-WARN	duplicate_scoped_synonym	RNAseq 005 - CS202002013_5	oboInOwl:hasExactSynonym	Lamp5_1
-WARN	duplicate_scoped_synonym	RNAseq 005 - CS202002013_5	oboInOwl:hasRelatedSynonym	Lamp5_1
-WARN	duplicate_scoped_synonym	RNAseq 008 - CS202002013_8	oboInOwl:hasExactSynonym	L5/6 neurogliaform cell
-WARN	duplicate_scoped_synonym	RNAseq 008 - CS202002013_8	oboInOwl:hasExactSynonym	Lamp5_3
-WARN	duplicate_scoped_synonym	RNAseq 008 - CS202002013_8	oboInOwl:hasRelatedSynonym	L5/6 neurogliaform cell
-WARN	duplicate_scoped_synonym	RNAseq 008 - CS202002013_8	oboInOwl:hasRelatedSynonym	Lamp5_3
-WARN	duplicate_scoped_synonym	RNAseq 014 - CS202002013_14	oboInOwl:hasExactSynonym	Small CCK basket cell
-WARN	duplicate_scoped_synonym	RNAseq 014 - CS202002013_14	oboInOwl:hasRelatedSynonym	Small CCK basket cell
-WARN	duplicate_scoped_synonym	RNAseq 028 - CS202002013_28	oboInOwl:hasExactSynonym	Long-projecting SST cell
-WARN	duplicate_scoped_synonym	RNAseq 028 - CS202002013_28	oboInOwl:hasExactSynonym	Sst Chodl
-WARN	duplicate_scoped_synonym	RNAseq 028 - CS202002013_28	oboInOwl:hasRelatedSynonym	Long-projecting SST cell
-WARN	duplicate_scoped_synonym	RNAseq 028 - CS202002013_28	oboInOwl:hasRelatedSynonym	Sst Chodl
-WARN	duplicate_scoped_synonym	RNAseq 037 - CS202002013_37	oboInOwl:hasExactSynonym	Sst_4
-WARN	duplicate_scoped_synonym	RNAseq 037 - CS202002013_37	oboInOwl:hasRelatedSynonym	Sst_4
-WARN	duplicate_scoped_synonym	RNAseq 038 - CS202002013_38	oboInOwl:hasExactSynonym	L4 SST cell
-WARN	duplicate_scoped_synonym	RNAseq 038 - CS202002013_38	oboInOwl:hasRelatedSynonym	L4 SST cell
-WARN	duplicate_scoped_synonym	RNAseq 041 - CS202002013_41	oboInOwl:hasExactSynonym	L2/3 PV-like cell
-WARN	duplicate_scoped_synonym	RNAseq 041 - CS202002013_41	oboInOwl:hasRelatedSynonym	L2/3 PV-like cell
-WARN	duplicate_scoped_synonym	RNAseq 042 - CS202002013_42	oboInOwl:hasExactSynonym	Sst_5
-WARN	duplicate_scoped_synonym	RNAseq 042 - CS202002013_42	oboInOwl:hasRelatedSynonym	Sst_5
-WARN	duplicate_scoped_synonym	RNAseq 047 - CS202002013_47	oboInOwl:hasExactSynonym	Sst_7
-WARN	duplicate_scoped_synonym	RNAseq 047 - CS202002013_47	oboInOwl:hasRelatedSynonym	Sst_7
-WARN	duplicate_scoped_synonym	RNAseq 048 - CS202002013_48	oboInOwl:hasExactSynonym	L6 FS cell w/ large sag
-WARN	duplicate_scoped_synonym	RNAseq 048 - CS202002013_48	oboInOwl:hasRelatedSynonym	L6 FS cell w/ large sag
-WARN	duplicate_scoped_synonym	RNAseq 061 - CS202002013_61	oboInOwl:hasExactSynonym	L4 IT
-WARN	duplicate_scoped_synonym	RNAseq 061 - CS202002013_61	oboInOwl:hasRelatedSynonym	L4 IT
-WARN	duplicate_scoped_synonym	RNAseq 062 - CS202002013_62	oboInOwl:hasExactSynonym	L4/5 IT
-WARN	duplicate_scoped_synonym	RNAseq 062 - CS202002013_62	oboInOwl:hasRelatedSynonym	L4/5 IT
-WARN	duplicate_scoped_synonym	RNAseq 069 - CS202002013_69	oboInOwl:hasExactSynonym	Claustrum-like IT
-WARN	duplicate_scoped_synonym	RNAseq 069 - CS202002013_69	oboInOwl:hasExactSynonym	L6 IT_3
-WARN	duplicate_scoped_synonym	RNAseq 069 - CS202002013_69	oboInOwl:hasRelatedSynonym	Claustrum-like IT
-WARN	duplicate_scoped_synonym	RNAseq 069 - CS202002013_69	oboInOwl:hasRelatedSynonym	L6 IT_3
-WARN	duplicate_scoped_synonym	RNAseq 070 - CS202002013_70	oboInOwl:hasExactSynonym	L5 ET (MY-projecting)
-WARN	duplicate_scoped_synonym	RNAseq 070 - CS202002013_70	oboInOwl:hasRelatedSynonym	L5 ET (MY-projecting)
-WARN	duplicate_scoped_synonym	RNAseq 076 - CS202002013_76	oboInOwl:hasExactSynonym	L6 CT_2
-WARN	duplicate_scoped_synonym	RNAseq 076 - CS202002013_76	oboInOwl:hasRelatedSynonym	L6 CT_2
-WARN	duplicate_scoped_synonym	RNAseq 099 - CS202002013_99	oboInOwl:hasExactSynonym	Oligo_1
-WARN	duplicate_scoped_synonym	RNAseq 099 - CS202002013_99	oboInOwl:hasRelatedSynonym	Oligo_1
-WARN	duplicate_scoped_synonym	RNAseq 001-057, 089-090 - CS202002013_123	oboInOwl:hasExactSynonym	Neuronal: GABAergic
-WARN	duplicate_scoped_synonym	RNAseq 001-057, 089-090 - CS202002013_123	oboInOwl:hasRelatedSynonym	Neuronal: GABAergic
-WARN	duplicate_scoped_synonym	RNAseq 058-088 - CS202002013_179	oboInOwl:hasExactSynonym	Neuronal: Glutamatergic
-WARN	duplicate_scoped_synonym	RNAseq 058-088 - CS202002013_179	oboInOwl:hasRelatedSynonym	Neuronal: Glutamatergic
-WARN	duplicate_scoped_synonym	RNAseq 074-080 - CS202002013_197	oboInOwl:hasExactSynonym	Corticothalamic
-WARN	duplicate_scoped_synonym	RNAseq 074-080 - CS202002013_197	oboInOwl:hasExactSynonym	VAL/VM Projecting
-WARN	duplicate_scoped_synonym	RNAseq 074-080 - CS202002013_197	oboInOwl:hasRelatedSynonym	Corticothalamic
-WARN	duplicate_scoped_synonym	RNAseq 074-080 - CS202002013_197	oboInOwl:hasRelatedSynonym	VAL/VM Projecting
-WARN	duplicate_scoped_synonym	RNAseq 081-085 - CS202002013_203	oboInOwl:hasExactSynonym	L6b
-WARN	duplicate_scoped_synonym	RNAseq 081-085 - CS202002013_203	oboInOwl:hasExactSynonym	L6b subplate
-WARN	duplicate_scoped_synonym	RNAseq 081-085 - CS202002013_203	oboInOwl:hasRelatedSynonym	L6b
-WARN	duplicate_scoped_synonym	RNAseq 081-085 - CS202002013_203	oboInOwl:hasRelatedSynonym	L6b subplate
-WARN	duplicate_scoped_synonym	RNAseq 086-088 - CS202002013_207	oboInOwl:hasExactSynonym	L5/6 NP
-WARN	duplicate_scoped_synonym	RNAseq 086-088 - CS202002013_207	oboInOwl:hasExactSynonym	Near-projecting
-WARN	duplicate_scoped_synonym	RNAseq 086-088 - CS202002013_207	oboInOwl:hasRelatedSynonym	L5/6 NP
-WARN	duplicate_scoped_synonym	RNAseq 086-088 - CS202002013_207	oboInOwl:hasRelatedSynonym	Near-projecting
-WARN	duplicate_scoped_synonym	RNAseq 113-116 - CS202002013_229	oboInOwl:hasExactSynonym	Microglia/PVM
-WARN	duplicate_scoped_synonym	RNAseq 113-116 - CS202002013_229	oboInOwl:hasRelatedSynonym	Microglia/PVM
-WARN	duplicate_scoped_synonym	RNAseq 040 - CS201912131_40	oboInOwl:hasExactSynonym	Sst Chodl
-WARN	duplicate_scoped_synonym	RNAseq 040 - CS201912131_40	oboInOwl:hasRelatedSynonym	Sst Chodl
-WARN	duplicate_scoped_synonym	RNAseq 096 - CS201912131_97	oboInOwl:hasExactSynonym	L6 IT Car3
-WARN	duplicate_scoped_synonym	RNAseq 096 - CS201912131_97	oboInOwl:hasRelatedSynonym	L6 IT Car3
+WARN	duplicate_scoped_synonym	obsolete RNAseq 001 - CS202002013_1	oboInOwl:hasExactSynonym	Lamp5_4
+WARN	duplicate_scoped_synonym	obsolete RNAseq 001 - CS202002013_1	oboInOwl:hasRelatedSynonym	Lamp5_4
+WARN	duplicate_scoped_synonym	obsolete RNAseq 002 - CS202002013_2	oboInOwl:hasExactSynonym	Alpha7 cell
+WARN	duplicate_scoped_synonym	obsolete RNAseq 002 - CS202002013_2	oboInOwl:hasExactSynonym	Sncg_4
+WARN	duplicate_scoped_synonym	obsolete RNAseq 002 - CS202002013_2	oboInOwl:hasRelatedSynonym	Alpha7 cell
+WARN	duplicate_scoped_synonym	obsolete RNAseq 002 - CS202002013_2	oboInOwl:hasRelatedSynonym	Sncg_4
+WARN	duplicate_scoped_synonym	obsolete RNAseq 003 - CS202002013_3	oboInOwl:hasExactSynonym	Canopy cell
+WARN	duplicate_scoped_synonym	obsolete RNAseq 003 - CS202002013_3	oboInOwl:hasRelatedSynonym	Canopy cell
+WARN	duplicate_scoped_synonym	obsolete RNAseq 005 - CS202002013_5	oboInOwl:hasExactSynonym	Lamp5_1
+WARN	duplicate_scoped_synonym	obsolete RNAseq 005 - CS202002013_5	oboInOwl:hasRelatedSynonym	Lamp5_1
+WARN	duplicate_scoped_synonym	obsolete RNAseq 008 - CS202002013_8	oboInOwl:hasExactSynonym	L5/6 neurogliaform cell
+WARN	duplicate_scoped_synonym	obsolete RNAseq 008 - CS202002013_8	oboInOwl:hasExactSynonym	Lamp5_3
+WARN	duplicate_scoped_synonym	obsolete RNAseq 008 - CS202002013_8	oboInOwl:hasRelatedSynonym	L5/6 neurogliaform cell
+WARN	duplicate_scoped_synonym	obsolete RNAseq 008 - CS202002013_8	oboInOwl:hasRelatedSynonym	Lamp5_3
+WARN	duplicate_scoped_synonym	obsolete RNAseq 014 - CS202002013_14	oboInOwl:hasExactSynonym	Small CCK basket cell
+WARN	duplicate_scoped_synonym	obsolete RNAseq 014 - CS202002013_14	oboInOwl:hasRelatedSynonym	Small CCK basket cell
+WARN	duplicate_scoped_synonym	obsolete RNAseq 028 - CS202002013_28	oboInOwl:hasExactSynonym	Long-projecting SST cell
+WARN	duplicate_scoped_synonym	obsolete RNAseq 028 - CS202002013_28	oboInOwl:hasExactSynonym	Sst Chodl
+WARN	duplicate_scoped_synonym	obsolete RNAseq 028 - CS202002013_28	oboInOwl:hasRelatedSynonym	Long-projecting SST cell
+WARN	duplicate_scoped_synonym	obsolete RNAseq 028 - CS202002013_28	oboInOwl:hasRelatedSynonym	Sst Chodl
+WARN	duplicate_scoped_synonym	obsolete RNAseq 037 - CS202002013_37	oboInOwl:hasExactSynonym	Sst_4
+WARN	duplicate_scoped_synonym	obsolete RNAseq 037 - CS202002013_37	oboInOwl:hasRelatedSynonym	Sst_4
+WARN	duplicate_scoped_synonym	obsolete RNAseq 038 - CS202002013_38	oboInOwl:hasExactSynonym	L4 SST cell
+WARN	duplicate_scoped_synonym	obsolete RNAseq 038 - CS202002013_38	oboInOwl:hasRelatedSynonym	L4 SST cell
+WARN	duplicate_scoped_synonym	obsolete RNAseq 041 - CS202002013_41	oboInOwl:hasExactSynonym	L2/3 PV-like cell
+WARN	duplicate_scoped_synonym	obsolete RNAseq 041 - CS202002013_41	oboInOwl:hasRelatedSynonym	L2/3 PV-like cell
+WARN	duplicate_scoped_synonym	obsolete RNAseq 042 - CS202002013_42	oboInOwl:hasExactSynonym	Sst_5
+WARN	duplicate_scoped_synonym	obsolete RNAseq 042 - CS202002013_42	oboInOwl:hasRelatedSynonym	Sst_5
+WARN	duplicate_scoped_synonym	obsolete RNAseq 047 - CS202002013_47	oboInOwl:hasExactSynonym	Sst_7
+WARN	duplicate_scoped_synonym	obsolete RNAseq 047 - CS202002013_47	oboInOwl:hasRelatedSynonym	Sst_7
+WARN	duplicate_scoped_synonym	obsolete RNAseq 048 - CS202002013_48	oboInOwl:hasExactSynonym	L6 FS cell w/ large sag
+WARN	duplicate_scoped_synonym	obsolete RNAseq 048 - CS202002013_48	oboInOwl:hasRelatedSynonym	L6 FS cell w/ large sag
+WARN	duplicate_scoped_synonym	obsolete RNAseq 061 - CS202002013_61	oboInOwl:hasExactSynonym	L4 IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 061 - CS202002013_61	oboInOwl:hasRelatedSynonym	L4 IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 062 - CS202002013_62	oboInOwl:hasExactSynonym	L4/5 IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 062 - CS202002013_62	oboInOwl:hasRelatedSynonym	L4/5 IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 069 - CS202002013_69	oboInOwl:hasExactSynonym	Claustrum-like IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 069 - CS202002013_69	oboInOwl:hasExactSynonym	L6 IT_3
+WARN	duplicate_scoped_synonym	obsolete RNAseq 069 - CS202002013_69	oboInOwl:hasRelatedSynonym	Claustrum-like IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 069 - CS202002013_69	oboInOwl:hasRelatedSynonym	L6 IT_3
+WARN	duplicate_scoped_synonym	obsolete RNAseq 070 - CS202002013_70	oboInOwl:hasExactSynonym	L5 ET (MY-projecting)
+WARN	duplicate_scoped_synonym	obsolete RNAseq 070 - CS202002013_70	oboInOwl:hasRelatedSynonym	L5 ET (MY-projecting)
+WARN	duplicate_scoped_synonym	obsolete RNAseq 076 - CS202002013_76	oboInOwl:hasExactSynonym	L6 CT_2
+WARN	duplicate_scoped_synonym	obsolete RNAseq 076 - CS202002013_76	oboInOwl:hasRelatedSynonym	L6 CT_2
+WARN	duplicate_scoped_synonym	obsolete RNAseq 099 - CS202002013_99	oboInOwl:hasExactSynonym	Oligo_1
+WARN	duplicate_scoped_synonym	obsolete RNAseq 099 - CS202002013_99	oboInOwl:hasRelatedSynonym	Oligo_1
+WARN	duplicate_scoped_synonym	obsolete RNAseq 001-057, 089-090 - CS202002013_123	oboInOwl:hasExactSynonym	Neuronal: GABAergic
+WARN	duplicate_scoped_synonym	obsolete RNAseq 001-057, 089-090 - CS202002013_123	oboInOwl:hasRelatedSynonym	Neuronal: GABAergic
+WARN	duplicate_scoped_synonym	obsolete RNAseq 058-088 - CS202002013_179	oboInOwl:hasExactSynonym	Neuronal: Glutamatergic
+WARN	duplicate_scoped_synonym	obsolete RNAseq 058-088 - CS202002013_179	oboInOwl:hasRelatedSynonym	Neuronal: Glutamatergic
+WARN	duplicate_scoped_synonym	obsolete RNAseq 074-080 - CS202002013_197	oboInOwl:hasExactSynonym	Corticothalamic
+WARN	duplicate_scoped_synonym	obsolete RNAseq 074-080 - CS202002013_197	oboInOwl:hasExactSynonym	VAL/VM Projecting
+WARN	duplicate_scoped_synonym	obsolete RNAseq 074-080 - CS202002013_197	oboInOwl:hasRelatedSynonym	Corticothalamic
+WARN	duplicate_scoped_synonym	obsolete RNAseq 074-080 - CS202002013_197	oboInOwl:hasRelatedSynonym	VAL/VM Projecting
+WARN	duplicate_scoped_synonym	obsolete RNAseq 081-085 - CS202002013_203	oboInOwl:hasExactSynonym	L6b
+WARN	duplicate_scoped_synonym	obsolete RNAseq 081-085 - CS202002013_203	oboInOwl:hasExactSynonym	L6b subplate
+WARN	duplicate_scoped_synonym	obsolete RNAseq 081-085 - CS202002013_203	oboInOwl:hasRelatedSynonym	L6b
+WARN	duplicate_scoped_synonym	obsolete RNAseq 081-085 - CS202002013_203	oboInOwl:hasRelatedSynonym	L6b subplate
+WARN	duplicate_scoped_synonym	obsolete RNAseq 086-088 - CS202002013_207	oboInOwl:hasExactSynonym	L5/6 NP
+WARN	duplicate_scoped_synonym	obsolete RNAseq 086-088 - CS202002013_207	oboInOwl:hasExactSynonym	Near-projecting
+WARN	duplicate_scoped_synonym	obsolete RNAseq 086-088 - CS202002013_207	oboInOwl:hasRelatedSynonym	L5/6 NP
+WARN	duplicate_scoped_synonym	obsolete RNAseq 086-088 - CS202002013_207	oboInOwl:hasRelatedSynonym	Near-projecting
+WARN	duplicate_scoped_synonym	obsolete RNAseq 113-116 - CS202002013_229	oboInOwl:hasExactSynonym	Microglia/PVM
+WARN	duplicate_scoped_synonym	obsolete RNAseq 113-116 - CS202002013_229	oboInOwl:hasRelatedSynonym	Microglia/PVM
+WARN	duplicate_scoped_synonym	obsolete RNAseq 040 - CS201912131_40	oboInOwl:hasExactSynonym	Sst Chodl
+WARN	duplicate_scoped_synonym	obsolete RNAseq 040 - CS201912131_40	oboInOwl:hasRelatedSynonym	Sst Chodl
+WARN	duplicate_scoped_synonym	obsolete RNAseq 096 - CS201912131_97	oboInOwl:hasExactSynonym	L6 IT Car3
+WARN	duplicate_scoped_synonym	obsolete RNAseq 096 - CS201912131_97	oboInOwl:hasRelatedSynonym	L6 IT Car3
+WARN	duplicate_scoped_synonym	obsolete RNAseq 118 - CS201912131_118	oboInOwl:hasExactSynonym	OPC
+WARN	duplicate_scoped_synonym	obsolete RNAseq 118 - CS201912131_118	oboInOwl:hasRelatedSynonym	OPC
+WARN	duplicate_scoped_synonym	obsolete RNAseq 125 - CS201912131_125	oboInOwl:hasExactSynonym	Endo
+WARN	duplicate_scoped_synonym	obsolete RNAseq 125 - CS201912131_125	oboInOwl:hasRelatedSynonym	Endo
+WARN	duplicate_scoped_synonym	obsolete RNAseq 126 - CS201912131_126	oboInOwl:hasExactSynonym	VLMC
+WARN	duplicate_scoped_synonym	obsolete RNAseq 126 - CS201912131_126	oboInOwl:hasRelatedSynonym	VLMC
+WARN	duplicate_scoped_synonym	obsolete RNAseq 001-008, 014-015 - CS201912131_128	oboInOwl:hasExactSynonym	Lamp5
+WARN	duplicate_scoped_synonym	obsolete RNAseq 001-008, 014-015 - CS201912131_128	oboInOwl:hasRelatedSynonym	Lamp5
+WARN	duplicate_scoped_synonym	obsolete RNAseq 009-013, 016-018 - CS201912131_129	oboInOwl:hasExactSynonym	Sncg
+WARN	duplicate_scoped_synonym	obsolete RNAseq 009-013, 016-018 - CS201912131_129	oboInOwl:hasRelatedSynonym	Sncg
+WARN	duplicate_scoped_synonym	obsolete RNAseq 019-039 - CS201912131_130	oboInOwl:hasExactSynonym	Vip
+WARN	duplicate_scoped_synonym	obsolete RNAseq 019-039 - CS201912131_130	oboInOwl:hasRelatedSynonym	Vip
+WARN	duplicate_scoped_synonym	obsolete RNAseq 041-058 - CS201912131_131	oboInOwl:hasExactSynonym	Sst
+WARN	duplicate_scoped_synonym	obsolete RNAseq 041-058 - CS201912131_131	oboInOwl:hasRelatedSynonym	Sst
+WARN	duplicate_scoped_synonym	obsolete RNAseq 059-072 - CS201912131_132	oboInOwl:hasExactSynonym	Pvalb
+WARN	duplicate_scoped_synonym	obsolete RNAseq 059-072 - CS201912131_132	oboInOwl:hasRelatedSynonym	Pvalb
+WARN	duplicate_scoped_synonym	obsolete RNAseq 073-080 - CS201912131_133	oboInOwl:hasExactSynonym	L2/3 IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 073-080 - CS201912131_133	oboInOwl:hasRelatedSynonym	L2/3 IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 081-092 - CS201912131_134	oboInOwl:hasExactSynonym	L5 IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 081-092 - CS201912131_134	oboInOwl:hasRelatedSynonym	L5 IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 093-095 - CS201912131_135	oboInOwl:hasExactSynonym	L6 IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 093-095 - CS201912131_135	oboInOwl:hasRelatedSynonym	L6 IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 097-102 - CS201912131_136	oboInOwl:hasExactSynonym	L6 CT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 097-102 - CS201912131_136	oboInOwl:hasRelatedSynonym	L6 CT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 103-108 - CS201912131_137	oboInOwl:hasExactSynonym	L6b
+WARN	duplicate_scoped_synonym	obsolete RNAseq 103-108 - CS201912131_137	oboInOwl:hasRelatedSynonym	L6b
+WARN	duplicate_scoped_synonym	obsolete RNAseq 109-111 - CS201912131_138	oboInOwl:hasExactSynonym	L5 ET
+WARN	duplicate_scoped_synonym	obsolete RNAseq 109-111 - CS201912131_138	oboInOwl:hasRelatedSynonym	L5 ET
+WARN	duplicate_scoped_synonym	obsolete RNAseq 112-116 - CS201912131_139	oboInOwl:hasExactSynonym	L5/6 NP
+WARN	duplicate_scoped_synonym	obsolete RNAseq 112-116 - CS201912131_139	oboInOwl:hasRelatedSynonym	L5/6 NP
+WARN	duplicate_scoped_synonym	obsolete RNAseq 01 - CS201912132_1	oboInOwl:hasExactSynonym	Sst Chodl
+WARN	duplicate_scoped_synonym	obsolete RNAseq 01 - CS201912132_1	oboInOwl:hasRelatedSynonym	Sst Chodl
+WARN	duplicate_scoped_synonym	obsolete RNAseq 26 - CS201912132_26	oboInOwl:hasExactSynonym	Meis2
+WARN	duplicate_scoped_synonym	obsolete RNAseq 26 - CS201912132_26	oboInOwl:hasRelatedSynonym	Meis2
+WARN	duplicate_scoped_synonym	obsolete RNAseq 74 - CS201912132_75	oboInOwl:hasExactSynonym	L6b
+WARN	duplicate_scoped_synonym	obsolete RNAseq 74 - CS201912132_75	oboInOwl:hasRelatedSynonym	L6b
+WARN	duplicate_scoped_synonym	obsolete RNAseq 75 - CS201912132_76	oboInOwl:hasExactSynonym	L6 IT Car3
+WARN	duplicate_scoped_synonym	obsolete RNAseq 75 - CS201912132_76	oboInOwl:hasRelatedSynonym	L6 IT Car3
+WARN	duplicate_scoped_synonym	obsolete RNAseq 78 - CS201912132_78	oboInOwl:hasExactSynonym	OPC
+WARN	duplicate_scoped_synonym	obsolete RNAseq 78 - CS201912132_78	oboInOwl:hasRelatedSynonym	OPC
+WARN	duplicate_scoped_synonym	obsolete RNAseq 02-07 - CS201912132_95	oboInOwl:hasExactSynonym	Lamp5
+WARN	duplicate_scoped_synonym	obsolete RNAseq 02-07 - CS201912132_95	oboInOwl:hasRelatedSynonym	Lamp5
+WARN	duplicate_scoped_synonym	obsolete RNAseq 08-14 - CS201912132_96	oboInOwl:hasExactSynonym	Sncg
+WARN	duplicate_scoped_synonym	obsolete RNAseq 08-14 - CS201912132_96	oboInOwl:hasRelatedSynonym	Sncg
+WARN	duplicate_scoped_synonym	obsolete RNAseq 15-25 - CS201912132_97	oboInOwl:hasExactSynonym	Vip
+WARN	duplicate_scoped_synonym	obsolete RNAseq 15-25 - CS201912132_97	oboInOwl:hasRelatedSynonym	Vip
+WARN	duplicate_scoped_synonym	obsolete RNAseq 27-40, 47 - CS201912132_98	oboInOwl:hasExactSynonym	Sst
+WARN	duplicate_scoped_synonym	obsolete RNAseq 27-40, 47 - CS201912132_98	oboInOwl:hasRelatedSynonym	Sst
+WARN	duplicate_scoped_synonym	obsolete RNAseq 41-46, 48-52 - CS201912132_99	oboInOwl:hasExactSynonym	Pvalb
+WARN	duplicate_scoped_synonym	obsolete RNAseq 41-46, 48-52 - CS201912132_99	oboInOwl:hasRelatedSynonym	Pvalb
+WARN	duplicate_scoped_synonym	obsolete RNAseq 53-56 - CS201912132_100	oboInOwl:hasExactSynonym	L2/3 IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 53-56 - CS201912132_100	oboInOwl:hasRelatedSynonym	L2/3 IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 57-58, 61-68 - CS201912132_101	oboInOwl:hasExactSynonym	L5 IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 57-58, 61-68 - CS201912132_101	oboInOwl:hasRelatedSynonym	L5 IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 59-60 - CS201912132_102	oboInOwl:hasExactSynonym	L6 IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 59-60 - CS201912132_102	oboInOwl:hasRelatedSynonym	L6 IT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 69-71 - CS201912132_103	oboInOwl:hasExactSynonym	L5 ET
+WARN	duplicate_scoped_synonym	obsolete RNAseq 69-71 - CS201912132_103	oboInOwl:hasRelatedSynonym	L5 ET
+WARN	duplicate_scoped_synonym	obsolete RNAseq 72-73 - CS201912132_104	oboInOwl:hasExactSynonym	L6 CT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 72-73 - CS201912132_104	oboInOwl:hasRelatedSynonym	L6 CT
+WARN	duplicate_scoped_synonym	obsolete RNAseq 85-87 - CS201912132_107	oboInOwl:hasExactSynonym	Endo
+WARN	duplicate_scoped_synonym	obsolete RNAseq 85-87 - CS201912132_107	oboInOwl:hasRelatedSynonym	Endo
+WARN	duplicate_scoped_synonym	obsolete RNAseq 88-89 - CS201912132_108	oboInOwl:hasExactSynonym	Peri
+WARN	duplicate_scoped_synonym	obsolete RNAseq 88-89 - CS201912132_108	oboInOwl:hasRelatedSynonym	Peri
+WARN	duplicate_scoped_synonym	obsolete RNAseq 90-93 - CS201912132_109	oboInOwl:hasExactSynonym	VLMC
+WARN	duplicate_scoped_synonym	obsolete RNAseq 90-93 - CS201912132_109	oboInOwl:hasRelatedSynonym	VLMC
 WARN	duplicate_scoped_synonym	RNAseq 118 - CS201912131_118	oboInOwl:hasExactSynonym	OPC
 WARN	duplicate_scoped_synonym	RNAseq 118 - CS201912131_118	oboInOwl:hasRelatedSynonym	OPC
 WARN	duplicate_scoped_synonym	RNAseq 125 - CS201912131_125	oboInOwl:hasExactSynonym	Endo
@@ -721,8 +787,28 @@ WARN	duplicate_scoped_synonym	RNAseq 109-111 - CS201912131_138	oboInOwl:hasExact
 WARN	duplicate_scoped_synonym	RNAseq 109-111 - CS201912131_138	oboInOwl:hasRelatedSynonym	L5 ET
 WARN	duplicate_scoped_synonym	RNAseq 112-116 - CS201912131_139	oboInOwl:hasExactSynonym	L5/6 NP
 WARN	duplicate_scoped_synonym	RNAseq 112-116 - CS201912131_139	oboInOwl:hasRelatedSynonym	L5/6 NP
+WARN	duplicate_scoped_synonym	RNAseq 040 - CS201912131_40	oboInOwl:hasExactSynonym	Sst Chodl
+WARN	duplicate_scoped_synonym	RNAseq 040 - CS201912131_40	oboInOwl:hasRelatedSynonym	Sst Chodl
+WARN	duplicate_scoped_synonym	RNAseq 096 - CS201912131_97	oboInOwl:hasExactSynonym	L6 IT Car3
+WARN	duplicate_scoped_synonym	RNAseq 096 - CS201912131_97	oboInOwl:hasRelatedSynonym	L6 IT Car3
 WARN	duplicate_scoped_synonym	RNAseq 01 - CS201912132_1	oboInOwl:hasExactSynonym	Sst Chodl
 WARN	duplicate_scoped_synonym	RNAseq 01 - CS201912132_1	oboInOwl:hasRelatedSynonym	Sst Chodl
+WARN	duplicate_scoped_synonym	RNAseq 53-56 - CS201912132_100	oboInOwl:hasExactSynonym	L2/3 IT
+WARN	duplicate_scoped_synonym	RNAseq 53-56 - CS201912132_100	oboInOwl:hasRelatedSynonym	L2/3 IT
+WARN	duplicate_scoped_synonym	RNAseq 57-58, 61-68 - CS201912132_101	oboInOwl:hasExactSynonym	L5 IT
+WARN	duplicate_scoped_synonym	RNAseq 57-58, 61-68 - CS201912132_101	oboInOwl:hasRelatedSynonym	L5 IT
+WARN	duplicate_scoped_synonym	RNAseq 59-60 - CS201912132_102	oboInOwl:hasExactSynonym	L6 IT
+WARN	duplicate_scoped_synonym	RNAseq 59-60 - CS201912132_102	oboInOwl:hasRelatedSynonym	L6 IT
+WARN	duplicate_scoped_synonym	RNAseq 69-71 - CS201912132_103	oboInOwl:hasExactSynonym	L5 ET
+WARN	duplicate_scoped_synonym	RNAseq 69-71 - CS201912132_103	oboInOwl:hasRelatedSynonym	L5 ET
+WARN	duplicate_scoped_synonym	RNAseq 72-73 - CS201912132_104	oboInOwl:hasExactSynonym	L6 CT
+WARN	duplicate_scoped_synonym	RNAseq 72-73 - CS201912132_104	oboInOwl:hasRelatedSynonym	L6 CT
+WARN	duplicate_scoped_synonym	RNAseq 85-87 - CS201912132_107	oboInOwl:hasExactSynonym	Endo
+WARN	duplicate_scoped_synonym	RNAseq 85-87 - CS201912132_107	oboInOwl:hasRelatedSynonym	Endo
+WARN	duplicate_scoped_synonym	RNAseq 88-89 - CS201912132_108	oboInOwl:hasExactSynonym	Peri
+WARN	duplicate_scoped_synonym	RNAseq 88-89 - CS201912132_108	oboInOwl:hasRelatedSynonym	Peri
+WARN	duplicate_scoped_synonym	RNAseq 90-93 - CS201912132_109	oboInOwl:hasExactSynonym	VLMC
+WARN	duplicate_scoped_synonym	RNAseq 90-93 - CS201912132_109	oboInOwl:hasRelatedSynonym	VLMC
 WARN	duplicate_scoped_synonym	RNAseq 26 - CS201912132_26	oboInOwl:hasExactSynonym	Meis2
 WARN	duplicate_scoped_synonym	RNAseq 26 - CS201912132_26	oboInOwl:hasRelatedSynonym	Meis2
 WARN	duplicate_scoped_synonym	RNAseq 74 - CS201912132_75	oboInOwl:hasExactSynonym	L6b
@@ -741,22 +827,70 @@ WARN	duplicate_scoped_synonym	RNAseq 27-40, 47 - CS201912132_98	oboInOwl:hasExac
 WARN	duplicate_scoped_synonym	RNAseq 27-40, 47 - CS201912132_98	oboInOwl:hasRelatedSynonym	Sst
 WARN	duplicate_scoped_synonym	RNAseq 41-46, 48-52 - CS201912132_99	oboInOwl:hasExactSynonym	Pvalb
 WARN	duplicate_scoped_synonym	RNAseq 41-46, 48-52 - CS201912132_99	oboInOwl:hasRelatedSynonym	Pvalb
-WARN	duplicate_scoped_synonym	RNAseq 53-56 - CS201912132_100	oboInOwl:hasExactSynonym	L2/3 IT
-WARN	duplicate_scoped_synonym	RNAseq 53-56 - CS201912132_100	oboInOwl:hasRelatedSynonym	L2/3 IT
-WARN	duplicate_scoped_synonym	RNAseq 57-58, 61-68 - CS201912132_101	oboInOwl:hasExactSynonym	L5 IT
-WARN	duplicate_scoped_synonym	RNAseq 57-58, 61-68 - CS201912132_101	oboInOwl:hasRelatedSynonym	L5 IT
-WARN	duplicate_scoped_synonym	RNAseq 59-60 - CS201912132_102	oboInOwl:hasExactSynonym	L6 IT
-WARN	duplicate_scoped_synonym	RNAseq 59-60 - CS201912132_102	oboInOwl:hasRelatedSynonym	L6 IT
-WARN	duplicate_scoped_synonym	RNAseq 69-71 - CS201912132_103	oboInOwl:hasExactSynonym	L5 ET
-WARN	duplicate_scoped_synonym	RNAseq 69-71 - CS201912132_103	oboInOwl:hasRelatedSynonym	L5 ET
-WARN	duplicate_scoped_synonym	RNAseq 72-73 - CS201912132_104	oboInOwl:hasExactSynonym	L6 CT
-WARN	duplicate_scoped_synonym	RNAseq 72-73 - CS201912132_104	oboInOwl:hasRelatedSynonym	L6 CT
-WARN	duplicate_scoped_synonym	RNAseq 85-87 - CS201912132_107	oboInOwl:hasExactSynonym	Endo
-WARN	duplicate_scoped_synonym	RNAseq 85-87 - CS201912132_107	oboInOwl:hasRelatedSynonym	Endo
-WARN	duplicate_scoped_synonym	RNAseq 88-89 - CS201912132_108	oboInOwl:hasExactSynonym	Peri
-WARN	duplicate_scoped_synonym	RNAseq 88-89 - CS201912132_108	oboInOwl:hasRelatedSynonym	Peri
-WARN	duplicate_scoped_synonym	RNAseq 90-93 - CS201912132_109	oboInOwl:hasExactSynonym	VLMC
-WARN	duplicate_scoped_synonym	RNAseq 90-93 - CS201912132_109	oboInOwl:hasRelatedSynonym	VLMC
+WARN	duplicate_scoped_synonym	RNAseq 001 - CS202002013_1	oboInOwl:hasExactSynonym	Lamp5_4
+WARN	duplicate_scoped_synonym	RNAseq 001 - CS202002013_1	oboInOwl:hasRelatedSynonym	Lamp5_4
+WARN	duplicate_scoped_synonym	RNAseq 001-057, 089-090 - CS202002013_123	oboInOwl:hasExactSynonym	Neuronal: GABAergic
+WARN	duplicate_scoped_synonym	RNAseq 001-057, 089-090 - CS202002013_123	oboInOwl:hasRelatedSynonym	Neuronal: GABAergic
+WARN	duplicate_scoped_synonym	RNAseq 014 - CS202002013_14	oboInOwl:hasExactSynonym	Small CCK basket cell
+WARN	duplicate_scoped_synonym	RNAseq 014 - CS202002013_14	oboInOwl:hasRelatedSynonym	Small CCK basket cell
+WARN	duplicate_scoped_synonym	RNAseq 058-088 - CS202002013_179	oboInOwl:hasExactSynonym	Neuronal: Glutamatergic
+WARN	duplicate_scoped_synonym	RNAseq 058-088 - CS202002013_179	oboInOwl:hasRelatedSynonym	Neuronal: Glutamatergic
+WARN	duplicate_scoped_synonym	RNAseq 074-080 - CS202002013_197	oboInOwl:hasExactSynonym	Corticothalamic
+WARN	duplicate_scoped_synonym	RNAseq 074-080 - CS202002013_197	oboInOwl:hasExactSynonym	VAL/VM Projecting
+WARN	duplicate_scoped_synonym	RNAseq 074-080 - CS202002013_197	oboInOwl:hasRelatedSynonym	Corticothalamic
+WARN	duplicate_scoped_synonym	RNAseq 074-080 - CS202002013_197	oboInOwl:hasRelatedSynonym	VAL/VM Projecting
+WARN	duplicate_scoped_synonym	RNAseq 002 - CS202002013_2	oboInOwl:hasExactSynonym	Alpha7 cell
+WARN	duplicate_scoped_synonym	RNAseq 002 - CS202002013_2	oboInOwl:hasExactSynonym	Sncg_4
+WARN	duplicate_scoped_synonym	RNAseq 002 - CS202002013_2	oboInOwl:hasRelatedSynonym	Alpha7 cell
+WARN	duplicate_scoped_synonym	RNAseq 002 - CS202002013_2	oboInOwl:hasRelatedSynonym	Sncg_4
+WARN	duplicate_scoped_synonym	RNAseq 081-085 - CS202002013_203	oboInOwl:hasExactSynonym	L6b
+WARN	duplicate_scoped_synonym	RNAseq 081-085 - CS202002013_203	oboInOwl:hasExactSynonym	L6b subplate
+WARN	duplicate_scoped_synonym	RNAseq 081-085 - CS202002013_203	oboInOwl:hasRelatedSynonym	L6b
+WARN	duplicate_scoped_synonym	RNAseq 081-085 - CS202002013_203	oboInOwl:hasRelatedSynonym	L6b subplate
+WARN	duplicate_scoped_synonym	RNAseq 086-088 - CS202002013_207	oboInOwl:hasExactSynonym	L5/6 NP
+WARN	duplicate_scoped_synonym	RNAseq 086-088 - CS202002013_207	oboInOwl:hasExactSynonym	Near-projecting
+WARN	duplicate_scoped_synonym	RNAseq 086-088 - CS202002013_207	oboInOwl:hasRelatedSynonym	L5/6 NP
+WARN	duplicate_scoped_synonym	RNAseq 086-088 - CS202002013_207	oboInOwl:hasRelatedSynonym	Near-projecting
+WARN	duplicate_scoped_synonym	RNAseq 113-116 - CS202002013_229	oboInOwl:hasExactSynonym	Microglia/PVM
+WARN	duplicate_scoped_synonym	RNAseq 113-116 - CS202002013_229	oboInOwl:hasRelatedSynonym	Microglia/PVM
+WARN	duplicate_scoped_synonym	RNAseq 028 - CS202002013_28	oboInOwl:hasExactSynonym	Long-projecting SST cell
+WARN	duplicate_scoped_synonym	RNAseq 028 - CS202002013_28	oboInOwl:hasExactSynonym	Sst Chodl
+WARN	duplicate_scoped_synonym	RNAseq 028 - CS202002013_28	oboInOwl:hasRelatedSynonym	Long-projecting SST cell
+WARN	duplicate_scoped_synonym	RNAseq 028 - CS202002013_28	oboInOwl:hasRelatedSynonym	Sst Chodl
+WARN	duplicate_scoped_synonym	RNAseq 003 - CS202002013_3	oboInOwl:hasExactSynonym	Canopy cell
+WARN	duplicate_scoped_synonym	RNAseq 003 - CS202002013_3	oboInOwl:hasRelatedSynonym	Canopy cell
+WARN	duplicate_scoped_synonym	RNAseq 037 - CS202002013_37	oboInOwl:hasExactSynonym	Sst_4
+WARN	duplicate_scoped_synonym	RNAseq 037 - CS202002013_37	oboInOwl:hasRelatedSynonym	Sst_4
+WARN	duplicate_scoped_synonym	RNAseq 038 - CS202002013_38	oboInOwl:hasExactSynonym	L4 SST cell
+WARN	duplicate_scoped_synonym	RNAseq 038 - CS202002013_38	oboInOwl:hasRelatedSynonym	L4 SST cell
+WARN	duplicate_scoped_synonym	RNAseq 041 - CS202002013_41	oboInOwl:hasExactSynonym	L2/3 PV-like cell
+WARN	duplicate_scoped_synonym	RNAseq 041 - CS202002013_41	oboInOwl:hasRelatedSynonym	L2/3 PV-like cell
+WARN	duplicate_scoped_synonym	RNAseq 042 - CS202002013_42	oboInOwl:hasExactSynonym	Sst_5
+WARN	duplicate_scoped_synonym	RNAseq 042 - CS202002013_42	oboInOwl:hasRelatedSynonym	Sst_5
+WARN	duplicate_scoped_synonym	RNAseq 047 - CS202002013_47	oboInOwl:hasExactSynonym	Sst_7
+WARN	duplicate_scoped_synonym	RNAseq 047 - CS202002013_47	oboInOwl:hasRelatedSynonym	Sst_7
+WARN	duplicate_scoped_synonym	RNAseq 048 - CS202002013_48	oboInOwl:hasExactSynonym	L6 FS cell w/ large sag
+WARN	duplicate_scoped_synonym	RNAseq 048 - CS202002013_48	oboInOwl:hasRelatedSynonym	L6 FS cell w/ large sag
+WARN	duplicate_scoped_synonym	RNAseq 005 - CS202002013_5	oboInOwl:hasExactSynonym	Lamp5_1
+WARN	duplicate_scoped_synonym	RNAseq 005 - CS202002013_5	oboInOwl:hasRelatedSynonym	Lamp5_1
+WARN	duplicate_scoped_synonym	RNAseq 061 - CS202002013_61	oboInOwl:hasExactSynonym	L4 IT
+WARN	duplicate_scoped_synonym	RNAseq 061 - CS202002013_61	oboInOwl:hasRelatedSynonym	L4 IT
+WARN	duplicate_scoped_synonym	RNAseq 062 - CS202002013_62	oboInOwl:hasExactSynonym	L4/5 IT
+WARN	duplicate_scoped_synonym	RNAseq 062 - CS202002013_62	oboInOwl:hasRelatedSynonym	L4/5 IT
+WARN	duplicate_scoped_synonym	RNAseq 069 - CS202002013_69	oboInOwl:hasExactSynonym	Claustrum-like IT
+WARN	duplicate_scoped_synonym	RNAseq 069 - CS202002013_69	oboInOwl:hasExactSynonym	L6 IT_3
+WARN	duplicate_scoped_synonym	RNAseq 069 - CS202002013_69	oboInOwl:hasRelatedSynonym	Claustrum-like IT
+WARN	duplicate_scoped_synonym	RNAseq 069 - CS202002013_69	oboInOwl:hasRelatedSynonym	L6 IT_3
+WARN	duplicate_scoped_synonym	RNAseq 070 - CS202002013_70	oboInOwl:hasExactSynonym	L5 ET (MY-projecting)
+WARN	duplicate_scoped_synonym	RNAseq 070 - CS202002013_70	oboInOwl:hasRelatedSynonym	L5 ET (MY-projecting)
+WARN	duplicate_scoped_synonym	RNAseq 076 - CS202002013_76	oboInOwl:hasExactSynonym	L6 CT_2
+WARN	duplicate_scoped_synonym	RNAseq 076 - CS202002013_76	oboInOwl:hasRelatedSynonym	L6 CT_2
+WARN	duplicate_scoped_synonym	RNAseq 008 - CS202002013_8	oboInOwl:hasExactSynonym	L5/6 neurogliaform cell
+WARN	duplicate_scoped_synonym	RNAseq 008 - CS202002013_8	oboInOwl:hasExactSynonym	Lamp5_3
+WARN	duplicate_scoped_synonym	RNAseq 008 - CS202002013_8	oboInOwl:hasRelatedSynonym	L5/6 neurogliaform cell
+WARN	duplicate_scoped_synonym	RNAseq 008 - CS202002013_8	oboInOwl:hasRelatedSynonym	Lamp5_3
+WARN	duplicate_scoped_synonym	RNAseq 099 - CS202002013_99	oboInOwl:hasExactSynonym	Oligo_1
+WARN	duplicate_scoped_synonym	RNAseq 099 - CS202002013_99	oboInOwl:hasRelatedSynonym	Oligo_1
 WARN	missing_definition	synonym	IAO:0000115	
 WARN	missing_definition	cell_type_rank	IAO:0000115	
 WARN	missing_definition	cell_types_count	IAO:0000115	
