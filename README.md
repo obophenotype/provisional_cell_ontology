@@ -14,8 +14,6 @@ The latest version of the ontology can always be found at:
 
 http://purl.obolibrary.org/obo/pcl.owl
 
-(note this will not show up until the request has been approved by obofoundry.org)
-
 ### Editors' version
 
 Currently PCL works by importing components that should be created seperated, with a base file (an ontology file that only contains axioms belonging to the ontology, excluding any axioms from imported ontologies). To request inclusion of your ontology into PCL, please create a ticket in our [Issue tracker](https://github.com/obophenotype/provisional_cell_ontology/issues).
