@@ -65,3 +65,4 @@ robot_java_args: '-Xmx12G'
 components:
   products:
     - filename: bdso-pcl-comp.owl
+    - filename: whbo-pcl-comp.owl
