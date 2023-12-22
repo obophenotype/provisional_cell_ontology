@@ -11,7 +11,7 @@ BDSO_BASE_EXT_URL = "https://raw.githubusercontent.com/obophenotype/brain_data_s
 $(COMPONENTSDIR)/bdso-pcl-comp.owl: $(SRC)
 	$(ROBOT) annotate -I $(BDSO_BASE_EXT_URL) --ontology-iri $(ONTBASE)/$@ -o $@
 
-WHBO_BASE_EXT_URL = "https://github.com/hkir-dev/whole_human_brain_ontology/raw/main/whbo-base.owl"
+WHBO_BASE_EXT_URL = "https://github.com/hkir-dev/whole_human_brain_ontology/raw/main/whbo-pcl-comp.owl"
 $(COMPONENTSDIR)/whbo-pcl-comp.owl: $(SRC)
 	$(ROBOT) annotate -I $(WHBO_BASE_EXT_URL) --ontology-iri $(ONTBASE)/$@ -o $@
 	
@@ -38,7 +38,32 @@ $(IMPORTDIR)/merged_cl-full_import.owl: $(MIRRORDIR)/merged.owl $(TMPDIR)/full_s
 # Merge full import in
 pcl-cl-full.owl: $(SRC) $(OTHER_SRC) $(IMPORTDIR)/merged_cl-full_import.owl
 	$(ROBOT) merge --input $< \
-		reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
+		reason --reasoner ELK --exclude-tautologies structural \
 		relax \
 		reduce -r ELK \
+		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
+
+
+# disable --equivalent-classes-allowed asserted-only
+# Full: The full artefacts with imports merged, reasoned.
+$(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
+	$(ROBOT_RELEASE_IMPORT_MODE) \
+		reason --reasoner ELK --exclude-tautologies structural \
+		relax \
+		reduce -r ELK \
+		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
+
+# disable --equivalent-classes-allowed asserted-only
+# foo-simple: (edit->reason,relax,reduce,drop imports, drop every axiom which contains an entity outside the "namespaces of interest")
+# drop every axiom: filter --term-file keep_terms.txt --trim true
+#	remove --select imports --trim false
+$(ONT)-simple.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(SIMPLESEED) $(IMPORT_FILES)
+	$(ROBOT_RELEASE_IMPORT_MODE) \
+		reason --reasoner ELK --exclude-tautologies structural \
+		relax \
+		remove --axioms equivalent \
+		relax \
+		filter --term-file $(SIMPLESEED) --select "annotations ontology anonymous self" --trim true --signature true \
+		reduce -r ELK \
+		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
