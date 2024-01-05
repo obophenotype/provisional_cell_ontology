@@ -26,7 +26,6 @@ import_group:
     - <http://purl.obolibrary.org/obo/CARO_*>
     - <http://purl.obolibrary.org/obo/NCBITaxon_Union_*>
     - <http://www.genenames.org/cgi-bin/gene_symbol_report*>
-  slme_individuals: exclude
   mirror_max_time_download: 400
   products:
     - id: pr
@@ -52,7 +51,7 @@ import_group:
     - id: cl
       use_base: TRUE
     - id: omo
-      use_base: TRUE
+      mirror_from: https://raw.githubusercontent.com/information-artifact-ontology/ontology-metadata/master/omo.owl
     - id: chebi
       make_base: TRUE
       use_gzipped: TRUE
@@ -61,7 +60,10 @@ import_group:
       use_base: TRUE
     - id: so
       make_base: TRUE
+    - id: hba
+      mirror_from: https://raw.githubusercontent.com/brain-bican/human_brain_atlas_ontology/main/hbao-base.owl
 robot_java_args: '-Xmx12G'
 components:
   products:
     - filename: bdso-pcl-comp.owl
+    - filename: whbo-pcl-comp.owl
