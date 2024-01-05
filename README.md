@@ -6,7 +6,13 @@ Description: Cell types that are provisionally defined by experimental technique
 
 More information can be found at http://obofoundry.org/ontology/pcl
 
+Browse the ontology using OLS
+https://www.ebi.ac.uk/ols4/ontologies/pcl
+
 ## Versions
+
+Latest PCL release files
+https://github.com/obophenotype/provisional_cell_ontology/releases/latest
 
 ### Stable release versions
 
@@ -28,7 +34,9 @@ This ontology repository was created using the [Ontology Development Kit (ODK)](
 
 ## Ontology Components
 
-Brain Data Standards Ontology (https://github.com/obophenotype/brain_data_standards_ontologies)
+[Brain Data Standards Ontology](https://github.com/obophenotype/brain_data_standards_ontologies)
+
+[Whole Human Brain Ontology](https://github.com/hkir-dev/whole_human_brain_ontology)
 
 ## Contributors
 

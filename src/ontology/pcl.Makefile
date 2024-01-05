@@ -3,7 +3,7 @@
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
-$(SRCMERGED): $(SRC) $(COMPONENTSDIR)/bdso-base-ext.owl $(COMPONENTSDIR)/whbo-base-ext.owl
+$(SRCMERGED): $(SRC) $(COMPONENTSDIR)/bdso-pcl-comp.owl $(COMPONENTSDIR)/whbo-pcl-comp.owl
 	$(ROBOT) remove --input $< --select imports --trim false \
 		merge  $(patsubst %, -i %, $(OTHER_SRC)) -o $@
 
