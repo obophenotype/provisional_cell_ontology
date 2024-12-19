@@ -3,7 +3,7 @@
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
-$(SRCMERGED): $(SRC) $(COMPONENTSDIR)/bdso-pcl-comp.owl $(COMPONENTSDIR)/whbo-pcl-comp.owl
+$(SRCMERGED): $(SRC) $(COMPONENTSDIR)/bdso-pcl-comp.owl $(COMPONENTSDIR)/whbo-pcl-comp.owl $(COMPONENTSDIR)/wmbo-pcl-comp.owl
 	$(ROBOT) remove --input $< --select imports --trim false \
 		merge  $(patsubst %, -i %, $(OTHER_SRC)) -o $@
 
@@ -11,9 +11,13 @@ BDSO_BASE_EXT_URL = "https://raw.githubusercontent.com/obophenotype/brain_data_s
 $(COMPONENTSDIR)/bdso-pcl-comp.owl: $(SRC)
 	$(ROBOT) annotate -I $(BDSO_BASE_EXT_URL) --ontology-iri $(ONTBASE)/$@ -o $@
 
-WHBO_BASE_EXT_URL = "https://github.com/hkir-dev/whole_human_brain_ontology/raw/main/whbo-pcl-comp.owl"
+WHBO_BASE_EXT_URL = "https://github.com/Cellular-Semantics/whole_human_brain_ontology/raw/main/whbo-pcl-comp.owl"
 $(COMPONENTSDIR)/whbo-pcl-comp.owl: $(SRC)
 	$(ROBOT) annotate -I $(WHBO_BASE_EXT_URL) --ontology-iri $(ONTBASE)/$@ -o $@
+
+WMBO_BASE_EXT_URL = "https://github.com/Cellular-Semantics/whole_mouse_brain_ontology/raw/refs/heads/version2/wmbo-pcl-comp.owl"
+$(COMPONENTSDIR)/wmbo-pcl-comp.owl: $(SRC)
+	$(ROBOT) annotate -I $(WMBO_BASE_EXT_URL) --ontology-iri $(ONTBASE)/$@ -o $@
 	
 #######################################
 #  Make Combined CL and PCL Product  #
