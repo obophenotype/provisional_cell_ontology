@@ -2,6 +2,10 @@
 ## 
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
+##
+## Delete files under src/ontology/components
+## Run `sh run.sh make all_components`
+## Run `sh run.sh make prepare_release`
 
 $(SRCMERGED): $(SRC) $(COMPONENTSDIR)/bdso-pcl-comp.owl $(COMPONENTSDIR)/whbo-pcl-comp.owl $(COMPONENTSDIR)/wmbo-pcl-comp.owl
 	$(ROBOT) remove --input $< --select imports --trim false \
@@ -15,7 +19,7 @@ WHBO_BASE_EXT_URL = "https://github.com/Cellular-Semantics/whole_human_brain_ont
 $(COMPONENTSDIR)/whbo-pcl-comp.owl: $(SRC)
 	$(ROBOT) annotate -I $(WHBO_BASE_EXT_URL) --ontology-iri $(ONTBASE)/$@ -o $@
 
-WMBO_BASE_EXT_URL = "https://github.com/Cellular-Semantics/whole_mouse_brain_ontology/raw/refs/heads/version2/wmbo-pcl-comp.owl"
+WMBO_BASE_EXT_URL = "https://github.com/Cellular-Semantics/whole_mouse_brain_ontology/raw/main/wmbo-pcl-comp.owl"
 $(COMPONENTSDIR)/wmbo-pcl-comp.owl: $(SRC)
 	$(ROBOT) annotate -I $(WMBO_BASE_EXT_URL) --ontology-iri $(ONTBASE)/$@ -o $@
 	
