@@ -18,7 +18,11 @@ https://github.com/obophenotype/provisional_cell_ontology/releases/latest
 
 The latest version of the ontology can always be found at:
 
+http://purl.obolibrary.org/obo/pcl-base.owl
+http://purl.obolibrary.org/obo/pcl-full.owl
 http://purl.obolibrary.org/obo/pcl.owl
+
+See the [latest release](https://github.com/obophenotype/provisional_cell_ontology/releases/latest/)
 
 ### Editors' version
 
@@ -36,7 +40,9 @@ This ontology repository was created using the [Ontology Development Kit (ODK)](
 
 [Brain Data Standards Ontology](https://github.com/obophenotype/brain_data_standards_ontologies)
 
-[Whole Human Brain Ontology](https://github.com/hkir-dev/whole_human_brain_ontology)
+[Whole Human Brain Ontology](https://github.com/Cellular-Semantics/whole_human_brain_ontology)
+
+[Whole Mouse Brain Ontology](https://github.com/Cellular-Semantics/whole_mouse_brain_ontology)
 
 ## Contributors
 
