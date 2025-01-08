@@ -67,3 +67,4 @@ components:
   products:
     - filename: bdso-pcl-comp.owl
     - filename: whbo-pcl-comp.owl
+    - filename: wmbo-pcl-comp.owl
