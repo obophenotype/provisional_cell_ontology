@@ -19,7 +19,7 @@ WHBO_BASE_EXT_URL = "https://github.com/Cellular-Semantics/whole_human_brain_ont
 $(COMPONENTSDIR)/whbo-pcl-comp.owl: $(SRC)
 	$(ROBOT) annotate -I $(WHBO_BASE_EXT_URL) --ontology-iri $(ONTBASE)/$@ -o $@
 
-WMBO_BASE_EXT_URL = "https://github.com/Cellular-Semantics/whole_mouse_brain_ontology/raw/main/wmbo-pcl-comp.owl"
+WMBO_BASE_EXT_URL = "https://github.com/Cellular-Semantics/whole_mouse_brain_ontology/releases/latest/download/wmbo-pcl-comp.owl"
 $(COMPONENTSDIR)/wmbo-pcl-comp.owl: $(SRC)
 	$(ROBOT) annotate -I $(WMBO_BASE_EXT_URL) --ontology-iri $(ONTBASE)/$@ -o $@
 	
