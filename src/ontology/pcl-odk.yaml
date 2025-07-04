@@ -8,6 +8,7 @@ use_dosdps: TRUE
 export_formats:
   - owl
   - obo
+  - json
 release_artefacts: 
   - base
   - full
