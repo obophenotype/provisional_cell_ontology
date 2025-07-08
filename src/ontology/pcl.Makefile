@@ -14,15 +14,18 @@ $(SRCMERGED): $(SRC) $(COMPONENTSDIR)/bdso-pcl-comp.owl $(COMPONENTSDIR)/whbo-pc
 BDSO_BASE_EXT_URL = "https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/master/bdso-pcl-comp.owl"
 $(COMPONENTSDIR)/bdso-pcl-comp.owl: $(SRC)
 	$(ROBOT) annotate -I $(BDSO_BASE_EXT_URL) --ontology-iri $(ONTBASE)/$@ -o $@
+.PHONY: $(COMPONENTSDIR)/bdso-pcl-comp.owl
 
 WHBO_BASE_EXT_URL = "https://github.com/Cellular-Semantics/whole_human_brain_ontology/raw/main/whbo-pcl-comp.owl"
 $(COMPONENTSDIR)/whbo-pcl-comp.owl: $(SRC)
 	$(ROBOT) annotate -I $(WHBO_BASE_EXT_URL) --ontology-iri $(ONTBASE)/$@ -o $@
+.PHONY: $(COMPONENTSDIR)/whbo-pcl-comp.owl
 
 WMBO_BASE_EXT_URL = "https://github.com/Cellular-Semantics/whole_mouse_brain_ontology/releases/latest/download/wmbo-pcl-comp.owl"
 $(COMPONENTSDIR)/wmbo-pcl-comp.owl: $(SRC)
 	$(ROBOT) annotate -I $(WMBO_BASE_EXT_URL) --ontology-iri $(ONTBASE)/$@ -o $@
-	
+.PHONY: $(COMPONENTSDIR)/wmbo-pcl-comp.owl
+
 #######################################
 #  Make Combined CL and PCL Product  #
 ######################################
