@@ -26,6 +26,17 @@ $(COMPONENTSDIR)/wmbo-pcl-comp.owl: $(SRC)
 	$(ROBOT) annotate -I $(WMBO_BASE_EXT_URL) --ontology-iri $(ONTBASE)/$@ -o $@
 .PHONY: $(COMPONENTSDIR)/wmbo-pcl-comp.owl
 
+# HBA mirror: labels/synonyms only. HBAO's logical axioms (HBA_9299 'cranial nerves'
+# == Uberon 'root of cranial nerve', with olfactory/facial nerve part_of it) clash with
+# Uberon's PNS/CNS disjointness and make 7 classes unsatisfiable.
+# See https://github.com/brain-bican/human_brain_atlas_ontology/issues/2
+# Stopgap until PCL switches from HBA to DHBA:
+# https://github.com/obophenotype/provisional_cell_ontology/issues/70
+mirror-hba: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) remove -I https://raw.githubusercontent.com/brain-bican/human_brain_atlas_ontology/main/hbao-base.owl \
+		--axioms logical --trim false -o $@.tmp.owl &&\
+		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
+
 #######################################
 #  Make Combined CL and PCL Product  #
 ######################################
